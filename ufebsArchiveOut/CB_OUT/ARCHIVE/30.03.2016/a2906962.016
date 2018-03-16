@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<PacketEPD xmlns="urn:cbr-ru:ed:v2.0" EDNo="16" EDDate="2016-03-29" EDAuthor="7106962000" EDQuantity="7" Sum="7070068892" SystemCode="01">
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="160005" EDDate="2016-03-29" EDAuthor="7106962000" Sum="2000000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="662" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810000020001587" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901014412" PersonalAcc="40602810700020009347" KPP="891450001">
+            <Name>Государственное унитарное предприятие Ямало-Ненецкого автономного округа "Ямалгосснаб"</Name>
+            <Bank BIC="047195753" CorrespAcc="30101810700000000753"></Bank>
+        </Payee>
+        <Purpose>Оплата за поставку дизельного топлива по договору №25-ТЭР/14 от 23.05.2014., за ф-л АО "ЯКЭ" ШурышкарскийСумма 20000000-00   В т.ч. НДС (18%) 3050847-46</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="160010" EDDate="2016-03-29" EDAuthor="7106962000" Sum="5000000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="663" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810000020001587" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7708683999" PersonalAcc="40701810600020000700" KPP="770501001">
+            <Name>ООО "ВТБ Факторинг"</Name>
+            <Bank BIC="044525187" CorrespAcc="30101810700000000187"></Bank>
+        </Payee>
+        <Purpose>Оплата по ген. договору №01783 от 18.12.2015г., сч/ф №1312 от 30.06.2015. к договору поставки нефтепродуктов №24-ТЭР/15 от 12.05.15г. за ф-л АО ЯКЭ Ямальский Сумма 50000000-00   В т.ч. НДС (18%) 7627118-64</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="160015" EDDate="2016-03-29" EDAuthor="7106962000" Sum="5500000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="520" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901015127" PersonalAcc="40702810000020001477" KPP="890101001">
+            <Name>ООО  "Салехардский комбинат"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901014412" PersonalAcc="40602810700020009347" KPP="891450001">
+            <Name>Государственное унитарное предприятие ЯНАО "Ямалгосснаб"</Name>
+            <Bank BIC="047195753" CorrespAcc="30101810700000000753"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № 04-ТЭР/З/16/438 от 10.12.2015 г., за дизельное топливо.Сумма 55000-00   В т.ч. НДС (18%) 8389-83</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="160020" EDDate="2016-03-29" EDAuthor="7106962000" Sum="32927924" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="91" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7202104189" PersonalAcc="40702810500020000279" KPP="720301001">
+            <Name>ООО "Белый Континент"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202105841" PersonalAcc="40703810367100000174" KPP="720301001">
+            <Name>ТСЖ "Центральное-1"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету №50 от 29.02.16г. за февраль 2016г. за коммунальные услуги   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="160025" EDDate="2016-03-29" EDAuthor="7106962000" Sum="7440000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="92" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7202104189" PersonalAcc="40702810500020000279" KPP="720201001">
+            <Name>ООО "Белый Континент"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203229840" PersonalAcc="40702810200030004541" KPP="720301001">
+            <Name>ООО "ТОПОЛЬ"</Name>
+            <Bank BIC="047162782" CorrespAcc="30101810771620000782"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету № 8 от 28.03.2016г. услуги по осуществлению контрольно-пропускного режима за март 2016г.   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="160030" EDDate="2016-03-29" EDAuthor="7106962000" Sum="2666960" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="93" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7202104189" PersonalAcc="40702810500020000279" KPP="720301001">
+            <Name>ООО "Белый Континент"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8601005865" PersonalAcc="40702810800000000140">
+            <Name>МП "ГЭС"</Name>
+            <Bank BIC="047162782" CorrespAcc="30101810771620000782"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету № 1819 от 29.02.2016г. согласно договору №1819 от 03.03.14г.электроэнергия за февраль 2016 г.   в т.ч. НДС 18% - 4068.24</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="160035" EDDate="2016-03-29" EDAuthor="7106962000" Sum="21534008" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1652" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8903031910" PersonalAcc="40702810000990008024" KPP="890301001">
+            <Name>ООО СеверСтрой</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата процентов за пользование чужими денежными средствами за период с 05.10.12г-14.03.16г. включительно по договору цессии №3 от 05.12.2013г.Без налога (НДС)</Purpose>
+    </ED101>
+</PacketEPD>

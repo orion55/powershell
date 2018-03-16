@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED273 xmlns="urn:cbr-ru:ed:v2.0" EDNo="500105" EDDate="2016-08-12" EDAuthor="7106962000" EDReceiver="4525710000">
+    <ED113 EDNo="800001" EDDate="2016-08-12" EDAuthor="7106962000" Sum="20800" TransKind="02" Priority="5" PaytCondition="1">
+        <AccDoc AccDocNo="68" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7713572638" PersonalAcc="40702810600000000990">
+            <Name>ООО "Аркада"</Name>
+            <Bank BIC="044525710" CorrespAcc="30101810545250000710"></Bank>
+        </Payer>
+        <Payee PersonalAcc="70601810400822720203" INN="5026014060">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payee>
+        <Purpose>КОМИССИЯ ЗА ПЕРЕСЧЕТ ИНКАСИРОВАННЫХ ДЕНЕЖНЫХ СРЕДСТВ ПО ДОГОВОРУ 18/964/14/320 ОТ 12.11.2014 НДС НЕТ</Purpose>
+    </ED113>
+</ED273>

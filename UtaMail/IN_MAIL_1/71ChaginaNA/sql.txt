@@ -1,0 +1,12 @@
+SELECT p.prodate,
+       db.newaccnum, --счет по дебету 
+       kr.newaccnum, --счет по кредиту
+       p.sumpro --сумма в рублях
+  FROM pro p, accounts db, accounts kr
+ WHERE p.prodate >= DATE '2015-10-01' --дата в формате 'ГГГГ-ММ-ДД'
+   AND p.prodate <= DATE '2015-10-10'
+   AND db.accnum = p.dbacc
+   AND db.currcode = p.dbcurrcode
+   AND kr.accnum = p.kracc
+   AND kr.currcode = p.krcurrcode
+   AND kr.newaccnum = '40911810000020060005' --ограничение по счету по кредиту

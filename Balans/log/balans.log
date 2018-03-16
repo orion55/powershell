@@ -1,0 +1,85 @@
+﻿[2017-10-23 11:43:13Z] - INFO - Найдено 3 файл(а)!
+[2017-10-23 11:43:13Z] - INFO - 
+
+    Directory: D:\Ps1\Balans\profit
+
+
+Mode                LastWriteTime         Length Name                                                                                                                                                                                                            
+----                -------------         ------ ----                                                                                                                                                                                                            
+-a----       25.02.2016     16:27          13854 vo030821.OXA                                                                                                                                                                                                    
+-a----       25.02.2016     16:27          12375 vo030822.OXA                                                                                                                                                                                                    
+-a----       25.02.2016     16:27          12052 vo030823.OXA                                                                                                                                                                                                    
+
+
+
+[2017-10-23 11:51:17Z] - INFO - vo030821.OXA
+vo030822.OXA
+vo030823.OXA
+
+[2017-10-23 11:51:27Z] - INFO - Найдено 3 файл(а)!
+[2017-10-23 11:51:27Z] - INFO - vo030821.OXA
+vo030822.OXA
+vo030823.OXA
+
+[2017-10-23 11:51:59Z] - INFO - Найдено 3 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 11:51:59Z] - INFO - vo030821.OXA
+vo030822.OXA
+vo030823.OXA
+
+[2017-10-23 11:58:03Z] - INFO - Найдено 3 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 11:58:03Z] - INFO - vo030821.OXA
+vo030822.OXA
+vo030823.OXA
+
+[2017-10-23 11:58:03Z] - INFO - Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030821.txt Destination: D:\Ps1\Balans\out\vo030821.txt".
+Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030822.txt Destination: D:\Ps1\Balans\out\vo030822.txt".
+Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030823.txt Destination: D:\Ps1\Balans\out\vo030823.txt".
+
+[2017-10-23 11:58:03Z] - INFO - Файл(ы) перенесен(ы) в D:\Ps1\Balans\out
+[2017-10-23 11:58:03Z] - INFO - Файл(ы) перенесен(ы) в архив D:\Ps1\Balans\profit\backup
+[2017-10-23 11:58:03Z] - INFO - Отправляем письмо!
+[2017-10-23 11:58:04Z] - INFO - Баланс успешно отправлен!
+21.08.2017
+22.08.2017
+23.08.2017
+
+[2017-10-23 12:07:13Z] - INFO - Найдено 3 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 12:07:13Z] - INFO - vo030821.OXA
+vo030822.OXA
+vo030823.OXA
+
+[2017-10-23 12:07:13Z] - INFO - Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030821.txt Destination: D:\11".
+Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030822.txt Destination: D:\11".
+Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030823.txt Destination: D:\11".
+
+[2017-10-23 12:07:13Z] - INFO - Файл(ы) перенесен(ы) в D:\Ps1\Balans\out
+[2017-10-23 12:07:13Z] - INFO - Файл(ы) перенесен(ы) в архив D:\Ps1\Balans\profit\backup
+[2017-10-23 12:07:13Z] - INFO - Отправляем письмо!
+[2017-10-23 12:08:12Z] - INFO - Найдено 0 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 12:08:12Z] - ERRR - Ошибка переноса файла (ов) в D:\Ps1\Balans\out
+[2017-10-23 12:11:12Z] - INFO - Найдено 0 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 12:11:51Z] - INFO - Найдено 3 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 12:11:51Z] - INFO - vo030821.OXA
+vo030822.OXA
+vo030823.OXA
+
+[2017-10-23 12:11:51Z] - INFO - Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030821.txt Destination: D:\11".
+Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030822.txt Destination: D:\11".
+Performing the operation "Move File" on target "Item: D:\Ps1\Balans\profit\vo030823.txt Destination: D:\11".
+
+[2017-10-23 12:11:51Z] - INFO - Файл(ы) перенесен(ы) в D:\Ps1\Balans\out
+[2017-10-23 12:11:51Z] - INFO - Файл(ы) перенесен(ы) в архив D:\Ps1\Balans\profit\backup
+[2017-10-23 12:11:51Z] - INFO - Отправляем письмо!
+[2017-10-23 12:13:09Z] - INFO - Найдено 0 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 12:13:20Z] - INFO - Найдено 3 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 12:13:20Z] - INFO - vo030821.OXA
+vo030822.OXA
+vo030823.OXA
+
+[2017-10-23 12:13:20Z] - ERRR - Ошибка переноса файла (ов) в D:\Ps1\Balans\out
+[2017-10-23 12:14:41Z] - INFO - Найдено 3 файл(а) в D:\Ps1\Balans\profit!
+[2017-10-23 12:14:41Z] - INFO - vo030821.OXA
+vo030822.OXA
+vo030823.OXA
+
+[2017-10-23 12:14:41Z] - ERRR - Ошибка переноса файла (ов) в D:\Ps1\Balans\out

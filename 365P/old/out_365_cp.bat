@@ -1,0 +1,8 @@
+xcopy k:\SENDDOC\365P\CB_OUT\GNI\CONF_TU\*.* c:\365P\CONF_TU /e
+del k:\SENDDOC\365P\CB_OUT\GNI\CONF_TU\*.* /q
+
+xcopy k:\SENDDOC\365P\CB_OUT\GNI\CONF_TU_ARC\*.* c:\365P\CONF_TU_ARC /e
+del k:\SENDDOC\365P\CB_OUT\GNI\CONF_TU_ARC\*.* /q
+
+xcopy k:\SENDDOC\365P\CB_OUT\GNI\EF_Bank_New\*.* c:\365P\EF_Bank_New /e
+del k:\SENDDOC\365P\CB_OUT\GNI\EF_Bank_New\*.* /q

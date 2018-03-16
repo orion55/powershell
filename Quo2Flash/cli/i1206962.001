@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<PacketEPD xmlns="urn:cbr-ru:ed:v2.0" EDNo="1" EDDate="2016-08-12" EDAuthor="7106962000" EDQuantity="154" Sum="2607465752" SystemCode="01">
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10005" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1194700" TransKind="01" Priority="1" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="638" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810667039510428">
+            <Name>Нестеренко Александр Андреевич</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Моральный вред удержанный с Маслова А.А. в пользу Нестеренко А.А. по делу 2-4049/2014 от 26.03.15 С удержанием из зарплаты Cумма 11947-00, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10010" EDDate="2016-08-12" EDAuthor="7106962000" Sum="500000" TransKind="01" Priority="1" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="636" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810367039504475">
+            <Name>Новиков Андрей Владимирович</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>процессуальные издержки удержанные с Золотарева И.Г. в пользу Новикова А.В. по делу 2-4135/2015 от 27.01.16 С удержанием из зарплаты Cумма 5000-00, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10015" EDDate="2016-08-12" EDAuthor="7106962000" Sum="664952" TransKind="01" Priority="1" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="635" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810367039504475">
+            <Name>Новиков Андрей Владимирович</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Мат.ущерб удержанный с Золотарева И.Г. в пользу Новикова А.В. по делу 2-4135/2015 от 27.01.16 С удержанием из зарплаты Cумма 6649-52, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10020" EDDate="2016-08-12" EDAuthor="7106962000" Sum="18100000" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2423" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810467400000000" KPP="890402001">
+            <Name>Западно-Сибирский банк ОАО "Сбербанк России"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления выплаты отпускных по реестру №345 от 11.08.16г. в соответствии с Договором №67035728 от 22.05.15г.Сумма 181000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10025" EDDate="2016-08-12" EDAuthor="7106962000" Sum="8452163" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="717" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202117484" PersonalAcc="40702810000020001082" KPP="720301001">
+            <Name>ООО "Элит Кар"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7744000912" PersonalAcc="40817810340000495713">
+            <Name>Рыжова Юлия Альбертовна</Name>
+            <Bank BIC="044525555" CorrespAcc="30101810400000000555"></Bank>
+        </Payee>
+        <Purpose>Перечисление зарплаты за июль 2016 г.   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10030" EDDate="2016-08-12" EDAuthor="7106962000" Sum="5411684" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="446" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202211430" PersonalAcc="40702810900020001247" KPP="720301001">
+            <Name>Общество с ограниченной отвественностью "ТехЭнергоСервис"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="720407824652" PersonalAcc="40817810167101195909">
+            <Name>Тепышев Виктор Максимович</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Отпускные суммы за август 2016г лиц счет 40817810167101195909 Тепышев Виктор МаксимовичСумма 54116-84Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10035" EDDate="2016-08-12" EDAuthor="7106962000" Sum="6045219" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="428" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810067160025482" KPP="860302001">
+            <Name>САБЛИНА  ЕЛЕНА  АЛЕКСАНДРОВНА</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10040" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2605896" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="427" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810267163351047" KPP="860302001">
+            <Name>НИКОЛАЕВ ОЛЕГ МАРКТВЕНОВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10045" EDDate="2016-08-12" EDAuthor="7106962000" Sum="13184753" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="425" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810267160307133" KPP="860302001">
+            <Name>МАСЛОВСКИЙ  АНДРЕЙ ГРИГОРЬЕВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10050" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1402873" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="424" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810767167433898" KPP="860302001">
+            <Name>Марченко Наталья Александровна</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10055" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2506525" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="423" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810367160025483" KPP="860302001">
+            <Name>КОЧНЕВ  ВЛАДИСЛАВ ВЛАДИМИРОВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10060" EDDate="2016-08-12" EDAuthor="7106962000" Sum="3524865" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="422" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810367167434158" KPP="860302001">
+            <Name>КАЗМИРУК  ВИКТОР  ВИКТОРОВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10065" EDDate="2016-08-12" EDAuthor="7106962000" Sum="250470" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="421" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810067167434160" KPP="860302001">
+            <Name>ИГНАТОВ КОНСТАНТИН  АЛЕКСЕЕВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10070" EDDate="2016-08-12" EDAuthor="7106962000" Sum="5734041" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="420" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810067167434746" KPP="860302001">
+            <Name>ИВАНОВ РОМАН АНАТОЛЬЕВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10075" EDDate="2016-08-12" EDAuthor="7106962000" Sum="3373792" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="419" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810567160117081" KPP="860302001">
+            <Name>ВАЛИАХМЕТОВ РУСЛАН НАИЛЕВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10080" EDDate="2016-08-12" EDAuthor="7106962000" Sum="9938049" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="418" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810567167434217" KPP="860302001">
+            <Name>БОРИСОВ ОЛЕГ ГЕОРГИЕВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10085" EDDate="2016-08-12" EDAuthor="7106962000" Sum="4484030" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="417" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810667167434159" KPP="860302001">
+            <Name>БИКТИМИРОВ  ВАЛЕРЬЯН РАИЛЕВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10090" EDDate="2016-08-12" EDAuthor="7106962000" Sum="4336126" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="416" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810267167434148" KPP="860302001">
+            <Name>БИКТАШЕВ РАФАЭЛЬ ЗАМИЛОВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10095" EDDate="2016-08-12" EDAuthor="7106962000" Sum="3977380" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="432" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810367167434200" KPP="860302001">
+            <Name>ШИПИН ГЕННАДИЙ ГЕННАДЬЕВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г, в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10100" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2962176" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="431" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810667160335718" KPP="860302001">
+            <Name>ШВЕДОВ АЛЕКСАНДР МИХАЙЛОВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г, в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10105" EDDate="2016-08-12" EDAuthor="7106962000" Sum="838123" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="430" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810467167448992" KPP="860302001">
+            <Name>ХВАН КИРИЛЛ ГЕННАДЬЕВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10110" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2808729" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="429" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810867160025352" KPP="860302001">
+            <Name>СИНДЮКОВ АЛЕКСАНДР ВЛАДИМИРОВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за июль 2016 г в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10115" EDDate="2016-08-12" EDAuthor="7106962000" Sum="5000000" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="435" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810067160025482" KPP="860302001">
+            <Name>САБЛИНА  ЕЛЕНА  АЛЕКСАНДРОВНА</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления зарплаты за первую половину августа 2016 г. в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED105 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10120" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="34941409" TransKind="16" Priority="3" TransContent="ЧИ">
+        <AccDoc AccDocNo="29780" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810304020001461" KPP="890743001">
+            <Name>ФИЛИАЛ АО "ЯМАЛКОММУНЭНЕРГО"  В ШУРЫШКАРСКОМ РАЙОНЕ</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901002223" PersonalAcc="40101810500000010001" KPP="890101001">
+            <Name>Управление Федерального казначейства по Ямало-Ненецкому автономному округу Отделение ПФР по Ямало-Ненецкому автономному округу (Отделение Пенсионного фонда Росс</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>(ПФР.СЧ.Взносы) по Решению №030S02160012228 от 01.06.2016 (рег. №030011000575) на основании ст. 19 №212-ФЗ от 24.07.2009 ГОСУДАРСТВЕННОЕ УЧРЕЖДЕНИЕ - ОТДЕЛ ПЕНСИОННОГО ФОНДА РОССИЙСКОЙ ФЕДЕРАЦИИ В ШУРЫШКАРСКОМ</Purpose>
+        <DepartmentalInfo DrawerStatus="23" CBC="39210202010061000160" OKATO="71926000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+        <PartialPayt PaytNo="48" TransKind="06" SumResidualPayt="37920074">
+            <AccDoc AccDocNo="780" AccDocDate="2016-06-01"></AccDoc>
+        </PartialPayt>
+    </ED105>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10125" EDDate="2016-08-12" EDAuthor="7106962000" Sum="54211" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="698" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810667400084703">
+            <Name>Шапошникова Наталья Николаевна</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>депонированная зарплата за июнь на счет Шапошниковой Н.Н. Cумма 542-11, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10130" EDDate="2016-08-12" EDAuthor="7106962000" Sum="5050000" TransKind="01" Priority="3" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="697" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810467400000000">
+            <Name>Западно-Сибирский Банк ПАО "Сбербанк России" Новоуренгойское ОСБ 8369</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>отпускные по реестру 133 от 12.08.2016 согласно дог. 67035709 от 09.04.2015 Cумма 50500-00, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10135" EDDate="2016-08-12" EDAuthor="7106962000" Sum="20906787" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2394" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="1650109381" PersonalAcc="40702810711000001492">
+            <Name>ООО "Таттрансконтур"</Name>
+            <Bank BIC="049232922" CorrespAcc="30101810400000000922"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № ФМ-Т/64-16/от 26,02,2016 за автотранспортные услуги.Сумма 209067-87   В т.ч. НДС (18%) 31891-71</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10140" EDDate="2016-08-12" EDAuthor="7106962000" Sum="4878988" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2409" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="211100117790" PersonalAcc="40802810967030041407">
+            <Name>И.П. Федоров Юрий Николаевич</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № ФМ-Т/255-16/р от 11,06,16 за Транспортные услуги.Сумма 48789-88Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10145" EDDate="2016-08-12" EDAuthor="7106962000" Sum="3532552" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2398" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="1650109381" PersonalAcc="40702810711000001492">
+            <Name>ООО "Таттрансконтур"</Name>
+            <Bank BIC="049232922" CorrespAcc="30101810400000000922"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № ФМ-Т/68-16/от 26,02,2016 за автотранспортные услуги.Сумма 35325-52   В т.ч. НДС (18%) 5388-64</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10150" EDDate="2016-08-12" EDAuthor="7106962000" Sum="8065500" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2380" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890603339963" PersonalAcc="40802810200480002759">
+            <Name>Индивидуальный предприниматель Киранова Татьяна Вячеславовна</Name>
+            <Bank BIC="047144721" CorrespAcc="30101810400000000721"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору №ФМ-Т/135-16/р от 01.04.16 за автотранспортные услуги.Сумма 80655-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10155" EDDate="2016-08-12" EDAuthor="7106962000" Sum="8320000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2382" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8906008363" PersonalAcc="40702810721990001423">
+            <Name>Общество с ограниченной ответственностью "Ленар"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/124-16/р от 07.04.2016г. за Транспортные услугиСумма 83200-00   В т.ч. НДС (18%) 12691-53</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10160" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2000900" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2400" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890600153833" PersonalAcc="40802810021990001638">
+            <Name>Индивидуальный предприниматель Ткалин Владимир Станиславович</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/194-16/р от 04.05.2016. за Транспортные услуги.Сумма 20009-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10165" EDDate="2016-08-12" EDAuthor="7106962000" Sum="9562500" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2384" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8906008363" PersonalAcc="40702810721990001423">
+            <Name>Общество с ограниченной ответственностью "Ленар"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/151-16/р от 27.04.2016 за Транспортные услугиСумма 95625-00   В т.ч. НДС (18%) 14586-86</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10170" EDDate="2016-08-12" EDAuthor="7106962000" Sum="7090900" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2379" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890600347885" PersonalAcc="40802810521990002823">
+            <Name>Индивидуальный предприниматель Калиниченко Александр Николаевич</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/133-16/р от 01.04.16г. за транспорные услуги.Сумма 70909-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10175" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2439844" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2402" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890600153833" PersonalAcc="40802810021990001638">
+            <Name>Индивидуальный предприниматель Ткалин Владимир Станиславович</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/196-16/р от 04.05.2016. за Транспортные услуги.Сумма 24398-44Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10180" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1280000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2386" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890600812807" PersonalAcc="40802810921990002180">
+            <Name>Индивидуальный предприниматель  Микитенко Павел Николаевич</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/146-16/р от 25.03.2016 за транспортные услуги.Сумма 12800-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10185" EDDate="2016-08-12" EDAuthor="7106962000" Sum="9656000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2391" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="234900489844" PersonalAcc="40802810521990002124">
+            <Name>Индивидуальный предприниматель Минько Сергей Александрович</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/50-16/р от 10,02,2016 за транспорные услуги.Сумма 96560-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10190" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1996700" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2404" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890600153833" PersonalAcc="40802810021990001638">
+            <Name>Индивидуальный предприниматель Ткалин Владимир Станиславович</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/198-16/р от 04.05.2016. за Транспортные услуги.Сумма 19967-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10195" EDDate="2016-08-12" EDAuthor="7106962000" Sum="4860000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2388" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890600812807" PersonalAcc="40802810921990002180">
+            <Name>Индивидуальный предприниматель  Микитенко Павел Николаевич</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/149-16/р от 25.03.2016 за транспортные услуги.Сумма 48600-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10200" EDDate="2016-08-12" EDAuthor="7106962000" Sum="10800000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2370" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="743701802860" PersonalAcc="40802810167400002096">
+            <Name>Индивидуальный предприниматель Гайнутдинов Мансур Саликжанович</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору Транспортные услуги №ФМ-Т/37-16/р от 10,02,2016Сумма 108000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10205" EDDate="2016-08-12" EDAuthor="7106962000" Sum="8398100" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2393" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="710309181157" PersonalAcc="40802810567030010663">
+            <Name>Индивидуальный предприниматель Тагиров Камрад Аразович</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору ФМ-Т/39-16/р от 10,02,2016 за транспортные услуги.Сумма 83981-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10210" EDDate="2016-08-12" EDAuthor="7106962000" Sum="6013866" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2406" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="211100117790" PersonalAcc="40802810967030041407">
+            <Name>И.П. Федоров Юрий Николаевич</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № ФМ-Т/252-16/р от 09,06,16 за Транспортные услуги.Сумма 60138-66Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10215" EDDate="2016-08-12" EDAuthor="7106962000" Sum="18131427" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2395" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="1650109381" PersonalAcc="40702810711000001492">
+            <Name>ООО "Таттрансконтур"</Name>
+            <Bank BIC="049232922" CorrespAcc="30101810400000000922"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № ФМ-Т/65-16/от 26,02,2016 за автотранспортные услуги.Сумма 181314-27   В т.ч. НДС (18%) 27658-11</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10220" EDDate="2016-08-12" EDAuthor="7106962000" Sum="11300117" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2408" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="211100117790" PersonalAcc="40802810967030041407">
+            <Name>И.П. Федоров Юрий Николаевич</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № ФМ-Т/254-16/р от 10,06,16 за Транспортные услуги.Сумма 113001-17Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10225" EDDate="2016-08-12" EDAuthor="7106962000" Sum="3000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2369" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890505245040" PersonalAcc="40802810567030010207">
+            <Name>Индивидуальный предприниматель Гаврилов Игорь Александрович</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору №289-16/р от 29.06.2016г. за автоуслуги.Сумма 30000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10230" EDDate="2016-08-12" EDAuthor="7106962000" Sum="20606552" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2397" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="1650109381" PersonalAcc="40702810711000001492">
+            <Name>ООО "Таттрансконтур"</Name>
+            <Bank BIC="049232922" CorrespAcc="30101810400000000922"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № ФМ-Т/67-16/от 26,02,2016 за автотранспортные услуги.Сумма 206065-52   В т.ч. НДС (18%) 31433-72</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10235" EDDate="2016-08-12" EDAuthor="7106962000" Sum="8608100" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2376" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="228600236000" PersonalAcc="40802810818170000074">
+            <Name>Индивидуальный предприниматель Евсеев Олег Анатольевич</Name>
+            <Bank BIC="040173733" CorrespAcc="30101810100000000733"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору №ФМ-Т/40-16/р от 10,02,16 за Автотранспортные услуги.Сумма 86081-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10240" EDDate="2016-08-12" EDAuthor="7106962000" Sum="56707031" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2422" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810467400000000" KPP="890402001">
+            <Name>Западно-Сибирский банк ОАО "Сбербанк России"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Для зачисления выплаты льготного проезда по реестру №348 от 11.08.16г. в соответствии с Договором №67035728 от 22.05.15г.Сумма 567070-31Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10245" EDDate="2016-08-12" EDAuthor="7106962000" Sum="6000291" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2421" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="662103073802" PersonalAcc="40817810016541401646">
+            <Name>Байбородин Алексей Владимирович</Name>
+            <Bank BIC="046577674" CorrespAcc="30101810500000000674"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору Гражданско-правового характера №24 от 04.07.2016г. за выполненные работы.Сумма 60002-91</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10250" EDDate="2016-08-12" EDAuthor="7106962000" Sum="52103044" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2425" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810904020001366" KPP="890543001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г. Муравленко "Тепло"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202021856" KPP="890602001">
+            <Name>Муравленковский филиал "Запсибкомбанк"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Перечисляется на СКС выплата льготного проезда реестр №349 от 11.08.2016. Согл.соглашен. № 10/089 от 31.12.2011г.Код з/п проекта 210102157.Сумма 521030-44Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10255" EDDate="2016-08-12" EDAuthor="7106962000" Sum="40000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="449" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8901008899" PersonalAcc="40702810104020001577">
+            <Name>АО "Распределительная сетевая компания Ямала"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901008899" PersonalAcc="40702810067400002021">
+            <Name>Филиал Акционерного общества "Распределительная сетевая компания Ямала" в Пуровском районе</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по внутрихоз. расчетам (для оплаты поставщикам) Сумма 400000-00 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10260" EDDate="2016-08-12" EDAuthor="7106962000" Sum="40000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2030" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8603142987" PersonalAcc="40702810608020000809" KPP="860301001">
+            <Name>ООО "АВТОУНИВЕРСАЛ-МОТОРС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7710390358" PersonalAcc="40702810938050011804" KPP="997850001">
+            <Name>ООО "Тойота Мотор"</Name>
+            <Bank BIC="044525225" CorrespAcc="30101810400000000225"></Bank>
+        </Payee>
+        <Purpose>Оплата за запасные части Тойота ;NVART по договору N TMR-11-84 от 18.02.2011 г., Сумма 400000-00, НДС(18%) 61016-95,</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10265" EDDate="2016-08-12" EDAuthor="7106962000" Sum="233062" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="2043" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="8603142987" PersonalAcc="40702810608020000809" KPP="860301001">
+            <Name>ООО "АВТОУНИВЕРСАЛ-МОТОРС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203246725" PersonalAcc="40702810538290000978" KPP="720301001">
+            <Name>Общество с ограниченной ответственностью Германика-Т</Name>
+            <Bank BIC="046577964" CorrespAcc="30101810100000000964"></Bank>
+        </Payee>
+        <Purpose>Оплата за накладку пластиковой монтажной головки по счету №737 от 10.08.2016г., Сумма 2330-62, НДС(18%) 355-52,</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10270" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="352000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="206" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="720600773981" PersonalAcc="40802810702020000498" KPP="0">
+            <Name>Опанасенко Андрей Владимирович (ИП)//626150, Тюменская область, г. Тобольск, 7а микр, д.7а, оф.76//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202105344" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области(ГУ-Отделение Пенсионного фонда Российской Федерации по Тюменской области)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Страховая часть трудовой пенсии за работников за июль 2016 г. 082-011-007361. Сумма 3520-00 руб. Без налога (НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202010061000160" OKATO="71710000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10275" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="132600" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="207" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="720600773981" PersonalAcc="40802810702020000498" KPP="0">
+            <Name>Опанасенко Андрей Владимирович (ИП)//626150, Тюменская область, г. Тобольск, 7а микр, д.7а, оф.76//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7206025202" PersonalAcc="40101810300000010005" KPP="720601001">
+            <Name>УФК по Тюменской области(Межрайонная ИФНС России №7 по Тюменской области)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Налог на доходы физических лиц за июль 2016. Сумма 1326-00 руб. Без налога (НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71710000" PaytReason="ТП" TaxPeriod="МС.07.2016" DocNo="0" DocDate="12.08.2016" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10280" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="81600" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="208" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="720600773981" PersonalAcc="40802810702020000498" KPP="0">
+            <Name>Опанасенко Андрей Владимирович (ИП)//626150, Тюменская область, г. Тобольск, 7а микр, д.7а, оф.76//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202105344" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области(ГУ-Отделение Пенсионного фонда Российской Федерации по Тюменской области)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>082-011-007361 Страховые взносы на обязательное медицинское страхование в бюджет Федерального фонда обязательного медицинского страхования за июль 2016 года. Сумма 816 руб.Без налога (НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202101081011160" OKATO="71710000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10285" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="46400" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="209" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="720600773981" PersonalAcc="40802810702020000498" KPP="0">
+            <Name>Опанасенко Андрей Владимирович (ИП)//626150, Тюменская область, г. Тобольск, 7а микр, д.7а, оф.76//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202029421" PersonalAcc="40101810300000010005" KPP="720401001">
+            <Name>УФК по Тюменской области(Государственное учреждение-Тюменское региональное отделение Фонда социального страхования Российской Федерации)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Страховые взносы на обязательное социальное страхование на случай временной нетрудоспособности и в связи с материнством за июль 2016 г.рег.номер 7205007097. Сумма 464 руб. без налога (НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39310202090071000160" OKATO="71710000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10290" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="3200" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="210" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="720600773981" PersonalAcc="40802810702020000498" KPP="0">
+            <Name>Опанасенко Андрей Владимирович (ИП)//626150, Тюменская область, г. Тобольск, 7а микр, д.7а, оф.76//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202029421" PersonalAcc="40101810300000010005" KPP="720401001">
+            <Name>УФК по Тюменской области(Государственное учреждение-Тюменское региональное отделение Фонда социального страхования Российской Федерации)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Страховые взносы на обязательное социальное страхование от несчастных случаев и профессиональных заболеваний за июль 2016 г; рег.номер 7205007097 сумма 32-00 руб. без налога (НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39310202050071000160" OKATO="71710000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10295" EDDate="2016-08-12" EDAuthor="7106962000" Sum="68550" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="211" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="720600773981" PersonalAcc="40802810702020000498">
+            <Name>Опанасенко Андрей Владимирович (ИП)</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707049388" PersonalAcc="40702810200020000317" KPP="665843001">
+            <Name>Макрорегиональный филиал "Урал" ОАО "Ростелеком"</Name>
+            <Bank BIC="046577959" CorrespAcc="30101810500000000959"></Bank>
+        </Payee>
+        <Purpose>За услуги интернет по счету N 27 от 31.07.2016 г. Сумма 685-50 руб.   в т.ч. НДС (18%) 104-11 руб.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10300" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="374" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7206043307" PersonalAcc="40702810902020001245" KPP="720601001">
+            <Name>ООО "ТрансАвто"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707049388" PersonalAcc="40702810200020000317" KPP="665843001">
+            <Name>Макрорегиональный филиал "Урал" ПАО "Ростелеком"</Name>
+            <Bank BIC="046577959" CorrespAcc="30101810500000000959"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору №2851971 от 02.02.2011г. л/с №572000511360 за услуги интернет Cумма 10000-00,   в т.ч. НДС(18%) - 1525-42.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10305" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="272372015311" Sum="600000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="373" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7206043307" PersonalAcc="40702810902020001245" KPP="720601001">
+            <Name>ООО "ТрансАвто"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7740000076" PersonalAcc="40702810800000001738" KPP="720302001">
+            <Name>ОАО "МТС"</Name>
+            <Bank BIC="044525232" CorrespAcc="30101810600000000232"></Bank>
+        </Payee>
+        <Purpose>Оплата согласно договора N172371925224 от 29.02.2012г., л/с 272372015311 за услуги связи. Cумма 6000-00,   в т.ч. НДС(18%) - 915-25.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10310" EDDate="2016-08-12" EDAuthor="7106962000" Sum="270000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-11">
+        <AccDoc AccDocNo="375" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7206043307" PersonalAcc="40702810902020001245" KPP="720601001">
+            <Name>ООО "ТрансАвто"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8602197550" PersonalAcc="40702810267170041109" KPP="860201001">
+            <Name>ООО "Югра Смарт Сервис"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата согласно счета №5842 от 29.07.2016г. за карту водителя СКЗИ Cумма 2700-00,   в т.ч. НДС(18%) - 411-86.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10315" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1900000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="272" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202122163" PersonalAcc="40702810200020000252" KPP="720301001">
+            <Name>ООО "Астория"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202154743" PersonalAcc="40702810100990003110" KPP="720301001">
+            <Name>ООО "ИнТЭК-Сити"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>По Счету № 13 от 05.08.2016г. за проведение спортивно-оздоровительного мероприятия. Cумма 19000-00, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10320" EDDate="2016-08-12" EDAuthor="7106962000" Sum="79149" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="271" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202122163" PersonalAcc="40702810200020000252" KPP="720301001">
+            <Name>ООО "Астория"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="720302512007" PersonalAcc="40802810444020005198">
+            <Name>ИП Тарков Александр Николаевич</Name>
+            <Bank BIC="046577413" CorrespAcc="30101810965770000413"></Bank>
+        </Payee>
+        <Purpose>По Счету № 227 от 25.07.2016г. за переменную часть арендной платы за июнь 2016г. Cумма 791-49, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10325" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1819" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7204037749" PersonalAcc="40602810700020000001" KPP="720401001">
+            <Name>ГУП ЯНОРЦ "БОЛЬШОЙ ТАРАСКУЛЬ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203305297" PersonalAcc="40702810524220002731">
+            <Name>ООО "Созвездие"</Name>
+            <Bank BIC="046577446" CorrespAcc="30101810165770000446"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету № 406/16 от 10.08.2016г., Разработка и размещение информации в сети интернетСумма 20000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10330" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1090000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="000001" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="40911810202020060007" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7206037173" PersonalAcc="40701810400003000002" KPP="720601001">
+            <Name>КОМИТЕТ ФИНАНСОВ АДМИНИСТРАЦИИ ГОРОДА ТОБОЛЬСКА (МАДОУ "ДЕТСКИЙ САД № 7" Г.ТОБОЛЬСКА, Л/С АС30031А0017ДС07)</Name>
+            <Bank BIC="047117000"></Bank>
+        </Payee>
+        <Purpose>ПЕРЕВОД ДЕНЕЖНЫХ СРЕДСТВ БЕЗ ОТКРЫТИЯ СЧЕТА ПО ПОРУЧЕНИЮ ФИЗ.ЛИЦ В ПОЛЬЗУ МАДОУ "ДЕТСКИЙ САД № 7",СОГЛАСНО РЕЕСТРА ОТ 11.08.2016Г. (11 ШТ.)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10335" EDDate="2016-08-12" EDAuthor="7106962000" Sum="114000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="719" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202117484" PersonalAcc="40702810000020001082" KPP="720250001">
+            <Name>ООО "Элит Кар"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203251806" PersonalAcc="40702810302990009129" KPP="720301001">
+            <Name>Компьютерная компания МЕГА ООО</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору поставки материалов за расходные материалы по счету №2765Сумма 1140-00   В т.ч. НДС (18%) 173-90</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10340" EDDate="2016-08-12" EDAuthor="7106962000" Sum="565000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="721" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202117484" PersonalAcc="40702810000020001082" KPP="720350001">
+            <Name>ООО "Элит Кар"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203287087" PersonalAcc="40702810667100043489" KPP="720301001">
+            <Name>Северный Экспресс ООО</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору перевозки (доставки) документов по счету №2008 №1933Сумма 5650-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10345" EDDate="2016-08-12" EDAuthor="7106962000" Sum="720729" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="720" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202117484" PersonalAcc="40702810000020001082" KPP="720350001">
+            <Name>ООО "Элит Кар"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7740000076" PersonalAcc="40702810500000003942" KPP="720302001">
+            <Name>ПАО "МТС"</Name>
+            <Bank BIC="044525232" CorrespAcc="30101810600000000232"></Bank>
+        </Payee>
+        <Purpose>Оплата за услуги связи по счету №072016/6040802128 от 31.07.2016Сумма 7207-29   В т.ч. НДС (18%) 1099-42</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10350" EDDate="2016-08-12" EDAuthor="7106962000" Sum="3105923" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="000002" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="40911810000020060005" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204059654" PersonalAcc="40702810467020000045">
+            <Name>ОАО "ТРИЦ"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>ПЕРЕВОД ДЕНЕЖНЫХ СРЕДСТВ БЕЗ ОТКРЫТИЯ СЧЕТА ПО ПОРУЧЕНИЮ ФИЗ.ЛИЦ В ПОЛЬЗУ ОАО "ТРИЦ",СОГЛАСНО РЕЕСТРА ОТ 11.08.2016Г.(16 ШТ.)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10355" EDDate="2016-08-12" EDAuthor="7106962000" Sum="652386" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="714" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202117484" PersonalAcc="40702810000020001082" KPP="720350001">
+            <Name>ООО "Элит Кар"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810067339900545" KPP="720302020">
+            <Name>Неснов Александр Николаевич</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Возврат предоплаты за запчасти по заявлению от 20.07.2016г Сумма 6523-86   В т.ч. НДС (18%) 995-17</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10360" EDDate="2016-08-12" EDAuthor="7106962000" Sum="64000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="444" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202211430" PersonalAcc="40702810900020001247" KPP="720301001">
+            <Name>Общество с ограниченной отвественностью "ТехЭнергоСервис"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7224067822" PersonalAcc="40702810300990011261">
+            <Name>ОООТПК Серебряные ключи</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата за воду по счету № 2500 от 25.07.2016г, счет 2755 от 10.08.2016Сумма 640-00   В т.ч. НДС (18%) 97-63</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10365" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2318520" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="445" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202211430" PersonalAcc="40702810900020001247" KPP="720301001">
+            <Name>Общество с ограниченной отвественностью "ТехЭнергоСервис"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203093518" PersonalAcc="40702810838290000539">
+            <Name>Общество с ограниченной ответственностью "СПС-МД"(ООО "СПС-МД")</Name>
+            <Bank BIC="046577964" CorrespAcc="30101810100000000964"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету 2725 от11.08.2016 за оборудование и материалы Сумма 23185-20   В т.ч. НДС (18%) 3536-73</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10370" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="808600" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="447" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202211430" PersonalAcc="40702810900020001247" KPP="720301001">
+            <Name>Общество с ограниченной отвественностью "ТехЭнергоСервис"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области ( ИФНС РФ по г Тюмени № 3)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>НДФЛ за 08, 2016 г</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="МС.08.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10375" EDDate="2016-08-12" EDAuthor="7106962000" Sum="75800" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="441" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202211430" PersonalAcc="40702810900020001247" KPP="720301001">
+            <Name>Общество с ограниченной отвественностью "ТехЭнергоСервис"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="720316075879" PersonalAcc="40817810204000060000">
+            <Name>Колбин Алексей Геннадьевич //д.р. 14.02.1970//</Name>
+            <Bank BIC="046577906" CorrespAcc="30101810100000000906"></Bank>
+        </Payee>
+        <Purpose>Перечисление денежных средств подотчетнику за 08.2016г Колбин Алексей Геннадьевич 40817810204000060000Сумма 758-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10380" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1340000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="957" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202245856" PersonalAcc="40702810300020001494" KPP="720301001">
+            <Name>ООО "Элит Кар Сервис"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202227600" PersonalAcc="40702810095150000042" KPP="720301001">
+            <Name>ООО "Издательство "Агат"</Name>
+            <Bank BIC="046577903" CorrespAcc="30101810200000000903"></Bank>
+        </Payee>
+        <Purpose>Оплата за печатную продукцию по счету №369Сумма 13400-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10385" EDDate="2016-08-12" EDAuthor="7106962000" Sum="427500" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="956" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202245856" PersonalAcc="40702810300020001494" KPP="720301001">
+            <Name>ООО "Элит Кар Сервис"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="6652016660" PersonalAcc="40702810000000007254" KPP="665201001">
+            <Name>Астра ООО</Name>
+            <Bank BIC="046577406" CorrespAcc="30101810765770000406"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору на поставку 09/16-ЭКС от 14.03.16 за пакеты по счету №162 Сумма 4275-00   В т.ч. НДС (18%) 652-12</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10390" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="951" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202245856" PersonalAcc="40702810300020001494" KPP="720301001">
+            <Name>ООО "Элит Кар Сервис"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="42306810867330286317" KPP="720343001">
+            <Name>Орлова Галина Владимировна</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Возврат предоплаты за запчасти, заявление от 10.08.2016Сумма 10000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10395" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="644900" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="988" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603104702" PersonalAcc="40702810108020000778" KPP="860301001">
+            <Name>ЗАО "ГОРСВЕТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603109468" PersonalAcc="40101810900000010001" KPP="860301001">
+            <Name>УФК  по Ханты-Мансийскому автономному округу-Югре (Межрайонная инспекция ФНС России 6 по Ханты-Мансийскому автономному округу - Югре)</Name>
+            <Bank BIC="047162000"></Bank>
+        </Payee>
+        <Purpose>НДФЛ за август 2016 г.   НДС не облагается.</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71875000" PaytReason="0" TaxPeriod="МС.08.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10400" EDDate="2016-08-12" EDAuthor="7106962000" Sum="8500000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="217" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203192389" PersonalAcc="40702810400020001433" KPP="720301001">
+            <Name>ООО "Строй-7"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203359197" PersonalAcc="40702810901010042239">
+            <Name>ООО "ГСМ-ОПТ"</Name>
+            <Bank BIC="044525126" CorrespAcc="30101810800000000126"></Bank>
+        </Payee>
+        <Purpose>Частичная оплата по счету № 464 от 11.08.2016 за дистилляты газового конденсата Сумма 85000-00   В т.ч. НДС (18%) 12966-10</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10405" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="7035100" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="430" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7204195150" PersonalAcc="40702810200020001523" KPP="720301001">
+            <Name>ООО "МАРКЕТИНГ ОЙЛ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г. Тюмени 3)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>НДС 2 квартал 2016 г. 1/3 часть от начисленного налога.</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210301000011000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="КВ.02.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10410" EDDate="2016-08-12" EDAuthor="7106962000" Sum="765373" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="345" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203277280" PersonalAcc="40702810800020001389">
+            <Name>ООО"СМУ-111"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204004373" PersonalAcc="40702810500040100672" KPP="722401001">
+            <Name>ОАО "Утяшевоагропромснаб"</Name>
+            <Bank BIC="047102870" CorrespAcc="30101810500000000870"></Bank>
+        </Payee>
+        <Purpose>Оплата по досчету N 1422 от 31.07.2016 г. за возмещение за газ за июль 2016 г. Сумма 7653-73 В т.ч. НДС (18%) 1167-52</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10415" EDDate="2016-08-12" EDAuthor="7106962000" Sum="54858" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="346" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203277280" PersonalAcc="40702810800020001389">
+            <Name>ООО"СМУ-111"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203341633" PersonalAcc="40702810067100001241" KPP="720301001">
+            <Name>ООО " ГК Русойл"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету N 19411 от 09.08.2016 г. за масло моторное. Сумма 548-58 В т.ч. НДС (18%) 83-68</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10420" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1400400" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="347" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203277280" PersonalAcc="40702810800020001389">
+            <Name>ООО"СМУ-111"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203381570" PersonalAcc="40702810967100004018">
+            <Name>ООО "АИС-Групп"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету N 11 от 11.08.2016 г. за восстановление системы видеонаблюдения. Сумма 14004-00 В т.ч. НДС (18%) 2136-20</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10425" EDDate="2016-08-12" EDAuthor="7106962000" Sum="360000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="348" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203277280" PersonalAcc="40702810800020001389">
+            <Name>ООО"СМУ-111"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="720211194533" PersonalAcc="40802810902990002549">
+            <Name>ИП Дьяков Геннадий Иванович</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету N 116 от 11.08.2016 г. за материалы. Сумма 3600-00 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10430" EDDate="2016-08-12" EDAuthor="7106962000" Sum="93800000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="349" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203277280" PersonalAcc="40702810800020001389">
+            <Name>ООО"СМУ-111"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="6671469426" PersonalAcc="40702810902400000737" KPP="667101001">
+            <Name>ООО " ТД "УРАЛДОЛОМИТ"</Name>
+            <Bank BIC="046577918" CorrespAcc="30101810800000000918"></Bank>
+        </Payee>
+        <Purpose>Частичная оплата по счету N Щ0000411 от 11.08.2016 г. за щебень 0-5. Сумма 938000-00 В т.ч. НДС (18%) 143084-75</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10435" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1656353" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="937" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603109926" PersonalAcc="40702810408020000782" KPP="862450001">
+            <Name>ООО "НИЖНЕВАРТОВСКАЯ ЭНЕРГОСБЫТОВАЯ КОМПАНИЯ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603010518" PersonalAcc="47423810000000002996" KPP="860301001">
+            <Name>АО КБ "ПРИОБЬЕ", г.НИЖНЕВАРТОВСК</Name>
+            <Bank BIC="047169777" CorrespAcc="30101810800000000777"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч.ф. №б/н от 29.07.16г. за комиссию по дог.№ 30/08166.15 от 28.10.15г.   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10440" EDDate="2016-08-12" EDAuthor="7106962000" Sum="25000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="000003" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="862000154861" PersonalAcc="40802810703020000293">
+            <Name>ДИКОВИНКИН ОЛЕГ ВИКТОРОВИЧ (ИП)</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="30301810167006006716" KPP="860302001">
+            <Name>АК СБ РФ ОАО Нижневартовское отделение 5939/056 (Диковинкин Олег Викторович)</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Перечисление денежных средств на имя Диковинкин Олег Викторович л/с 40817810667165801959. НДС нет.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10445" EDDate="2016-08-12" EDAuthor="7106962000" Sum="4101400" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="990" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603104702" PersonalAcc="40702810108020000778" KPP="860301001">
+            <Name>ЗАО "ГОРСВЕТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603107693" PersonalAcc="40702810467160101338" KPP="860301001">
+            <Name>ООО "Бюро"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>За канцтовары по сч. ЛОБР0002316 от 14.07.16. дог. 07105.16.   в т.ч. НДС 18% - 6256.37</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10450" EDDate="2016-08-12" EDAuthor="7106962000" Sum="23592000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="991" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603104702" PersonalAcc="40702810108020000778" KPP="860301001">
+            <Name>ЗАО "ГОРСВЕТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="051503393601" PersonalAcc="40802810200100002564">
+            <Name>Индивидуальный предприниматель Гаджиев Мурад Шахбанович</Name>
+            <Bank BIC="047162782" CorrespAcc="30101810771620000782"></Bank>
+        </Payee>
+        <Purpose>За транспортные услуги, по сч.42 от 31.07.16. Дог.07057.16.   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10455" EDDate="2016-08-12" EDAuthor="7106962000" Sum="424486" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="434" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="70601810367162102250" KPP="860302001">
+            <Name>НИЖНЕВАРТОВСКОЕ ОТДЕЛЕНИЕ 5939 ПАО СБЕРБАНК Г.НИЖНЕВАРТВСК</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Услуги банка по п/п 416-432 от 12.08.16г., в соответствии с договором 67165351/04020.08 от 20.05.2008г.   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10460" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="10732600" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="433" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603109468" PersonalAcc="40101810900000010001" KPP="860301001">
+            <Name>"УФК по Ханты-Мансийскому автономному округу-Югре(Межрайонная инспекция ФНС России 6 по Ханты-Мансийскому округу -Югре)"</Name>
+            <Bank BIC="047162000"></Bank>
+        </Payee>
+        <Purpose>НДФЛ за июль 2016г.   НДС не облагается.</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71875000" PaytReason="ТП" TaxPeriod="МС.07.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10465" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="22600000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1385" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="6660153847" PersonalAcc="40702810300020001229" KPP="770101001">
+            <Name>ООО "Корпорация СТС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7710030933" PersonalAcc="40101810800000010041" KPP="770701001">
+            <Name>УФК по г. Москве (ГУ-Московского регионалного отделения Фонда социального страхования РФ)</Name>
+            <Bank BIC="044583001"></Bank>
+        </Payee>
+        <Purpose>Взнос в ФСС от НС и ПЗ за июль 2016г. (рег номер 6608616446)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39310202050071000160" OKATO="45375000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10470" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="151300" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1500" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="6660153847" PersonalAcc="40702810300020001229" KPP="667145001">
+            <Name>ООО "Корпорация СТС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="6661009067" PersonalAcc="40101810500000010010" KPP="666101001">
+            <Name>УФК по Свердловской области (ИФНС России по Ленинскому р-ну г.Екатеринбурга)</Name>
+            <Bank BIC="046577001"></Bank>
+        </Payee>
+        <Purpose>Налог на доходы физических лиц за август 2016 г.</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="65701000" PaytReason="ТП" TaxPeriod="МС.08.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10475" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="575500000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1386" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="6660153847" PersonalAcc="40702810300020001229" KPP="770101001">
+            <Name>ООО "Корпорация СТС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7703363868" PersonalAcc="40101810800000010041" KPP="770301001">
+            <Name>УФК по г.Москве (для ГУ - Отделения ПФР по г.Москве и Московской области)</Name>
+            <Bank BIC="044583001"></Bank>
+        </Payee>
+        <Purpose>Страховые взносы на ОМС, зачисляемые в бюджет ФФОМС за июль 2016г. Регистрационный номер в ПФР 087-108-045261 (Рег.номер в ФОМС 451010700086430)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202101081011160" OKATO="45375000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10480" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="1149000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1384" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="6660153847" PersonalAcc="40702810300020001229" KPP="770101001">
+            <Name>ООО "Корпорация СТС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7703363868" PersonalAcc="40101810800000010041" KPP="770301001">
+            <Name>УФК по г.Москве (для ГУ - Отделения ПФР по г.Москве и Московской области)</Name>
+            <Bank BIC="044583001"></Bank>
+        </Payee>
+        <Purpose>Страховые взносы на выплату страховой части трудовой пенсии за июль 2016г. Регистрационный номер в ПФР 087-108-045261</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202010061000160" OKATO="45375000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10485" EDDate="2016-08-12" EDAuthor="7106962000" Sum="6511799" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1498" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="6660153847" PersonalAcc="40702810300020001229" KPP="770101001">
+            <Name>ООО "Корпорация СТС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7451101090" PersonalAcc="40702810838090001534">
+            <Name>ООО"Комус- Южный Урал"</Name>
+            <Bank BIC="046577964" CorrespAcc="30101810100000000964"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету 0ЕР/1016539/9141727 от 11.08.2016 г.за уничтожитель документовСумма 65117-99   В т.ч. НДС (18%) 9933-25</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10490" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="267800" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="116" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203350620" PersonalAcc="40702810500020000208" KPP="720301001">
+            <Name>OOО "Сибирь-Лада"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК  по Тюменской области  (ИФНС России по г.Тюмени  №3)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>НДФЛ за июль 2016г.(   без НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10495" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="149940" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="113" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203350620" PersonalAcc="40702810500020000208" KPP="720301001">
+            <Name>OOО "Сибирь-Лада"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202105344" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ГУ-Отделение ПФР по Тюменской области)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Рег. № 082-002-040765 страховые взносы на ОМС в ФОМС за июль 2016г.(   без НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202101081011160" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10500" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="11760" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="115" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203350620" PersonalAcc="40702810500020000208" KPP="720301001">
+            <Name>OOО "Сибирь-Лада"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202029421" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (Государственное учреждение-Тюменское региональное отделение Фонда социального страхования Российской Федерации)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>страховые взносы на ОСС от НС за июль 2016г. рег. номер 7201052395 (   без НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39310202050071000160" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10505" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="646801" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="112" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203350620" PersonalAcc="40702810500020000208" KPP="720301001">
+            <Name>OOО "Сибирь-Лада"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202105344" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ГУ-Отделение ПФР по Тюменской области)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Регистрационный № 082-002-040765 Текущие платежи по страховым взносам на ОПС за июль 2016г.(   без НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202010061000160" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10510" EDDate="2016-08-12" EDAuthor="7106962000" Sum="233654" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="117" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203350620" PersonalAcc="40702810500020000208" KPP="720301001">
+            <Name>OOО "Сибирь-Лада"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707049388" PersonalAcc="40702810200020000317" KPP="665843001">
+            <Name>Макрорегиональный филиал "Урал" ПАО "Ростелеком"</Name>
+            <Bank BIC="046577959" CorrespAcc="30101810500000000959"></Bank>
+        </Payee>
+        <Purpose>По договору 6571123 от 31.07.15г., л\сч. 1532120660 за услуги связи за июль 16г. Cумма 2336-54,   в т.ч. НДС(18%) - 356-42.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10515" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="85260" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="114" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203350620" PersonalAcc="40702810500020000208" KPP="720301001">
+            <Name>OOО "Сибирь-Лада"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202029421" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (Государственное учреждение-Тюменское региональное отделение Фонда социального страхования Российской Федерации)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>страховые взносы на ОСС на случай временной нетрудоспособности и в связи с материнством за июль 2016г. рег. номер 7201052395 (   без НДС)</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39310202090071000160" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10520" EDDate="2016-08-12" EDAuthor="7106962000" Sum="30000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="436" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="70601810367162102250" KPP="860302001">
+            <Name>НИЖНЕВАРТОВСКОЕ ОТДЕЛЕНИЕ 5939 ПАО СБЕРБАНК Г.НИЖНЕВАРТВСК</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Услуги банка по п/п 435 от 12.08.16г., в соответствии с договором 67165351/04020.08 от 20.05.2008г.   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10525" EDDate="2016-08-12" EDAuthor="7106962000" Sum="60444000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="93" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="4502017164" PersonalAcc="40702810600020001385" KPP="450201001">
+            <Name>ООО "ЭСК" Энергоджинн"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204054783" PersonalAcc="40702810800990002107" KPP="720301001">
+            <Name>ООО "КСИЛ"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Полная оплата по Договору №77 от 15.06.2016г. счет 548 от 15 июня 2016г.Сумма 604440-00   В т.ч. НДС (18%) 92202-71</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10530" EDDate="2016-08-12" EDAuthor="7106962000" Sum="1354000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="11381" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="7205011944" PersonalAcc="40702810600020001550" KPP="720343001">
+            <Name>"Тепло Тюмени" - филиал публичного AO "Сибирско-уральская энергетическая компания"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="720600005250" PersonalAcc="40802810267330100256">
+            <Name>ИП Аширяпова Альфия Абушахмановна</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч. №М-000747 от 28.06.2016 г. за а/запчасти, дог.№ Д-ТбФТТ-2016-0195 от 04.08.2016г.   В т.ч. НДС(18%) 2065-42</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10535" EDDate="2016-08-12" EDAuthor="7106962000" Sum="9652200" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="11383" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="7205011944" PersonalAcc="40702810600020001550" KPP="720343001">
+            <Name>"Тепло Тюмени" - филиал публичного AO "Сибирско-уральская энергетическая компания"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202206247" PersonalAcc="40702810867020000742" KPP="720350001">
+            <Name>ООО "Строительный Двор"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч. N 1005136305 от 27.07.2016 г. за материалы, по дог. № 0427 от 02.08.2016   В т.ч. НДС(18%) 14723-69</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10540" EDDate="2016-08-12" EDAuthor="7106962000" Sum="9193930" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="11382" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="7205011944" PersonalAcc="40702810600020001550" KPP="720343001">
+            <Name>"Тепло Тюмени" - филиал публичного AO "Сибирско-уральская энергетическая компания"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203284865" PersonalAcc="40702810667100045791" KPP="720301001">
+            <Name>Общество с ограниченной ответственностью "СоюзПромЭкскавация"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч. № 23 от 29.07.2016г. за материалы (бетон),доставка, по дог. № 0057 от 03.02.2016.   В т.ч. НДС(18%) 14024-64</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10545" EDDate="2016-08-12" EDAuthor="7106962000" Sum="7840000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="11384" AccDocDate="2016-08-11"></AccDoc>
+        <Payer INN="7205011944" PersonalAcc="40702810600020001550" KPP="720343001">
+            <Name>"Тепло Тюмени" - филиал публичного AO "Сибирско-уральская энергетическая компания"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203283519" PersonalAcc="40702810967100043545" KPP="720345004">
+            <Name>Общество с ограниченной ответственностью "Холдинговая компания "ЭНКИ"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч. № 41936 от 20.07.2016 г. за материалы, по дог. № 0421 от 01.08.2016 г.   В т.ч. НДС(18%) 11959-32</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10550" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="186507" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="19" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="861101891034" PersonalAcc="40802810700020000474" KPP="0">
+            <Name>Мурашова Наталья Дмитриевна (ИП) //625048, Тюменская область.г.Тюмень, ул.Максима Горького, дом 68, корпус 2, кв.22//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202105344" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ГУ- Отделение Пенсионного фонда Российской Федерации по Тюменской области)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>ФФОМС РегN082-003-006036</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202101081011160" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10555" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="475200" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="21" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="861101891034" PersonalAcc="40802810700020000474" KPP="0">
+            <Name>Мурашова Наталья Дмитриевна (ИП) //625048, Тюменская область.г.Тюмень, ул.Максима Горького, дом 68, корпус 2, кв.22//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202104206" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г. Тюмени N1)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>НДФЛ июль,август,сентябрь 2016г.</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10560" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="804540" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="20" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="861101891034" PersonalAcc="40802810700020000474" KPP="0">
+            <Name>Мурашова Наталья Дмитриевна (ИП) //625048, Тюменская область,г.Тюмень, ул.Максима Горького, дом 68, корпус 2, кв.22//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202105344" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ГУ- Отделение Пенсионного фонда Российской Федерации по Тюменской области)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Страховые взносы рег N082-003-006036</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202010061000160" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10565" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="7314" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="18" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="861101891034" PersonalAcc="40802810700020000474" KPP="0">
+            <Name>Мурашова Наталья Дмитриевна (ИП) //625048, Тюменская область.г.Тюмень, ул.Максима Горького, дом 68, корпус 2, кв.22//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202029421" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ГУ- Тюменское региональное отделение Фонда социального страхования Российской Федерации)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>ФСС, регN 7201031741</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39310202050071000160" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10570" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="135800" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1782" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8904998316" PersonalAcc="40702810206020001475" KPP="890401001">
+            <Name>ООО "Юнимоторс"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8904038130" PersonalAcc="40101810500000010001" KPP="890401001">
+            <Name>УФК по ЯНАО (МИФНС России №2 по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>НДФЛ-13% август 2016 г, Щербакова Ольга Владимировна, компенсация при увольнении, 1358=, Без налога (НДС),</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71956000" PaytReason="ТП" TaxPeriod="МС.08.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10575" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="605000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1783" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8904998316" PersonalAcc="40702810206020001475" KPP="890401001">
+            <Name>ООО "Юнимоторс"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8904038130" PersonalAcc="40101810500000010001" KPP="890401001">
+            <Name>УФК по ЯНАО (МИФНС России №2 по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>НДФЛ-13% июль 2016 г, Смалюга Александ Сергеевич, заработная плата за июль 2016г, 6050=, Без налога (НДС),</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71956000" PaytReason="ТП" TaxPeriod="МС.07.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10580" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="736200" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1784" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8904998316" PersonalAcc="40702810206020001475" KPP="890401001">
+            <Name>ООО "Юнимоторс"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8904038130" PersonalAcc="40101810500000010001" KPP="890401001">
+            <Name>УФК по ЯНАО (МИФНС России №2 по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>НДФЛ-13% август 2016 г, Смалюга Александ Сергеевич, отпускные за август 2016г, 7362=, Без налога (НДС),</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71956000" PaytReason="ТП" TaxPeriod="МС.07.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10585" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="384400" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="1779" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8904998316" PersonalAcc="40702810206020001475" KPP="890401001">
+            <Name>ООО "Юнимоторс"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8904038130" PersonalAcc="40101810500000010001" KPP="890401001">
+            <Name>УФК по ЯНАО (МИФНС России №2 по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>НДФЛ-13% август 2016 г, Колмаков Алексей Владимирович, с отпускных, 3844=, Без налога (НДС),</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71956000" PaytReason="ТП" TaxPeriod="МС.08.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10590" EDDate="2016-08-12" EDAuthor="7106962000" Sum="606600" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="000008" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7202186985" PersonalAcc="40702810600020001204" KPP="720301001">
+            <Name>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "ТЮМЕНЬАГРОМЕЛЬМОНТАЖ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202206247" PersonalAcc="40702810867020000742">
+            <Name>ООО "Строительный Двор"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата за грунт ,уайт-спирит согласно счета 1005207608 от 12.08.2016г.НДС 925-32</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10595" EDDate="2016-08-12" EDAuthor="7106962000" Sum="6000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="375" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8603174001" PersonalAcc="40702810908020001236" KPP="860301001">
+            <Name>ООО "БИО-МЕД"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="30301810167006006716" KPP="860302001">
+            <Name>АК СБ РФ ОАО Нижневартовское отделение №5939/37</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>для зачисления подотчетных средств на номер лицевого счета №40817810167160097462 на имя Элеоноры Валерьевны Жидковой .   Без НДС</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10600" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="53219" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="686" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Магистральная 91/27 на сумму 28 812,93 Сумма 532,19   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10605" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="29255" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="690" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Изыскателей 20/7 на сумму 14 627,91 Сумма 292,55   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10610" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="30855" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="679" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Изыскателей 22/9 на сумму 15 427,55 Сумма 308,55   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10615" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="43908" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="683" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Мира 35/13 на сумму 22 605,32 Сумма 439.08   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10620" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="1016710" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="633" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901016096" PersonalAcc="40302810400001000016" KPP="890101001">
+            <Name>УФК по ЯНАО (Отдел судебных приставов по г.Ноябрьску Управления Федеральной Службы Судебных Приставов  по Ямало-Ненецкому Автономному округу Л/С 05901847700)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Задолж. по суд.пр. 2-3446/2015 от 18.12.15 с удерж. из з/платы Давыдова Д.Н. (МДМ). сумма 10167,10 Без. НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="0" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10625" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="82980" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="678" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Северная 28/7 на сумму 48 653,06 Сумма 829,80   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10630" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="687920" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="627" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901016096" PersonalAcc="40302810400001000016" KPP="890101001">
+            <Name>УФК по ЯНАО (Отдел судебных приставов по г.Ноябрьску Управления Федеральной Службы Судебных Приставов  по Ямало-Ненецкому Автономному округу Л/С 05901847700)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>мат.ущерб в пользу Шиховой В.К с удерж. из з/платы Бордикова В.М по и/л 2-2840/13 от 23.07.13. сумма 6879,20 Без. НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="0" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10635" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="41290" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="682" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Шевченко 76А/22 на сумму 20 860,31 Сумма 412,90   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10640" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="68266" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="677" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Советская 44/5 на сумму 38 843,98 Сумма 682,66   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10645" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="141784" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="681" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Новоселов 3/7 на сумму 87 856,06 Сумма 1417,84   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10650" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="612600" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="699" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901016272" PersonalAcc="40101810500000010001" KPP="890101001">
+            <Name>УФК РФ по ЯНАО (МИФНС России по КН по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>налог на доходы физических лиц за август 2016г. Сумма 6 126,00   без НДС.</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71958000" PaytReason="ТП" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10655" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="334000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="631" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901016096" PersonalAcc="40302810400001000016" KPP="890101001">
+            <Name>УФК по ЯНАО (Отдел судебных приставов по г.Ноябрьску Управления Федеральной Службы Судебных Приставов  по Ямало-Ненецкому Автономному округу Л/С 05901847700)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Долг по кредиту за Кунафину Айгуль Юсуповну по суд.делу 2-2400/2015 от 05.10.15 (СтарБанк) с удержанием из заработной платы . сумма 3340,00 Без. НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="0" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10660" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="37296" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="676" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Изыскателей 16А/9 на сумму 18 648,02 Сумма 372,96   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10665" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="31513" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="680" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Изыскателей 44/4 на сумму 15 756,29 Сумма 315,13   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10670" EDDate="2016-08-12" EDAuthor="7106962000" Sum="21032007" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="648" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905035163" PersonalAcc="40703810030990000004">
+            <Name>Первичная Профсоюзная Организация ОАО"Энерго-Газ-Ноябрьск"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>профвзносы за 07.16г., с удержанием из зарплаты Cумма 210320-07, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10675" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="57489" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="675" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Энтузиастов 6/2 на сумму 31 659,47 Сумма 574,89   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10680" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="1175190" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="624" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901016096" PersonalAcc="40302810400001000016" KPP="890101001">
+            <Name>УФК по ЯНАО (Отдел судебных приставов по г.Ноябрьску Управления Федеральной Службы Судебных Приставов  по Ямало-Ненецкому Автономному округу Л/С 05901847700)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Задолженность за ком.услуги за Гаммершмидт В.А. по делу 2-54-3/2012 от 08.02.13(ОАО "УЖХ") с удержанием из заработной платы . сумма 11751,90 Без. НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="0" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10685" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="49238" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="674" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Изыскателей 22/11 на сумму 24 618,71 Сумма 492,38   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10690" EDDate="2016-08-12" EDAuthor="7106962000" Sum="10088" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="696" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8601000666" PersonalAcc="47423810500170130001">
+            <Name>Ф-Л ЗС ПАО "ХАНТЫ-МАНСИЙСКИЙ БАНК ОТКРЫТИЕ"</Name>
+            <Bank BIC="047162782" CorrespAcc="30101810771620000782"></Bank>
+        </Payee>
+        <Purpose>вознагр.банку УНД1740000835;7014;12082016;льготный проезд согл. дог. 17-00-810/01-0111 от 12.02.2009г Cумма 100-88, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10695" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="47374" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="669" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности В.Цоя 3/31 на сумму 24 915,96 Сумма 473,74   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10700" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="2071" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="673" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Изыскателей 36А/42 на сумму 8 964,32 Сумма 20,71   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10705" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="44984" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="668" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности В.Цоя 3/2 на сумму 23 322,91 Сумма 449,84   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10710" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="5033" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="672" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Изыскателей 36/73 на сумму 7 483,22 Сумма 50,33   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10715" EDDate="2016-08-12" EDAuthor="7106962000" Sum="177000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="667" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905029025" PersonalAcc="40702810000480000433">
+            <Name>ООО РИА "Город"</Name>
+            <Bank BIC="047144721" CorrespAcc="30101810400000000721"></Bank>
+        </Payee>
+        <Purpose>оплата по сч. 426 от 11.08.16 (изготовление ролика) Cумма 1770-00,   в т.ч. НДС(18%) - 270-00.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10720" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="1602060" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="639" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901016096" PersonalAcc="40302810400001000016" KPP="890101001">
+            <Name>УФК по ЯНАО (Отдел судебных приставов по г.Ноябрьску Управления Федеральной Службы Судебных Приставов  по Ямало-Ненецкому Автономному округу Л/С 05901847700)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Штраф. по пост. 5-759-5/2015 от 31.08.15 с удерж. из з/платы Агеева Д.Н. (УМВД). сумма 16020,60 Без. НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="0" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10725" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="69533" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="671" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Мира 78А/76 на сумму 39 688,90 Сумма 695,33   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10730" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="33071" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="689" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности АТБ 75/1 на сумму 16 535,67 Сумма 330,71   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10735" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="163589" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="688" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности УТАДС 63/1 на сумму 103 589,38 Сумма 1 635,89   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10740" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="39533" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="670" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Мира 85/51 на сумму 19 766,32 Сумма 395,33   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10745" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="52001" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="687" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Дзержинского 13/51 на сумму 28 000,99 Сумма 520,01   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10750" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="45765" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="685" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Мира 58/2 на сумму 23 843,84 Сумма 457,65   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10755" EDDate="2016-08-12" EDAuthor="7106962000" PaymentID="0" Sum="55699" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="684" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905049600" PersonalAcc="40101810500000010001" KPP="890501001">
+            <Name>УФК по ЯНАО (Межрайонная Инспекция Федеральной Налоговой Службы № 5 по Ямало-Ненецкому автономному округу)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>гос.пошлина за рассмотрение гражданского дела о взыскании задолженности Магистральная 89/6 на сумму 30 466,19 Сумма 556,99   без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10760" EDDate="2016-08-12" EDAuthor="7106962000" Sum="368812" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="629" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810007000167262">
+            <Name>Писковская Татьяна Васильевна</Name>
+            <Bank BIC="041403633" CorrespAcc="30101810100000000633"></Bank>
+        </Payee>
+        <Purpose>мат.ущерб в пользу Писковской Т.В с удерж. из з/платы Бордикова В.М по делу 1-12/2005 от 21.07.05. Cумма 3688-12, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10765" EDDate="2016-08-12" EDAuthor="7106962000" Sum="2241760" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="695" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8601000666" PersonalAcc="30232810000000130057">
+            <Name>Ф-Л ЗС ПАО "ХАНТЫ-МАНСИЙСКИЙ БАНК ОТКРЫТИЕ" г. Ханты - Мансийск</Name>
+            <Bank BIC="047162782" CorrespAcc="30101810771620000782"></Bank>
+        </Payee>
+        <Purpose>УНД1740000835;7014;12082016;льготный проезд согл. дог. 17-00-810/01-0111 от 12.02.2009г Cумма 22417-60, без налога (НДС).</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="10770" EDDate="2016-08-12" EDAuthor="7106962000" Sum="12650000" TransKind="01" Priority="5" ChargeOffDate="2016-08-12" ReceiptDate="2016-08-12">
+        <AccDoc AccDocNo="771" AccDocDate="2016-08-12"></AccDoc>
+        <Payer INN="7203239541" PersonalAcc="40702810900020001399" KPP="720301001">
+            <Name>ООО "МегаГрупп"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204176943" PersonalAcc="40702810888990007438">
+            <Name>ООО"Альянс Групп"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Доплата по сч.фактуре № 13 от 29.01.2016 года, за услуги по санитарной обработке мягкого инвентаря.Сумма 126500-00   В т.ч. НДС (18%) 19296-61</Purpose>
+    </ED101>
+</PacketEPD>

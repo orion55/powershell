@@ -1,0 +1,1869 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>user</LastAuthor>
+  <Created>2015-06-30T06:00:18Z</Created>
+  <LastSaved>2015-06-30T06:00:18Z</LastSaved>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8835</WindowHeight>
+  <WindowWidth>15180</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial Cyr" x:CharSet="204"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s22">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Cyr" x:CharSet="204" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="b">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="163" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Column ss:Width="53.25"/>
+   <Column ss:Width="112.5" ss:Span="1"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75.75"/>
+   <Column ss:Width="172.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Номер докум</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Дата проводки</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Дебет</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Кредит</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Сумма в вал. по дебету</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Сумма в вал. по кредиту</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Покрытие в нац. Вал.</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Назначение платежа</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Призн. СПОД</Data></Cell>
+   </Row>
+<Row>
+<Cell><Data ss:Type="Number">65161</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978700020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70601810200821210257</Data></Cell>
+<Cell><Data ss:Type="Number">75.00</Data></Cell>
+<Cell><Data ss:Type="Number">5354.90</Data></Cell>
+<Cell><Data ss:Type="Number">5354.90</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Согласно реестра 365161039 от</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">65160</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978700020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978500020000001</Data></Cell>
+<Cell><Data ss:Type="Number">7500.00</Data></Cell>
+<Cell><Data ss:Type="Number">7500.00</Data></Cell>
+<Cell><Data ss:Type="Number">535490.25</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">ПЕРЕВОД ДЕНЕЖНЫХ СРЕДСТВ ПО С</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00056</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840100020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">10476.55</Data></Cell>
+<Cell><Data ss:Type="Number">10476.55</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00057</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840702020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">395.48</Data></Cell>
+<Cell><Data ss:Type="Number">395.48</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00058</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840003020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1448.82</Data></Cell>
+<Cell><Data ss:Type="Number">1448.82</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00059</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840304020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">4207.78</Data></Cell>
+<Cell><Data ss:Type="Number">4207.78</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00060</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840605020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1058.51</Data></Cell>
+<Cell><Data ss:Type="Number">1058.51</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00061</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30233840100020050000</Data></Cell>
+<Cell><Data ss:Type="Number">1.93</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1.93</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00062</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840600020130390</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">69550.15</Data></Cell>
+<Cell><Data ss:Type="Number">69550.15</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00063</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840000020000010</Data></Cell>
+<Cell><Data ss:Type="Number">868.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">868.00</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00064</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30306840000020000003</Data></Cell>
+<Cell><Data ss:Type="Number">301367.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">301367.00</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00065</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42304840800020040091</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">966.38</Data></Cell>
+<Cell><Data ss:Type="Number">966.38</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00066</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42304840703020040091</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2292.90</Data></Cell>
+<Cell><Data ss:Type="Number">2292.90</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00067</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42304840004020040091</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1996.40</Data></Cell>
+<Cell><Data ss:Type="Number">1996.40</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00068</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42304840606020040091</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">260.40</Data></Cell>
+<Cell><Data ss:Type="Number">260.40</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00070</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840700020040271</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">7563.23</Data></Cell>
+<Cell><Data ss:Type="Number">7563.23</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00071</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840205020040271</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">902.72</Data></Cell>
+<Cell><Data ss:Type="Number">902.72</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00072</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202978100020000002</Data></Cell>
+<Cell><Data ss:Type="Number">24493.69</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">24493.69</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00073</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978500020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">253206.21</Data></Cell>
+<Cell><Data ss:Type="Number">253206.21</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00074</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202978800020000001</Data></Cell>
+<Cell><Data ss:Type="Number">31326.41</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">31326.41</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00075</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202978700020000004</Data></Cell>
+<Cell><Data ss:Type="Number">10423.25</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">10423.25</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00076</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202978400020000003</Data></Cell>
+<Cell><Data ss:Type="Number">5004.92</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">5004.92</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00077</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301978800020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">45.25</Data></Cell>
+<Cell><Data ss:Type="Number">45.25</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00078</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411978400020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">139.03</Data></Cell>
+<Cell><Data ss:Type="Number">139.03</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00079</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202978000020000005</Data></Cell>
+<Cell><Data ss:Type="Number">18664.06</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">18664.06</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00080</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202978106020000006</Data></Cell>
+<Cell><Data ss:Type="Number">14282.39</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">14282.39</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00081</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301978402020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1.77</Data></Cell>
+<Cell><Data ss:Type="Number">1.77</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00082</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301978004020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">17.65</Data></Cell>
+<Cell><Data ss:Type="Number">17.65</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00083</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301978305020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.70</Data></Cell>
+<Cell><Data ss:Type="Number">0.70</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00084</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42601978600020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">4.84</Data></Cell>
+<Cell><Data ss:Type="Number">4.84</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00086</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411978303020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">70.83</Data></Cell>
+<Cell><Data ss:Type="Number">70.83</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00087</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411978604020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">28.44</Data></Cell>
+<Cell><Data ss:Type="Number">28.44</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00088</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411978905020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">119.47</Data></Cell>
+<Cell><Data ss:Type="Number">119.47</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00089</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411978206020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">16.44</Data></Cell>
+<Cell><Data ss:Type="Number">16.44</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00090</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301978907020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.84</Data></Cell>
+<Cell><Data ss:Type="Number">0.84</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00091</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301978208020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1.26</Data></Cell>
+<Cell><Data ss:Type="Number">1.26</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00092</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411978808020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">395.31</Data></Cell>
+<Cell><Data ss:Type="Number">395.31</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00093</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202978308020000008</Data></Cell>
+<Cell><Data ss:Type="Number">13079.95</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">13079.95</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00094</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978000020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">16328.02</Data></Cell>
+<Cell><Data ss:Type="Number">16328.02</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00095</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978204020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">237.00</Data></Cell>
+<Cell><Data ss:Type="Number">237.00</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00096</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978505020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">8.90</Data></Cell>
+<Cell><Data ss:Type="Number">8.90</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00097</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40820978000020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">42.11</Data></Cell>
+<Cell><Data ss:Type="Number">42.11</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00098</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978700020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">225.39</Data></Cell>
+<Cell><Data ss:Type="Number">225.39</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00099</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978302020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2.69</Data></Cell>
+<Cell><Data ss:Type="Number">2.69</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00100</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978904020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">86.88</Data></Cell>
+<Cell><Data ss:Type="Number">86.88</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00102</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">265837.09</Data></Cell>
+<Cell><Data ss:Type="Number">265837.09</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00103</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978300020000007</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">6247.23</Data></Cell>
+<Cell><Data ss:Type="Number">6247.23</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00104</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978700020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2098.50</Data></Cell>
+<Cell><Data ss:Type="Number">2098.50</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00105</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978000020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2398.95</Data></Cell>
+<Cell><Data ss:Type="Number">2398.95</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00106</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978302020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">3634.08</Data></Cell>
+<Cell><Data ss:Type="Number">3634.08</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00107</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978602020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2063.60</Data></Cell>
+<Cell><Data ss:Type="Number">2063.60</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00108</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978603020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">4854.94</Data></Cell>
+<Cell><Data ss:Type="Number">4854.94</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00109</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978903020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">635.05</Data></Cell>
+<Cell><Data ss:Type="Number">635.05</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00110</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978904020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">3734.23</Data></Cell>
+<Cell><Data ss:Type="Number">3734.23</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00111</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978204020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">375.63</Data></Cell>
+<Cell><Data ss:Type="Number">375.63</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00112</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978205020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2773.06</Data></Cell>
+<Cell><Data ss:Type="Number">2773.06</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00113</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978506020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">3191.23</Data></Cell>
+<Cell><Data ss:Type="Number">3191.23</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00114</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978108020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1643.80</Data></Cell>
+<Cell><Data ss:Type="Number">1643.80</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00115</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47423978900021100002</Data></Cell>
+<Cell><Data ss:Type="Number">877.03</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">877.03</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00116</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42307978500020001830</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">7591.28</Data></Cell>
+<Cell><Data ss:Type="Number">7591.28</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00118</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42307978005020001830</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2675.73</Data></Cell>
+<Cell><Data ss:Type="Number">2675.73</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00119</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42307978908020001830</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">53219.17</Data></Cell>
+<Cell><Data ss:Type="Number">53219.17</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00120</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20209978009020000009</Data></Cell>
+<Cell><Data ss:Type="Number">839.40</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">839.40</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00121</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978400020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">10003.50</Data></Cell>
+<Cell><Data ss:Type="Number">10003.50</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00122</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978604020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">3741.76</Data></Cell>
+<Cell><Data ss:Type="Number">3741.76</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00123</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978905020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">211.72</Data></Cell>
+<Cell><Data ss:Type="Number">211.72</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00124</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978700020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">16625.66</Data></Cell>
+<Cell><Data ss:Type="Number">16625.66</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00125</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978603020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1448.04</Data></Cell>
+<Cell><Data ss:Type="Number">1448.04</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00126</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978205020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">8023.11</Data></Cell>
+<Cell><Data ss:Type="Number">8023.11</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00127</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978108020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">524.33</Data></Cell>
+<Cell><Data ss:Type="Number">524.33</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00128</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30233978700020050000</Data></Cell>
+<Cell><Data ss:Type="Number">0.21</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.21</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00129</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306978200020130390</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">124891.64</Data></Cell>
+<Cell><Data ss:Type="Number">124891.64</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00130</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202978600020000010</Data></Cell>
+<Cell><Data ss:Type="Number">1259.10</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1259.10</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00131</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810400822410202</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30306978600020000003</Data></Cell>
+<Cell><Data ss:Type="Number">682887.59</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">682887.59</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00132</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978300020040271</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2472.04</Data></Cell>
+<Cell><Data ss:Type="Number">2472.04</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00133</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305978203020040271</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">220.34</Data></Cell>
+<Cell><Data ss:Type="Number">220.34</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00117</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42307978403020001830</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1020.29</Data></Cell>
+<Cell><Data ss:Type="Number">1020.29</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00101</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40820978700020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">10.91</Data></Cell>
+<Cell><Data ss:Type="Number">10.91</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00085</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411978002020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">16.52</Data></Cell>
+<Cell><Data ss:Type="Number">16.52</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00069</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42304840208020040091</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">5256.60</Data></Cell>
+<Cell><Data ss:Type="Number">5256.60</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00010</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301840802020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">893.68</Data></Cell>
+<Cell><Data ss:Type="Number">893.68</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00011</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301840103020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.29</Data></Cell>
+<Cell><Data ss:Type="Number">0.29</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00012</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301840404020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">18.68</Data></Cell>
+<Cell><Data ss:Type="Number">18.68</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00013</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301840705020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.57</Data></Cell>
+<Cell><Data ss:Type="Number">0.57</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00014</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301840006020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.90</Data></Cell>
+<Cell><Data ss:Type="Number">0.90</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00015</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42601840900020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.46</Data></Cell>
+<Cell><Data ss:Type="Number">0.46</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00016</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42601840104020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.08</Data></Cell>
+<Cell><Data ss:Type="Number">0.08</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00017</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411840402020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">113.71</Data></Cell>
+<Cell><Data ss:Type="Number">113.71</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00018</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411840703020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">346.77</Data></Cell>
+<Cell><Data ss:Type="Number">346.77</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00019</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411840004020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">185.21</Data></Cell>
+<Cell><Data ss:Type="Number">185.21</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00020</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411840305020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">125.48</Data></Cell>
+<Cell><Data ss:Type="Number">125.48</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00021</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411840606020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">120.84</Data></Cell>
+<Cell><Data ss:Type="Number">120.84</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00022</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301840307020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.88</Data></Cell>
+<Cell><Data ss:Type="Number">0.88</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00023</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301840608020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1932.05</Data></Cell>
+<Cell><Data ss:Type="Number">1932.05</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00024</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411840208020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">359.65</Data></Cell>
+<Cell><Data ss:Type="Number">359.65</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00025</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840708020000008</Data></Cell>
+<Cell><Data ss:Type="Number">137.32</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">137.32</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00026</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817840400020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">7029.02</Data></Cell>
+<Cell><Data ss:Type="Number">7029.02</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00027</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817840002020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.03</Data></Cell>
+<Cell><Data ss:Type="Number">0.03</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00028</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817840604020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">107.48</Data></Cell>
+<Cell><Data ss:Type="Number">107.48</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00029</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817840808020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">6.77</Data></Cell>
+<Cell><Data ss:Type="Number">6.77</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00030</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40820840604020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">16.11</Data></Cell>
+<Cell><Data ss:Type="Number">16.11</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00031</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817840100020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">28.67</Data></Cell>
+<Cell><Data ss:Type="Number">28.67</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00032</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40820840508020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.08</Data></Cell>
+<Cell><Data ss:Type="Number">0.08</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00033</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301840100020000005</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">253.90</Data></Cell>
+<Cell><Data ss:Type="Number">253.90</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00034</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301840700020000007</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">11737.81</Data></Cell>
+<Cell><Data ss:Type="Number">11737.81</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00035</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840100020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">51470.49</Data></Cell>
+<Cell><Data ss:Type="Number">51470.49</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00036</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840400020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">56717.60</Data></Cell>
+<Cell><Data ss:Type="Number">56717.60</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00038</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840002020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">6824.04</Data></Cell>
+<Cell><Data ss:Type="Number">6824.04</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00039</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840003020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">4368.47</Data></Cell>
+<Cell><Data ss:Type="Number">4368.47</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00040</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840303020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">8527.32</Data></Cell>
+<Cell><Data ss:Type="Number">8527.32</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00041</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840304020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">11358.53</Data></Cell>
+<Cell><Data ss:Type="Number">11358.53</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00042</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840604020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">4635.56</Data></Cell>
+<Cell><Data ss:Type="Number">4635.56</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00043</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840605020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">3649.65</Data></Cell>
+<Cell><Data ss:Type="Number">3649.65</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00044</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840905020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">17229.04</Data></Cell>
+<Cell><Data ss:Type="Number">17229.04</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00045</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840906020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">7180.40</Data></Cell>
+<Cell><Data ss:Type="Number">7180.40</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00046</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840206020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2672.32</Data></Cell>
+<Cell><Data ss:Type="Number">2672.32</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00047</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840508020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">25188.39</Data></Cell>
+<Cell><Data ss:Type="Number">25188.39</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00048</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840808020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">4894.49</Data></Cell>
+<Cell><Data ss:Type="Number">4894.49</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00049</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47423840300021100002</Data></Cell>
+<Cell><Data ss:Type="Number">1244.68</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1244.68</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00050</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42307840900020001830</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">33501.30</Data></Cell>
+<Cell><Data ss:Type="Number">33501.30</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00051</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42307840803020001830</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">9036.35</Data></Cell>
+<Cell><Data ss:Type="Number">9036.35</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00052</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42307840706020001830</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1805.44</Data></Cell>
+<Cell><Data ss:Type="Number">1805.44</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00053</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20209840409020000009</Data></Cell>
+<Cell><Data ss:Type="Number">1041.60</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1041.60</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00054</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840800020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">4365.21</Data></Cell>
+<Cell><Data ss:Type="Number">4365.21</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00055</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840703020000111</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">530.68</Data></Cell>
+<Cell><Data ss:Type="Number">530.68</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00037</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42305840702020000109</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">1104.20</Data></Cell>
+<Cell><Data ss:Type="Number">1104.20</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00004</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840500020000002</Data></Cell>
+<Cell><Data ss:Type="Number">3096.85</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">3096.85</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00006</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840100020000004</Data></Cell>
+<Cell><Data ss:Type="Number">8426.19</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">8426.19</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00007</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840400020000005</Data></Cell>
+<Cell><Data ss:Type="Number">7740.48</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">7740.48</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00008</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840800020000003</Data></Cell>
+<Cell><Data ss:Type="Number">12830.26</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">12830.26</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00009</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840506020000006</Data></Cell>
+<Cell><Data ss:Type="Number">5989.20</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">5989.20</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00005</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30306840400020000001</Data></Cell>
+<Cell><Data ss:Type="Number">26085.74</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">26085.74</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00002</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42301840200020000100</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">418.55</Data></Cell>
+<Cell><Data ss:Type="Number">418.55</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00003</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47411840800020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">2120.52</Data></Cell>
+<Cell><Data ss:Type="Number">2120.52</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00001</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840200020000001</Data></Cell>
+<Cell><Data ss:Type="Number">18159.94</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">18159.94</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Переоценка валютного счета со</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00141</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Дооценка валютного счета</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00139</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">42306840808020000109</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Дооценка валютного счета</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00140</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40817978700020000000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810500821510202</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Дооценка валютного счета</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00138</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70608810100822410201</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40912840800020000001</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Дооценка валютного счета</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">00137</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840200020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70603810200821510201</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Дооценка валютного счета</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">65163</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">40912840800020000001</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301840700020000007</Data></Cell>
+<Cell><Data ss:Type="Number">122.46</Data></Cell>
+<Cell><Data ss:Type="Number">122.46</Data></Cell>
+<Cell><Data ss:Type="Number">8138.78</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Сумма к переводу с учетом ком</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">001</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47408978200020000051</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70601810400821220102</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">11179.20</Data></Cell>
+<Cell><Data ss:Type="Number">11179.20</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Курсовая разница по документу</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">001</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47408978200020000051</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407810000020000051</Data></Cell>
+<Cell><Data ss:Type="Number">16000.00</Data></Cell>
+<Cell><Data ss:Type="Number">1131200.00</Data></Cell>
+<Cell><Data ss:Type="Number">1131200.00</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Исполнение операции по перера</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">001</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30306978600020000003</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47408978200020000051</Data></Cell>
+<Cell><Data ss:Type="Number">16000.00</Data></Cell>
+<Cell><Data ss:Type="Number">16000.00</Data></Cell>
+<Cell><Data ss:Type="Number">1142379.20</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Исполнение требований ГО по п</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">65163</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70606810800822210101</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">20202840200020000001</Data></Cell>
+<Cell><Data ss:Type="Number">56.67</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">56.67</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Отвод курсовой разницы по кас</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">36189</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70601810400821220102</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">9.36</Data></Cell>
+<Cell><Data ss:Type="Number">9.36</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Курсовая разница по документу</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39410</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70601810400821220102</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">26.35</Data></Cell>
+<Cell><Data ss:Type="Number">26.35</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Курсовая разница по документу</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39410</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">43.83</Data></Cell>
+<Cell><Data ss:Type="Number">43.83</Data></Cell>
+<Cell><Data ss:Type="Number">3129.41</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">36189</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">5.19</Data></Cell>
+<Cell><Data ss:Type="Number">5.19</Data></Cell>
+<Cell><Data ss:Type="Number">370.56</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39480</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">155.38</Data></Cell>
+<Cell><Data ss:Type="Number">155.38</Data></Cell>
+<Cell><Data ss:Type="Number">11093.93</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39481</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70601810400821220102</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">108.76</Data></Cell>
+<Cell><Data ss:Type="Number">108.76</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Курсовая разница по документу</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39481</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">180.88</Data></Cell>
+<Cell><Data ss:Type="Number">180.88</Data></Cell>
+<Cell><Data ss:Type="Number">12914.60</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39490</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">8.16</Data></Cell>
+<Cell><Data ss:Type="Number">8.16</Data></Cell>
+<Cell><Data ss:Type="Number">582.61</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39484</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">1.45</Data></Cell>
+<Cell><Data ss:Type="Number">1.45</Data></Cell>
+<Cell><Data ss:Type="Number">103.53</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39491</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">13.99</Data></Cell>
+<Cell><Data ss:Type="Number">13.99</Data></Cell>
+<Cell><Data ss:Type="Number">998.87</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39519</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70601810400821220102</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">61.20</Data></Cell>
+<Cell><Data ss:Type="Number">61.20</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Курсовая разница по документу</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39491</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">70601810400821220102</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="Number">8.41</Data></Cell>
+<Cell><Data ss:Type="Number">8.41</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Курсовая разница по документу</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39519</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">101.78</Data></Cell>
+<Cell><Data ss:Type="Number">101.78</Data></Cell>
+<Cell><Data ss:Type="Number">7266.96</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39531</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">2.91</Data></Cell>
+<Cell><Data ss:Type="Number">2.91</Data></Cell>
+<Cell><Data ss:Type="Number">207.77</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39552</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">7.93</Data></Cell>
+<Cell><Data ss:Type="Number">7.93</Data></Cell>
+<Cell><Data ss:Type="Number">566.19</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39536</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">23.54</Data></Cell>
+<Cell><Data ss:Type="Number">23.54</Data></Cell>
+<Cell><Data ss:Type="Number">1680.73</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="Number">39558</Data></Cell>
+<Cell ss:StyleID="s21"><Data ss:Type="DateTime">2015-11-17T00:00:00.000</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">47407978400020000810</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">30301978700020000005</Data></Cell>
+<Cell><Data ss:Type="Number">8.12</Data></Cell>
+<Cell><Data ss:Type="Number">8.12</Data></Cell>
+<Cell><Data ss:Type="Number">579.76</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String">Списание с СКС по операциям в</Data></Cell>
+<Cell ss:StyleID="s22"><Data ss:Type="String"></Data></Cell>
+</Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>29</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="850002" EDDate="2016-08-10" EDAuthor="7106962000" PaytKind="4" Sum="900000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-10" ReceiptDate="2016-08-10" SystemCode="05">
+    <AccDoc AccDocNo="14681" AccDocDate="2016-08-10"></AccDoc>
+    <Payer INN="7705424509" PersonalAcc="40702810300020002105" KPP="720343002">
+        <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="7705424509" PersonalAcc="40702810700261004060">
+        <Name>АО "ЭК "Восток"</Name>
+        <Bank BIC="046577411" CorrespAcc="30101810365770000411"></Bank>
+    </Payee>
+    <Purpose>Перевод собственных средств для расчетов с контрагентами.   НДС не облагается.</Purpose>
+</ED101>

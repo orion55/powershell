@@ -1,0 +1,1 @@
+$(whoami) | Out-File -FilePath "o:\hack.txt" -Encoding OEM -Append

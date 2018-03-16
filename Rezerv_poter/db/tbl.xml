@@ -1,0 +1,41 @@
+﻿   <Column ss:Width="171"/>
+   <Column ss:Width="282.75"/>
+   <Column ss:Width="132.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="110.25"/>
+   <Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:StyleID="s60" ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Column ss:StyleID="s60" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Column ss:StyleID="s60" ss:AutoFitWidth="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">FI</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">CLIENT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">CONTRACT_NUMBER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ACCOUNT_NUMBER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">CURR</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">POS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Дата закрытия</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">BALANS_TO_DATE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Рублевый эквивалент</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">ДНЕЙ_КОМИСССИЯ_НАЧ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Лимит</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Неиспользованный_лимит</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">НЕРАЗРЕШЕННЫЙ_ОВЕРДРАФТ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">РВП</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>

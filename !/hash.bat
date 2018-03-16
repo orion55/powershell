@@ -1,0 +1,1 @@
+c:\!\hashfile.exe -F list.txt list.out

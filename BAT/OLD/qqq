@@ -1,0 +1,7 @@
+set MyDate=%Date%
+set DD=%MyDate:~0,2%
+set MM=%MyDate:~3,2%
+set YYYY=%MyDate:~-4%
+set YY=%MyDate:~-2%
+set CurDate=%DD%.%MM%.%YYYY%
+set WherePath=\\AD\Registr\Reg

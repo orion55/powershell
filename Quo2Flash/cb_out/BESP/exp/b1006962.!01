@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="850001" EDDate="2016-08-10" EDAuthor="7106962000" PaytKind="4" Sum="40000000" TransKind="01" Priority="5" ChargeOffDate="2016-08-10" ReceiptDate="2016-08-10" SystemCode="05">
+    <AccDoc AccDocNo="1726" AccDocDate="2016-08-10"></AccDoc>
+    <Payer INN="8901015127" PersonalAcc="40702810000020001477" KPP="890101001">
+        <Name>ООО  "Салехардский комбинат"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="7805661768" PersonalAcc="40702810690160001113" KPP="780501001">
+        <Name>ООО "ЕВРОПАК"</Name>
+        <Bank BIC="044030790" CorrespAcc="30101810900000000790"></Bank>
+    </Payee>
+    <Purpose>Частичная оплата по счету № 064 от 11.07.2016 г, за банку № 3, крышку ф99 мм ЛВК.Сумма 400000-00   В т.ч. НДС (18%) 61016-95</Purpose>
+</ED101>

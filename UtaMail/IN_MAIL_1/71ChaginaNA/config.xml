@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<clsSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FolderInFile>c:\uarm3\stg\acp</FolderInFile>
+  <FileESIDFile>esid.txt</FileESIDFile>
+  <FileEPDFile>epd.txt</FileEPDFile>
+  <FolderOutFile>CB_IN</FolderOutFile>
+</clsSettings>

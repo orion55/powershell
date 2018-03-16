@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<PacketEPD xmlns="urn:cbr-ru:ed:v2.0" EDNo="13" EDDate="2016-03-29" EDAuthor="7106962000" EDQuantity="124" Sum="2296910932" SystemCode="01">
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130005" EDDate="2016-03-29" EDAuthor="7106962000" Sum="782112324" TransKind="01" Priority="3" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1650" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202021856" KPP="890302001">
+            <Name>Дополнительный офис № 29 Надымский Запсибкомбанк ПАО</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>КЗП (140100248) Пер-ие з/п за первую половину марта 2016г. сотрудникам СКС-VISA по договору № 55/2011 от 12.09.2011г. согласно реестра 97 от 29.03.2016г.Сумма 7821123-24Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130010" EDDate="2016-03-29" EDAuthor="7106962000" Sum="7492900" TransKind="01" Priority="3" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1639" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7744001497" PersonalAcc="40817810902000000001" KPP="774401001">
+            <Name>Филиал ГПБ (ОАО) в г.Новый Уренгой Тюменская обл.</Name>
+            <Bank BIC="047195753" CorrespAcc="30101810700000000753"></Bank>
+        </Payee>
+        <Purpose>Перечисление материальной помощи в связи со смертью сотрудника согласно приказа на имя Белинский Никита Юрьевич на карту №5489993122091296Сумма 74929-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130015" EDDate="2016-03-29" EDAuthor="7106962000" Sum="147970000" TransKind="01" Priority="3" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1648" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="30301810567000606709" KPP="890302001">
+            <Name>Надымское ОСБ 8028</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Перечисление з/п за первую половину марта 2016г. сотрудникам согласно реестра №6 от 29.03.2016 года по договору №67095166 от 14.09.2011года.Сумма 1479700-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130020" EDDate="2016-03-29" EDAuthor="7106962000" Sum="28380000" TransKind="01" Priority="3" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1646" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7744001497" PersonalAcc="40817810902000000001" KPP="774401001">
+            <Name>Филиал ГПБ (АО) в г.Новый Уренгой Тюменская обл.</Name>
+            <Bank BIC="047195753" CorrespAcc="30101810700000000753"></Bank>
+        </Payee>
+        <Purpose>Перечисление з/п за первую половину марта 2016г. сотрудникам по договору 793 от 15.09.2011г. согласно реестра № 6 от 29.03.2016года.Сумма 283800-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED104 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130025" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="32272029150017377003" Sum="30" TransKind="06" Priority="4" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="594508" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="720303123589" PersonalAcc="42301810900020000100" KPP="0">
+            <Name>ПОЛЯНСКИЙ ПЕТР ВАСИЛЬЕВИЧ//РОССИЙСКАЯ ФЕДЕРАЦИЯ, ТЮМЕНСКАЯ ОБЛ, ТЮМЕНЬ Г, МЕЛЬНИКАЙТЕ УЛ, 129, 350// Л/С 42301810600020676753</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203155161" PersonalAcc="40302810400001000001" KPP="720345001">
+            <Name>УФК ПО ТЮМЕНСКОЙ ОБЛАСТИ (РОСП ВОСТОЧНОГО АО Г. ТЮМЕНИ УФССП РОССИИ ПО ТЮМЕНСКОЙ ОБЛАСТИ Л/С 05671А94500)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>ВЗЫСКАН ДЕНЕЖН СР-В СОГЛАСНО ПОСТ-Я ОБ ОБРАЩЕНИИ ВЗЫСКАНИЯ  ОТ 02.03.16 И/П 17377/15/72029 ОТ 06.06.15  СП АБУШЕВА Э.М ПЕРЕВОД НЕ СВЯЗАН С ПРЕДПРИНИМАТЕЛЬСКОЙ ДЕЯТЕЛЬНОСТЬЮ НДС НЕТ</Purpose>
+        <DepartmentalInfo DrawerStatus="20" CBC="0" OKATO="0" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED104>
+    <ED104 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130030" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="4" TransKind="06" Priority="4" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="594533" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="720307332752" PersonalAcc="42301810900020000100" KPP="0">
+            <Name>ПОГОРЕЛОВА ЕЛЕНА ГЕОРГИЕВНА//РОССИЙСКАЯ ФЕДЕРАЦИЯ, ТЮМЕНСКАЯ ОБЛ, ТЮМЕНЬ Г, МЕЛЬНИКАЙТЕ УЛ, 127/А, 400// Л/С 42301810300020459694</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203155161" PersonalAcc="40302810400001000001" KPP="720345001">
+            <Name>УФК ПО ТЮМЕНСКОЙ ОБЛАСТИ(РОСП ВОСТОЧНОГО АО Г.ТЮМЕНИ УФС-СП РОССИИ ПО ТЮМЕНСКОЙ ОБЛАСТИ Л/С 05671А94500)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>ВЗЫСКАНИЕ  ДЕНЕЖНЫХ СРЕДСТВ НА ОСНОВАНИИ ПОСТАНОВЛЕНИЯ ОБ ОБРАЩЕНИИ ВЗЫСКАНИЯ НА ДЕНЕЖНЫЕ СРЕДСТВА ОТ 21.03.2016 И/П 11828/16/72029 СП Абушева Э.М.. ПЕР-Д НЕ СВ-Н С ПРЕД-Й ДЕЯТ-Ю, НДС НЕТ</Purpose>
+        <DepartmentalInfo DrawerStatus="20" CBC="0" OKATO="0" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED104>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130035" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4360" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130040" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4389" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130045" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4407" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130050" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4385" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130055" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4403" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130060" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4381" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130065" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4411" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130070" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="40000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4348" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130075" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4424" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130080" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4356" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130085" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="1844900" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4482" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Налог на имущество за 2015 год.</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210602010021000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="ГД.00.2015" DocNo="0" DocDate="29.03.2016" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130090" EDDate="2016-03-29" EDAuthor="7106962000" Sum="5779000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4432" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204176742" PersonalAcc="40702810900030008025" KPP="720301001">
+            <Name>ООО "РегионКомплект"</Name>
+            <Bank BIC="047162782" CorrespAcc="30101810771620000782"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч. 16 от 28.03.2016г. за жалюзи Сумма 57790-00   В т.ч. НДС (18%) 8815-42</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130095" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4352" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130100" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4377" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130105" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4373" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130110" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4398" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130115" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4416" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130120" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4336" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130125" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4394" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130130" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4412" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130135" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4344" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130140" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4390" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130145" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4420" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130150" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4340" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130155" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4357" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130160" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4369" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130165" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4365" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130170" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4361" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130175" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4408" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130180" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4386" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130185" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4404" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130190" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4382" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130195" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4400" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130200" EDDate="2016-03-29" EDAuthor="7106962000" Sum="2735400" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4429" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203284777" PersonalAcc="40702810744990006337" KPP="720301001">
+            <Name>Евростиль-Т ООО</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по дог. Д-ТЭ-2015-772 от 16.12.2015г. окончательный расчет за шторы Сумма 27354-00   В т.ч. НДС (18%) 4172-64</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130205" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="28782" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4349" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130210" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4425" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130215" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4345" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130220" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4353" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130225" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4378" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130230" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4374" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130235" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4370" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130240" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4399" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130245" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4417" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130250" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4337" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130255" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4395" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130260" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4413" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130265" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4391" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130270" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4421" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130275" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4341" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130280" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4358" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130285" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4366" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130290" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4362" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130295" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4409" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130300" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4387" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130305" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4405" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130310" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4383" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130315" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4401" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130320" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4426" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130325" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="300000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4346" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="5504097777" PersonalAcc="40101810100000010000" KPP="550401001">
+            <Name>УФК по Омской области (ИФНС России №2 по Центральному АО г.Омска)</Name>
+            <Bank BIC="045209001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с апелляционной жалобой в Восьмой арбитражный суд по делу № Ф70-711/2016</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210801000011000110" OKATO="52701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130330" EDDate="2016-03-29" EDAuthor="7106962000" Sum="2100000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4434" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202173344" PersonalAcc="40703810946990000266" KPP="720301001">
+            <Name>АНО ДПО "Сибирский учебный центр СПАС"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч. 173 от 17.03.2016г. за обучение персонала Сумма 21000-00 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130335" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4354" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130340" EDDate="2016-03-29" EDAuthor="7106962000" Sum="127500" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4430" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203284777" PersonalAcc="40702810744990006337" KPP="720301001">
+            <Name>Евростиль-Т ООО</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по дог. Д-ТЭ-2016-508 от 23.03.2016г. подрезка штор Сумма 1275-00   В т.ч. НДС (18%) 194-49</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130345" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="26179" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4350" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130350" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4379" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130355" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4375" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130360" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4371" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130365" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4418" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130370" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4338" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130375" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4396" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130380" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4414" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130385" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4392" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130390" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4422" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130395" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4342" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130400" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4359" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130405" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4367" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130410" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4363" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130415" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4388" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130420" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4406" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130425" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4384" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130430" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4402" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130435" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4380" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130440" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4410" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130445" EDDate="2016-03-29" EDAuthor="7106962000" Sum="133860" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4427" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="5504208649" PersonalAcc="40702810274000326801" KPP="550401001">
+            <Name>ООО "СДЭК-Сибирь"</Name>
+            <Bank BIC="045004816" CorrespAcc="30101810500000000816"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч. 353 от 27.03.2016г. за курьерские услуги Сумма 1338-60   В т.ч. НДС (18%) 204-19</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130450" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4347" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина за выдачу выписки из ЕГРЮЛ</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18211301020016000130" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130455" EDDate="2016-03-29" EDAuthor="7106962000" Sum="3594516" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4435" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203229198" PersonalAcc="40702810826020002505" KPP="720301001">
+            <Name>КАН-ТЭРРИЯ ООО ТК</Name>
+            <Bank BIC="046577413" CorrespAcc="30101810965770000413"></Bank>
+        </Payee>
+        <Purpose>Оплата по сч. 9931 от 25.03.2016г. за хозяйственные товары Сумма 35945-16   В т.ч. НДС (18%) 5483-16</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130460" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4355" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130465" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="47331" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4351" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130470" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4376" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130475" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4372" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130480" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4419" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130485" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4339" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130490" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4397" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130495" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4415" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130500" EDDate="2016-03-29" EDAuthor="7106962000" Sum="86476" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4335" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7744001497" PersonalAcc="47423810812001363625" KPP="720343001">
+            <Name>"Газпромбанк" (Акционерное общество)</Name>
+            <Bank BIC="047106866" CorrespAcc="30101810800000000866"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору 1/42-09 от 01.08.2009 по акту б/н от 29.02.2016г за вознаграждение по приему платежей за февраль 2016г. Сумма 864-76 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130505" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4393" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130510" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4423" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130515" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4343" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130520" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4368" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130525" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="20000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="4364" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7705424509" PersonalAcc="40702810900020001441" KPP="720343002">
+            <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области (ИФНС России по г.Тюмени №3 )</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Государственная пошлина, уплачиваемая в связи с обращением с исковыми заявлениями мировым судьям и в районные суды г. Тюмени</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210803010011000110" OKATO="71701000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130530" EDDate="2016-03-29" EDAuthor="7106962000" Sum="50000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1628" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8602067215" PersonalAcc="40702810567170003258" KPP="862450001">
+            <Name>ОАО Тюменская энергосбытовая компания</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору энергоснабжение 16-870/2013 от 01.02.2013г. за электроэнергию согласно счета №0184/16/0316 от 01.03.2016г.Сумма 500000-00   В т.ч. НДС (18%) 76271-19</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130535" EDDate="2016-03-29" EDAuthor="7106962000" Sum="1416000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1637" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7814220255" PersonalAcc="40702810190430000276" KPP="781401001">
+            <Name>Новые технологии ООО</Name>
+            <Bank BIC="044030790" CorrespAcc="30101810900000000790"></Bank>
+        </Payee>
+        <Purpose>Оплата за резку металла для камер промывочного поршня по договору №02/03-2016 от 02.03.2016г. согласно счета №43 от 24.03.2016г.Сумма 14160-00   В т.ч. НДС (18%) 2160-00</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130540" EDDate="2016-03-29" EDAuthor="7106962000" Sum="580339" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1633" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="0276029920" PersonalAcc="40702810706000103194" KPP="027801001">
+            <Name>ЗАО "Химреактивснаб"</Name>
+            <Bank BIC="048073601" CorrespAcc="30101810300000000601"></Bank>
+        </Payee>
+        <Purpose>Оплата лабораторную посуду по договору ХРС-693/15 от 17.04.2015г.согласно счета №Гл-29064 от 03.11.2015г.Сумма 5803-39   В т.ч. НДС (18%) 885-26</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130545" EDDate="2016-03-29" EDAuthor="7106962000" Sum="40000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1630" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8903032784" PersonalAcc="40702810567400001014" KPP="890301001">
+            <Name>ООО "Ямалнефть"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата за дизельное топливо Арктика по договору №67-09НД от 10.09.2015г. согласно сч. ф. №357 от 28.12.2015г.Сумма 400000-00   В т.ч. НДС (18%) 61016-95</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130550" EDDate="2016-03-29" EDAuthor="7106962000" Sum="3060000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1620" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890302073607" PersonalAcc="40802810567090100416">
+            <Name>ИП Новиков Сергей Владимирович</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору тех.обслуживание оргтехники № 05/12 от 01.01.2012г. согласно акта №0019 от 26.02.2016г.Сумма 30600-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130555" EDDate="2016-03-29" EDAuthor="7106962000" Sum="57230" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1629" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7744001497" PersonalAcc="40702810000489001925" KPP="860243001">
+            <Name>Управление связи  ООО Газпром трансгаз Югорск</Name>
+            <Bank BIC="047144721" CorrespAcc="30101810400000000721"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору Связь (абонентская линия, соединение) №16/15- ю от 01.09.2012г.согласно сч. ф. 2427/003147 от 29.02.2016г.Сумма 572-30   В т.ч. НДС (18%) 87-30</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130560" EDDate="2016-03-29" EDAuthor="7106962000" Sum="20000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1623" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8903022680" PersonalAcc="40702810700020003317" KPP="890301001">
+            <Name>ООО Районные газовые сети</Name>
+            <Bank BIC="044525201" CorrespAcc="30101810000000000201"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору транспортировка газа № 14-13/ТР от 22.05.13г. согласно сч. ф. № 532 от 30.11.2015г. Сумма 200000-00   В т.ч. НДС (18%) 30508-47</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130565" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="100000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1634" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8903009190" PersonalAcc="40101810500000010001" KPP="890301001">
+            <Name>УФК по ЯНАО (Межрайонная инспекция ФНС России №4 по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Перечисление налога на доходы физических лиц г Надым за февраль 2016г.</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71916151" PaytReason="ТП" TaxPeriod="МС.02.2016" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130570" EDDate="2016-03-29" EDAuthor="7106962000" Sum="31600000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1627" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="3702530396" PersonalAcc="40702810842000805301" KPP="890301001">
+            <Name>ООО "СПБ Комплект"</Name>
+            <Bank BIC="047888760" CorrespAcc="30101810300000000760"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору 16/СПБ-056ТОс от 30.12.2015г. за тех. обслуж. автом.пожарн. сигнализации и системы оповещения согласно сч. ф. 16/СПБ-056ТОс/02 от 29.02.2016г.Сумма 316000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130575" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="150000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1636" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901015575" PersonalAcc="40101810500000010001" KPP="890101001">
+            <Name>УФК по ЯНАО (Управление Росприроднадзора по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Плата за сбросы загрязняющих веществ в водные объекты за 4 квартал 2014 года. согласно постановления от 25.02.2016г.</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="04811201030016000120" OKATO="71916151" PaytReason="ЗД" TaxPeriod="КВ.04.2014" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130580" EDDate="2016-03-29" EDAuthor="7106962000" Sum="644800" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1632" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="0276029920" PersonalAcc="40702810706000103194" KPP="027801001">
+            <Name>ЗАО "Химреактивснаб"</Name>
+            <Bank BIC="048073601" CorrespAcc="30101810300000000601"></Bank>
+        </Payee>
+        <Purpose>Оплата за расходные материалы для лаборатории по договору ХРС-693/15 от 17.04.2015г.согласно счета №Гл-29063 от 03.11.2015г.Сумма 6448-00   В т.ч. НДС (18%) 983-59</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130585" EDDate="2016-03-29" EDAuthor="7106962000" Sum="350000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1626" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="3702530396" PersonalAcc="40702810842000805301" KPP="890301001">
+            <Name>ООО "СПБ Комплект"</Name>
+            <Bank BIC="047888760" CorrespAcc="30101810300000000760"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору 15/СПБ-050ТОс за тех.обслуживание тревожной кнопки согласно сч. ф. 16/СПБ-001ТОс/02 от 29.02.2016г.Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130590" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="5312400" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1635" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8903009190" PersonalAcc="40101810500000010001" KPP="890301001">
+            <Name>УФК по ЯНАО (Межрайонная инспекция ФНС России №4 по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Перечисление налога на имущество организации за 4 квартал 2015г.   Без НДС</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210602010021000110" OKATO="71916151" PaytReason="ТП" TaxPeriod="КВ.04.2015" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130595" EDDate="2016-03-29" EDAuthor="7106962000" Sum="18774861" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1631" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="0276029920" PersonalAcc="40702810706000103194" KPP="027801001">
+            <Name>ЗАО "Химреактивснаб"</Name>
+            <Bank BIC="048073601" CorrespAcc="30101810300000000601"></Bank>
+        </Payee>
+        <Purpose>Оплата за соль поваренную пищевую по договору 63-08НД от 21.08.15г согласно счета №Гл-30536 от 15.10.2015г.Сумма 187748-61   В т.ч. НДС (18%) 28639-62</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130600" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="100000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1622" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901002223" PersonalAcc="40101810500000010001" KPP="890101001">
+            <Name>УФК по ЯНАО (Отделение Пенсионного Фонда РФ Государственное учреждение по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Перечисление страховых взносов на обязательное пенсионное страхование в ПФ РФ за февраль 2016г.</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="39210202010061000160" OKATO="71916151" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130605" EDDate="2016-03-29" EDAuthor="7106962000" Sum="20000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1651" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8903023028" PersonalAcc="40702810024230000074" KPP="890301001">
+            <Name>ООО Надымгоргаз</Name>
+            <Bank BIC="046577446" CorrespAcc="30101810165770000446"></Bank>
+        </Payee>
+        <Purpose>Оплата за транспортировку газа по д. 9-ТГ/2015 от 21.11.2014г. согласно сч. ф. №586 от 31.12.2015г.   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130610" EDDate="2016-03-29" EDAuthor="7106962000" Sum="15140" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1638" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7744001497" PersonalAcc="47422810002001002150" KPP="774401001">
+            <Name>Филиал ГПБ (АО) в г.Новый Уренгой Тюменская обл.</Name>
+            <Bank BIC="047195753" CorrespAcc="30101810700000000753"></Bank>
+        </Payee>
+        <Purpose>Услуги банка по зачислению согласно договора 793 от 15.09.2011г. по п/п 1464 от от 28.03.2016г.Сумма 151-40Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130615" EDDate="2016-03-29" EDAuthor="7106962000" Sum="56760" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="1647" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810804020001369" KPP="890343001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в г.Надыме</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7744001497" PersonalAcc="47422810002001002150" KPP="774401001">
+            <Name>Филиал ГПБ (АО) в г.Новый Уренгой Тюменская обл.</Name>
+            <Bank BIC="047195753" CorrespAcc="30101810700000000753"></Bank>
+        </Payee>
+        <Purpose>Услуги банка по зачислению согласно договора 793 от 15.09.2011г. по п/п 1646 от от 29.03.2016г.Сумма 567-60Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="130620" EDDate="2016-03-29" EDAuthor="7106962000" Sum="770524200" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="22" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810304020001461" KPP="890743001">
+            <Name>Филиал АО "Ямалкоммунэнерго" в Шурышкарском районе</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901014412" PersonalAcc="40602810700020009347" KPP="891450001">
+            <Name>ГУП ЯНАО"Ямалгосснаб"</Name>
+            <Bank BIC="047195753" CorrespAcc="30101810700000000753"></Bank>
+        </Payee>
+        <Purpose>Оплата за нефтепродукты по договору №25-ТЭР/14 от 23.05.2014г.   в т.ч. НДС 18% - 1175375.90</Purpose>
+    </ED101>
+</PacketEPD>

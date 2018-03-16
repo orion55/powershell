@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+		xmlns:o="urn:schemas-microsoft-com:office:office"
+		xmlns:x="urn:schemas-microsoft-com:office:excel"
+		xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+		xmlns:html="http://www.w3.org/TR/REC-html40">
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+		<Author>tdn</Author>
+		<LastAuthor>Admsrv</LastAuthor>
+		<Created>2007-04-19T05:54:04Z</Created>
+		<LastSaved>2016-12-30T11:25:56Z</LastSaved>
+		<Company>apk</Company>
+		<Version>11.9999</Version>
+	</DocumentProperties>
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+		<WindowHeight>8070</WindowHeight>
+		<WindowWidth>11340</WindowWidth>
+		<WindowTopX>480</WindowTopX>
+		<WindowTopY>90</WindowTopY>
+		<ProtectStructure>False</ProtectStructure>
+		<ProtectWindows>False</ProtectWindows>
+	</ExcelWorkbook>
+	<Styles>
+		<Style ss:ID="Default" ss:Name="Normal">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders/>
+			<Font ss:FontName="Arial Cyr" x:CharSet="204"/>
+			<Interior/>
+			<NumberFormat/>
+			<Protection/>
+		</Style>
+		<Style ss:ID="s64">
+			<NumberFormat ss:Format="@"/>
+		</Style>
+		<Style ss:ID="s65">
+			<Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+					ss:Color="#000000"/>
+			<NumberFormat ss:Format="@"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="salary">
+		<Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="28" x:FullColumns="1" x:FullRows="1">
+			<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="371.25"/>
+			<Column ss:StyleID="s64" ss:Width="112.5"/>
+			<Row>
+				<Cell ss:Index="2">
+					<Data ss:Type="String">Счет по кредиту</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">70601810000821210101</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ЭСДС&quot;                                              </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810000020001040</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">2</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;СервисКом&quot;                                         </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810000020001529</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">3</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;Сибевросервис&quot;                                     </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810100020001050</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">4</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ТЕМП&quot;                                              </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810100020001199</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">5</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;Атлант&quot;                                            </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810100020001513</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">6</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;СИБРЕМСТРОЙ&quot;                                       </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810200020000731</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">7</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ПКФ &quot;Индиго&quot;                                       </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810200020001594</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">8</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;Сириус-Т&quot;                                          </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810300020000851</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">9</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;КОМ.СЕРВИС&quot;                                        </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810300020001151</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">10</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;Аркада&quot;                                            </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810300020001449</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">11</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ДИЗАЙН-СТУДИЯ &quot;СПЕКТР&quot;                             </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810400020000641</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">12</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ТЮМЕНЬМЕТАЛМОНТАЖ&quot;                                 </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810500020000842</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">13</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО ШВЕЙНЫЙ САЛОН &quot;АНГЕЛ&quot;                               </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810500020001210</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">14</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ТЮМЕНЬАГРОМЕЛЬМОНТАЖ&quot;                              </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810600020001204</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">15</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ЗАО &quot;КОМПАНИЯ ФОНД&quot;                                     </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810700020000639</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">16</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ИННОВАЦИОННАЯ КОМПАНИЯ &quot;МЕТАКОН&quot;                   </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810700020001269</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">17</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;СЕМЕРКА&quot;                                           </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810800020001431</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">18</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ТЮМЕНЬАГРОМЕЛЬМОНТАЖ&quot;                              </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810800020009077</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">19</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ООО &quot;ЗДРАВИЦА&quot;                                          </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40702810900020000769</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">20</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ДАЧНОЕ НЕКОММЕРЧЕСКОЕ ТОВАРИЩЕСТВО &quot;СПУТНИК&quot;            </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40703810100020000115</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">21</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">СНТ &quot;СИБИРЯК&quot;                                           </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40703810300020000106</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">22</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ТСН &quot;Академическое&quot;                                     </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40703810400020000116</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">23</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ТСЖ &quot;ЭСТЕЛЬ&quot;                                            </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40703810500020000074</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">24</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ДНТ &quot;ЯНТАРНОЕ&quot;                                          </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40703810500020000100</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">25</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ДНТ &quot;Березка&quot;                                           </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40703810600020000110</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">26</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">ТЮМЕНСКАЯ ГОРОДСКАЯ ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ &quot;ТОБОЛЬСКОЕ ЗЕМЛЯЧЕСТВО&quot;</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40703810800020000075</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell>
+					<Data ss:Type="Number">27</Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">СНТ &quot;Ольховое&quot;                                          </Data>
+				</Cell>
+				<Cell ss:StyleID="s65">
+					<Data ss:Type="String">40703810800020000114</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="Number">750</Data>
+				</Cell>
+			</Row>
+		</Table>
+		<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+			<Selected/>
+			<Panes>
+				<Pane>
+					<Number>3</Number>
+					<ActiveRow>15</ActiveRow>
+					<ActiveCol>1</ActiveCol>
+				</Pane>
+			</Panes>
+			<ProtectObjects>False</ProtectObjects>
+			<ProtectScenarios>False</ProtectScenarios>
+		</WorksheetOptions>
+	</Worksheet>
+</Workbook>

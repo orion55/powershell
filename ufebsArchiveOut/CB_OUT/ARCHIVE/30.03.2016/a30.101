@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED274 xmlns="urn:cbr-ru:ed:v2.0" EDNo="500101" EDDate="2016-03-30" EDAuthor="7106962000" EDReceiver="7182000108" InfoCode="6">
+    <Annotation>Недостаточность денежных средств на счете плательщика, уведомляем о помещении ИП, ПТ в очередь не исполненных в срок распоряжений</Annotation>
+    <InitialED EDNo="600270" EDDate="2016-03-29" EDAuthor="7182000108"></InitialED>
+    <EDRefID EDNo="600271" EDDate="2016-03-29" EDAuthor="7182000108"></EDRefID>
+</ED274>

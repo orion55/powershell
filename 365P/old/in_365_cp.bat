@@ -1,0 +1,2 @@
+xcopy c:\365P\RESOL_GNI_NEW k:\SENDDOC\365P\CB_OUT\GNI\RESOL_GNI_NEW\*.*  /e
+del c:\365P\RESOL_GNI_NEW\*.* /q

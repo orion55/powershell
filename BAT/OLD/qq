@@ -1,0 +1,38 @@
+
+USAGE: wftesto.exe command [arguments] 
+where command [arguments] are:
+	e In_file Out_file Secret_key_path Pub_key_pat From[series] To ...
+	d In_file Out_file Secret_key_path Pub_key_pat From 
+	g In_file 
+	s In_file Out_file Secret_key_path From
+	v In_file Pub_key_path 
+	u In_file [count_to_del]
+	i [Key_ID] [Key_Dev]
+	r Key_ID 
+	l 
+comands:
+	e - encrypt file,
+	d - decrypt file,
+	g - get list of abonents of encrypted file,
+	s - make signature,
+	v - verify signature,
+	u - delete signature
+	i - init key(load in to driver),
+	r - reset key(unload...),
+	l - get keys list.
+EXAMPLES:
+wftesto.exe e file.txt file.cry a:\ c:\pub 0001 0003 0004
+(encrypt from abonent 0001 to abonents 0003 and 0004 in current series)
+wftesto.exe e file.txt file.cry c:\key\ c:\pub 0005999999 0006 0007
+(encrypt from abonent 0005 to abonents 0006 and 0007 in series 999999)
+
+wftesto.exe s file.txt file.sig a:\ 000122222201
+(sign from abonent 000122222201)
+
+wftesto.exe i 0005666666
+(load crypt keys from key_diskette)
+wftesto.exe i 000566666601
+(load sign keys from key_diskette)
+wftesto.exe i 
+(load all exists keys from key_diskette)
+

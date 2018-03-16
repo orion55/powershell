@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<PacketEPD xmlns="urn:cbr-ru:ed:v2.0" EDNo="17" EDDate="2016-03-29" EDAuthor="7106962000" EDQuantity="3" Sum="256950800" SystemCode="01">
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="170005" EDDate="2016-03-29" EDAuthor="7106962000" Sum="71982300" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="564" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7203159984" PersonalAcc="40702810400020000502" KPP="720350001">
+            <Name>ООО "Никко"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7728674093" PersonalAcc="40702810700001419287" KPP="774901001">
+            <Name>ООО "Киа Моторс РУС"</Name>
+            <Bank BIC="044525700" CorrespAcc="30101810200000000700"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету N 2101671093 от 29,03,2016г за а/м Z94CC41BAGR358898 по договору №Д/133/01/14 от 21,08,2014Сумма 719823-00   В т.ч. НДС (18%) 109803-51</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="170010" EDDate="2016-03-29" EDAuthor="7106962000" Sum="112986200" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="562" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7203159984" PersonalAcc="40702810400020000502" KPP="720350001">
+            <Name>ООО "Никко"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7728674093" PersonalAcc="40702810700001419287" KPP="774901001">
+            <Name>ООО "Киа Моторс РУС"</Name>
+            <Bank BIC="044525700" CorrespAcc="30101810200000000700"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету N 2101673077 от 29,03,2016г за а/м XWEGT411BG0000169 по договору №Д/133/01/14 от 21,08,2014Сумма 1129862-00   В т.ч. НДС (18%) 172351-83</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="170015" EDDate="2016-03-29" EDAuthor="7106962000" Sum="71982300" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="565" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7203159984" PersonalAcc="40702810400020000502" KPP="720350001">
+            <Name>ООО "Никко"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7728674093" PersonalAcc="40702810700001419287" KPP="774901001">
+            <Name>ООО "Киа Моторс РУС"</Name>
+            <Bank BIC="044525700" CorrespAcc="30101810200000000700"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету N 2101672223 от 29,03,2016г за а/м Z94CC41BAGR359767 по договору №Д/133/01/14 от 21,08,2014Сумма 719823-00   В т.ч. НДС (18%) 109803-51</Purpose>
+    </ED101>
+</PacketEPD>

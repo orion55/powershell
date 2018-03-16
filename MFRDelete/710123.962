@@ -1,0 +1,26 @@
+/* tdn */
+
+parse arg infile outfile .
+
+   say infile
+   outfl = 'u:\users\kraineva\out\exp\a'
+   fname = substr(infile, 30, 11)
+   fname1= outfl || fname
+   fname2= substr(infile, 29, 12)
+   fname3= 'w:\exg\cli\' || fname2
+   fname4= 'u:\users\kraineva\out\exp\x' || fname
+   if stream( fname1, 'c', 'query exists' ) \= '' then
+    do
+     say 'Ahtung!!!'
+     'net send it-kmv "Крайневой оторвать руки!!"' 
+     'net send it-kmv "Попытка напакостить!!"'  
+      'copy ' infile fname4
+      'del   ' infile
+    end
+    else 
+     do
+      say 'ok!'
+      'copy ' infile fname3
+      'copy ' infile fname1
+      'del   ' infile
+     end

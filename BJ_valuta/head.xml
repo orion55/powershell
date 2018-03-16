@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>user</LastAuthor>
+  <Created>2015-06-30T06:00:18Z</Created>
+  <LastSaved>2015-06-30T06:00:18Z</LastSaved>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8835</WindowHeight>
+  <WindowWidth>15180</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial Cyr" x:CharSet="204"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s22">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Cyr" x:CharSet="204" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="b">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="###RowCount###" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Column ss:Width="53.25"/>
+   <Column ss:Width="112.5" ss:Span="1"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75.75"/>
+   <Column ss:Width="172.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Номер докум</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Дата проводки</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Дебет</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Кредит</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Сумма в вал. по дебету</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Сумма в вал. по кредиту</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Покрытие в нац. Вал.</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Назначение платежа</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Призн. СПОД</Data></Cell>
+   </Row>

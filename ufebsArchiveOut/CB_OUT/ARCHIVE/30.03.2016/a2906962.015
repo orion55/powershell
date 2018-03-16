@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<PacketEPD xmlns="urn:cbr-ru:ed:v2.0" EDNo="15" EDDate="2016-03-29" EDAuthor="7106962000" EDQuantity="6" Sum="98353307" SystemCode="01">
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="150005" EDDate="2016-03-29" EDAuthor="7106962000" Sum="88076200" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="563" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7203159984" PersonalAcc="40702810400020000502" KPP="720350001">
+            <Name>ООО "Никко"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7728674093" PersonalAcc="40702810700001419287" KPP="774901001">
+            <Name>ООО "Киа Моторс РУС"</Name>
+            <Bank BIC="044525700" CorrespAcc="30101810200000000700"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету N 2101608300 от 29,03,2016г за а/м XWEHN512BG0034434 по договору №Д/133/01/14 от 21,08,2014Сумма 880762-00   В т.ч. НДС (18%) 134353-53</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="150010" EDDate="2016-03-29" EDAuthor="7106962000" Sum="2784000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="522" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901015127" PersonalAcc="40702810000020001477" KPP="890101001">
+            <Name>ООО  "Салехардский комбинат"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603169033" PersonalAcc="40702810467020001060" KPP="720301001">
+            <Name>ООО "ТЕХНОАВИА-ТЮМЕНЬ"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата 50% по счету № 761 от 03.03.2016г, за фартук кислотовлагоустойчивый.Сумма 27840-00   В т.ч. НДС (18%) 4246-78</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="150015" EDDate="2016-03-29" EDAuthor="7106962000" Sum="3458000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="368" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7206049940" PersonalAcc="40702810602020001558" KPP="720601001">
+            <Name>ООО "Снабстройкомплект"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="583506693303" PersonalAcc="40802810412240000741">
+            <Name>ИП Бабоян Амаяк Гаспарович</Name>
+            <Bank BIC="042202837" CorrespAcc="30101810200000000837"></Bank>
+        </Payee>
+        <Purpose>Оплата за сапоги по счету АГ-152 от 29.03.2016   в т. ч. НДС 18% - 5274-92</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="150020" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="575600" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="596140" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="720202945977" PersonalAcc="40817810800020000000" KPP="0">
+            <Name>ШУГЛЯ ИРИНА НИКОЛАЕВНА//720202945977// Л/С 40817810800022104425</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202105344" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК ПО ТЮМЕНСКОЙ ОБЛАСТИ (ГУ - ОТДЕЛЕНИЕ ПФ РФ ПО ТЮМЕНСКОЙ ОБЛАСТИ)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Взносы  в ПФР за 2015 г. (1%) Регистр.№ 082-003-048921. ИНН 720202945977. Перевод не связан с пред-й д-ю.НДС нет. С-но з-я от 29.03.2016</Purpose>
+        <DepartmentalInfo DrawerStatus="13" CBC="39210202140061200160" OKATO="71701000" PaytReason="ТП" TaxPeriod="ГД.00.2015" DocNo="0" DocDate="29.03.2016" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="150025" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="829333" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="596195" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="720202945977" PersonalAcc="40817810800020000000" KPP="0">
+            <Name>ШУГЛЯ ИРИНА НИКОЛАЕВНА//720202945977// Л/С 40817810800022104425</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202104206" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК ПО ТЮМЕНСКОЙ ОБЛАСТИ (ИФНС РОССИИ ПО Г.ТЮМЕНИ №1)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Доплата УСН за 01 квартал 2016 ИНН 720202945977. Перевод не связан с предприн-й д-ю. НДС нет. С-но заявления от 29.03.2016</Purpose>
+        <DepartmentalInfo DrawerStatus="13" CBC="18210501021011000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="КВ.01.2016" DocNo="0" DocDate="29.03.2016" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="150030" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="2630174" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="596253" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="720202945977" PersonalAcc="40817810800020000000" KPP="0">
+            <Name>ШУГЛЯ ИРИНА НИКОЛАЕВНА//720202945977// Л/С 40817810800022104425</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202104206" PersonalAcc="40101810300000010005" KPP="720343001">
+            <Name>УФК ПО ТЮМЕНСКОЙ ОБЛАСТИ (ИФНС РОССИИ ПО Г.ТЮМЕНИ №1)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Доплата УСН за 2015 ИНН 720202945977. Перевод не связан с предприн-й д-ю. НДС нет. С-но заявления от 29.03.2016</Purpose>
+        <DepartmentalInfo DrawerStatus="13" CBC="18210501021011000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="ГД.00.2015" DocNo="0" DocDate="29.03.2016" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+</PacketEPD>

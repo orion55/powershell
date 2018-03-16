@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+		<Author>tdn</Author>
+		<LastAuthor>Admsrv</LastAuthor>
+		<Created>2007-04-19T05:54:04Z</Created>
+		<LastSaved>2016-12-30T11:25:56Z</LastSaved>
+		<Company>apk</Company>
+		<Version>11.9999</Version>
+	</DocumentProperties>
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+		<WindowHeight>8070</WindowHeight>
+		<WindowWidth>11340</WindowWidth>
+		<WindowTopX>480</WindowTopX>
+		<WindowTopY>90</WindowTopY>
+		<ProtectStructure>False</ProtectStructure>
+		<ProtectWindows>False</ProtectWindows>
+	</ExcelWorkbook>
+	<Styles>
+		<Style ss:ID="Default" ss:Name="Normal">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders/>
+			<Font ss:FontName="Arial Cyr" x:CharSet="204"/>
+			<Interior/>
+			<NumberFormat/>
+			<Protection/>
+		</Style>
+		<Style ss:ID="s64">
+			<NumberFormat ss:Format="@"/>
+		</Style>
+		<Style ss:ID="s65">
+			<Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+			<NumberFormat ss:Format="@"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Тюмень">
+		<Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="4" x:FullColumns="1" x:FullRows="1">
+			<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="371.25"/>
+			<Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="108.75"/>
+			<Row>
+				<Cell ss:Index="2"><Data ss:Type="String">Счет по кредиту</Data></Cell>
+				<Cell><Data ss:Type="String">70601810000821210101</Data></Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell><Data ss:Type="Number">1</Data></Cell>
+				<Cell ss:StyleID="s65"><Data ss:Type="String">ООО &quot;ЭСДС&quot;</Data></Cell>
+				<Cell ss:StyleID="s65"><Data ss:Type="String">40702810000020001040</Data></Cell>
+				<Cell><Data ss:Type="Number">750</Data></Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell><Data ss:Type="Number">2</Data></Cell>
+				<Cell ss:StyleID="s65"><Data ss:Type="String">ООО &quot;СервисКом&quot;</Data></Cell>
+				<Cell ss:StyleID="s65"><Data ss:Type="String">40702810000020001529</Data></Cell>
+				<Cell><Data ss:Type="Number">750</Data></Cell>
+			</Row>
+			<Row ss:Height="15">
+				<Cell><Data ss:Type="Number">3</Data></Cell>
+				<Cell ss:StyleID="s65"><Data ss:Type="String">ООО &quot;Сибевросервис&quot;</Data></Cell>
+				<Cell ss:StyleID="s65"><Data ss:Type="String">40702810100020001050</Data></Cell>
+				<Cell><Data ss:Type="Number">750</Data></Cell>
+			</Row>
+		</Table>
+		<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+			<Selected/>
+			<Panes>
+				<Pane>
+					<Number>3</Number>
+					<ActiveRow>2</ActiveRow>
+					<ActiveCol>1</ActiveCol>
+				</Pane>
+			</Panes>
+			<ProtectObjects>False</ProtectObjects>
+			<ProtectScenarios>False</ProtectScenarios>
+		</WorksheetOptions>
+	</Worksheet>
+</Workbook>

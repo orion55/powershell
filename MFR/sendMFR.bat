@@ -1,0 +1,3 @@
+copy U:\SENDDOC\CB_OUT\710*.962 U:\SENDDOC\MFR\mfrout
+del U:\SENDDOC\CB_OUT\710*.962
+pause

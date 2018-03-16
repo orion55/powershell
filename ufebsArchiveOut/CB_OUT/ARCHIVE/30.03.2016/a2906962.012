@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<PacketEPD xmlns="urn:cbr-ru:ed:v2.0" EDNo="12" EDDate="2016-03-29" EDAuthor="7106962000" EDQuantity="18" Sum="2851773252" SystemCode="01">
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120005" EDDate="2016-03-29" EDAuthor="7106962000" Sum="500000" TransKind="01" Priority="3" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="174" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40820810467160005688" KPP="860302001">
+            <Name>МАСЛОВСКИЙ  ДМИТРИЙ ВИКТОРОВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>{VO70060} Для зачисления зарплаты за 1 половину марта 2016 г в соответствии с договором 67165351 от 20.05.08   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120010" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="2735000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="3683" AccDocDate="2016-03-28"></AccDoc>
+        <Payer INN="7205011944" PersonalAcc="40702810000020000106" KPP="720350001">
+            <Name>ПАО "СУЭНКО"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810300000010005" KPP="720301001">
+            <Name>УФК по Тюменской области  (ИФНС России по г.Тюмени N3)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>Платеж по налогу на прибыль, зачисляемый в федеральный бюджет, за 2015 год.</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210101011011000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="ГД.00.2015" DocNo="0" DocDate="28.03.2016" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120015" EDDate="2016-03-29" EDAuthor="7106962000" Sum="7000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="44" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8905998220" PersonalAcc="40703810804020000097">
+            <Name>АНО ДПО "Академия безопасности"АКСИОМА"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="890509310276" PersonalAcc="40817810967030047263">
+            <Name>Файзуллин Марат Фаридович</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору № 03-А/2013 от 01.01.2013г., за транспортные услуги за январь-март 2016г. Сумма 70000-00 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120020" EDDate="2016-03-29" EDAuthor="7106962000" Sum="20000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="434" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="6660153847" PersonalAcc="40702810300020001229" KPP="770101001">
+            <Name>ООО "Корпорация СТС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203225517" PersonalAcc="40702810322990002203" KPP="720401001">
+            <Name>ООО "Колцентр-Билет"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору 25-0710 от 26.07.2010г. ,счет №КОЛ587 от 28.03.2016г. за доставку билетовСумма 200000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120025" EDDate="2016-03-29" EDAuthor="7106962000" Sum="20000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="435" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="6660153847" PersonalAcc="40702810300020001229" KPP="770101001">
+            <Name>ООО "Корпорация СТС"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203225517" PersonalAcc="40702810322990002203" KPP="720401001">
+            <Name>ООО "Колцентр-Билет"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору 25-0710 от 26.07.2010г. ,счет №КОЛ611 от 29.03.2016г. за доставку билетовСумма 200000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120030" EDDate="2016-03-29" EDAuthor="7106962000" Sum="817500" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="668" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901007366" PersonalAcc="40702810000120000261">
+            <Name>Закрытое акционерное общество "СПЭЙБ"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата за изготовление полиграфической продукции, по счету Сумма 8175-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120035" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="50000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="669" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901016272" PersonalAcc="40101810500000010001" KPP="890101001">
+            <Name>УФК РФ по ЯНАО (МИФНС России по КН по ЯНАО)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Уплата НДС за 4 квартал 2015 г. (по сроку оплаты 25.03.2016г.)</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210301000011000110" OKATO="71951000" PaytReason="ТП" TaxPeriod="КВ.04.2015" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120040" EDDate="2016-03-29" EDAuthor="7106962000" Sum="900000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="664" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7710478468" PersonalAcc="40703810238000003969" KPP="771001001">
+            <Name>Союз "Энергоэффективность"</Name>
+            <Bank BIC="044525225" CorrespAcc="30101810400000000225"></Bank>
+        </Payee>
+        <Purpose>Оплата членских взносов за 2 квартал 2016г., счет 1996 от 21.03.2016г.Сумма 9000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120045" EDDate="2016-03-29" EDAuthor="7106962000" Sum="1617200" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="659" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901022798" PersonalAcc="40702810700120002213" KPP="890101001">
+            <Name>ООО "Юком.Ру"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата за материалы (телефон проводной), счет 745 от 19.03.2016г.Сумма 16172-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120050" EDDate="2016-03-29" EDAuthor="7106962000" Sum="750000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="665" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202244813" PersonalAcc="40703810548990000716" KPP="720301001">
+            <Name>ЧУ ДПО "Учебный центр Прогрессивные технологии"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата за обучение и повышение квалификации, счет №118 от 22.03.2016г.Сумма 7500-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120055" EDDate="2016-03-29" EDAuthor="7106962000" PaymentID="0" Sum="6980000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="660" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901006122" PersonalAcc="40601810800003000001" KPP="890101001">
+            <Name>УФК по ЯНАО (Департамент финансов) (Государственное бюджетное учреждение Ямало-Ненецкого автономного округа "Окружной Молодежный Центр",л/с 878020002)</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Оплата за услуги тренажерного зала (месячный абонемент), по счету №6 от 12.02.2016г.Сумма 69800-00   В т.ч. НДС 10647-46</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="87807074315500019130" OKATO="71951000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0" TaxPaytKind="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120060" EDDate="2016-03-29" EDAuthor="7106962000" Sum="137824" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="657" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901007020" PersonalAcc="40702810600120001893" KPP="890101001">
+            <Name>АО "Аэропорт Салехард"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору на обслуживание в Вип-зале 45-ВИП от 01.02.2014г., счетСумма 1378-24   В т.ч. НДС (18%) 210-24</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120065" EDDate="2016-03-29" EDAuthor="7106962000" Sum="4082028" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="661" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7743895280" PersonalAcc="40702810500030005001" KPP="890543001">
+            <Name>Общество с ограниченной ответственностью "Т2 Мобайл"</Name>
+            <Bank BIC="044525187" CorrespAcc="30101810700000000187"></Bank>
+        </Payee>
+        <Purpose>Оплата за сотовую связь по договору 107 от 10.10.2014г., за февраль 2016г., л/с 42433948Сумма 40820-28   В т.ч. НДС (18%) 6226-82</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120070" EDDate="2016-03-29" EDAuthor="7106962000" Sum="780200" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="658" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8902009084" PersonalAcc="40702810513120000525" KPP="890801001">
+            <Name>ООО Завод "Арктическая вода"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата за поставку питьевой воды, по договору 67/2015 от 25.09.15г.Сумма 7802-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120075" EDDate="2016-03-29" EDAuthor="7106962000" Sum="41000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="171" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7203281455" PersonalAcc="40702810000020001435" KPP="720301001">
+            <Name>ООО "СпецТехТорг"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="6670387354" PersonalAcc="40702810667100003128">
+            <Name>Филиал ООО "Энергия" г. Тюмень</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету №9288/28 от 29.03.2015 за услуги по организации перевозки грузовСумма 410-00   В т.ч. НДС (18%) 62-54</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120080" EDDate="2016-03-29" EDAuthor="7106962000" Sum="67500" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="170" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="7203281455" PersonalAcc="40702810000020001435">
+            <Name>ООО "СпецТехТорг"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7826156685" PersonalAcc="40702810190550001003">
+            <Name>ООО "Деловые Линии"</Name>
+            <Bank BIC="044030790" CorrespAcc="30101810900000000790"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету №16-01801030545 от 29.03.2016 за услуги по организации доставки грузаСумма 675-00   В т.ч. НДС (18%) 97-63</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120085" EDDate="2016-03-29" EDAuthor="7106962000" Sum="3000000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="670" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810467450200368">
+            <Name>ХРАМОВ СЕРГЕЙ АЛЕКСАНДРОВИЧ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Командировочные расходы, на имя ХРАМОВ СЕРГЕЙ АЛЕКСАНДРОВИЧ, лиц.счет 40817810467450200368Сумма 30000-00Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="120090" EDDate="2016-03-29" EDAuthor="7106962000" Sum="100000" TransKind="01" Priority="5" ChargeOffDate="2016-03-29" ReceiptDate="2016-03-29">
+        <AccDoc AccDocNo="667" AccDocDate="2016-03-29"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810467451034892">
+            <Name>ПАЛАМАРЧУК ЛИЛИЯ ПЕТРОВНА</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Перечисление задолженности подотчетному лицу, имя ПАЛАМАРЧУК ЛИЛИЯ ПЕТРОВНА, лиц.счет 40817810467451034892Сумма 1000-00Без налога (НДС)</Purpose>
+    </ED101>
+</PacketEPD>
