@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="850001" EDDate="2018-04-25" EDAuthor="7106962000" PaytKind="4" Sum="164999400" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25" SystemCode="05">
+    <AccDoc AccDocNo="196" AccDocDate="2018-04-25"></AccDoc>
+    <Payer INN="8901035437" PersonalAcc="40702810200020001620" KPP="890101001">
+        <Name>АО "Ямалэкосервис"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="7729312642" PersonalAcc="40702810702060002061" KPP="504001001">
+        <Name>Общество с ограниченной ответственностью "ЭКОсервис-НЕФТЕГАЗ"</Name>
+        <Bank BIC="044525787" CorrespAcc="30101810100000000787"></Bank>
+    </Payee>
+    <Purpose>Оплата за установку по утилизации (сжиганию) отходов "Форсаж-2" согл.сч. 91 от 25.04.18г.   в т.ч. НДС 18% - 251 694.00</Purpose>
+</ED101>

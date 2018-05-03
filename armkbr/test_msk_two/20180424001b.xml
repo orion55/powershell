@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="850001" EDDate="2018-04-24" EDAuthor="7106962000" PaytKind="4" Sum="10000000000" TransKind="01" Priority="5" ChargeOffDate="2018-04-24" ReceiptDate="2018-04-24" SystemCode="05">
+    <AccDoc AccDocNo="000024" AccDocDate="2018-04-24"></AccDoc>
+    <Payer INN="5026014060" PersonalAcc="30221810200020000002">
+        <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="5026005919" PersonalAcc="30305810300020000001">
+        <Name>АО КБ АГРОПРОМКРЕДИТ</Name>
+        <Bank BIC="044525710" CorrespAcc="30101810545250000710"></Bank>
+    </Payee>
+    <Purpose>ПОПОЛНЕНИЕ МЕЖФИЛИАЛЬНЫХ РАСЧЕТОВ НДС НЕТ</Purpose>
+</ED101>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="850003" EDDate="2018-04-25" EDAuthor="7106962000" PaytKind="4" Sum="1500000000" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25" SystemCode="05">
+    <AccDoc AccDocNo="78294" AccDocDate="2018-04-25"></AccDoc>
+    <Payer INN="7705424509" PersonalAcc="40702810300020002105">
+        <Name>"Тюменьэнергосбыт"-филиал АО "ЭК "Восток"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="7205011944" PersonalAcc="40702810267104036504" KPP="720350001">
+        <Name>ПАО "СУЭНКО"</Name>
+        <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+    </Payee>
+    <Purpose>За услуги по передаче эл.энергии по дог. 2/4-12 от 25.12.2012г.   в т.ч. НДС 18% - 2 288 135.59</Purpose>
+</ED101>

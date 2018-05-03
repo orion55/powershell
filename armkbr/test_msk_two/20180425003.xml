@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<PacketEPD xmlns="urn:cbr-ru:ed:v2.0" EDNo="3" EDDate="2018-04-25" EDAuthor="7106962000" EDQuantity="11" Sum="278211213" SystemCode="01">
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30005" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="78721475" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="76909" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="30236810500020000001" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204059654" PersonalAcc="40702810938320001502" KPP="720301001">
+            <Name>ОАО ТРИЦ</Name>
+            <Bank BIC="046577964" CorrespAcc="30101810100000000964"></Bank>
+        </Payee>
+        <Purpose>Возмещение сумм по операциями с банковскими картами согласно реестра за 24.04.2018г. по договору 01-2017-ЕП от 03.02.17г.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30010" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="9835764" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="000013" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="30236810500020000001" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901025439" PersonalAcc="40702810567500040771" KPP="891143002">
+            <Name>Филиал АО "ЕРИЦ ЯНАО" г.Губкинский в Новоуренгойском отделении № 8369/034 ПАО Сбербанка РФ</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Возмещение сумм по операциям с банковскими картами с Филиалом АО "ЕРИЦ ЯНАО" в г.Губкинский согласно реестра за 24.04.2018г. по договору N ПРП-01-2016/1674 от 13.10.2016г.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30015" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="7725138" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="000014" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="30236810500020000001" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901025439" PersonalAcc="40702810567400000468" KPP="891043001">
+            <Name>Филиал Акционерного общества "Единый расчетно-информационный центр ЯНАО" в Тазовском районе</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Возмещение сумм по операциям с банковскими картами с Филиалом АО "ЕРИЦ ЯНАО" в Тазовском районе согласно реестра за 24.04.2018г. по договору N ПРП-01-2016/1674 от 13.10.2016г.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30020" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="13099908" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="000015" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="30236810500020000001" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901025439" PersonalAcc="40702810167500040760" KPP="891143001">
+            <Name>Филиал Акционерного общества "Единый расчетно-информационный центр ЯНАО" в Пуровском районе</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Возмещение сумм по операциям с банковскими картами с Филиалом АО "ЕРИЦ ЯНАО" в Пуровском районе согласно реестра за 24.04.2018г. по договору N ПРП-01-2016/1674 от 13.10.2016г.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30025" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="23014319" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="000016" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="30236810500020000001" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202021856" PersonalAcc="40702810321990013824" KPP="890543002">
+            <Name>Филиал Акционерного общества "Единый расчетно-информационный центр ЯНАО" в городе Муравленко</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Перевод средств на счет, возмещение сумм по операциям с банковскими картами с Филиалом АО "ЕРИЦ ЯНАО" в городе Муравленко согласно реестра за 24.04.2018г. по договору N ПРП-01-2016/1674 от 13.10.2016</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30030" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="57356454" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="000017" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="30236810500020000001" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901025439" PersonalAcc="40702810267090140766" KPP="890343001">
+            <Name>Филиал Акционерного общества "Единый расчетно-информационный центр ЯНАО" в городе Надыме</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Возмещение сумм по операциям с банковскими картами с Филиалом АО "ЕРИЦ ЯНАО" в г.Надыме согласно реестра за 24.04.2018г. по договору N ПРП-01-2016/1674 от 13.10.2016г.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30035" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="80143041" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="000018" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="30236810500020000001" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8901025439" PersonalAcc="40702810667450003535" KPP="890101001">
+            <Name>АО ЕРИЦ ЯНАО</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Возмещение сумм по операциями с банковскими картами с АО "ЕРИЦ ЯНАО" г.Салехард согласно реестра за 24.04.2018г. по договору ПРП-01-2016/1674 от 13.10.2016</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30040" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="333154" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="152" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="7203312551" PersonalAcc="40702810700020001573" KPP="720301001">
+            <Name>ООО "ГРАНД МЕБЕЛЬ ТЮМЕНЬ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7451101090" PersonalAcc="40702810000020005661" KPP="744801001">
+            <Name>ООО "Комус-Южный Урал"</Name>
+            <Bank BIC="046577501" CorrespAcc="30101810165770000501"></Bank>
+        </Payee>
+        <Purpose>Оплата за канцелярские товары по счету № 0VT/1841810/20240973 от 25.04.2018 г.   В том числе НДС 508.20 руб.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30045" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="7500000" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="1804" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="8901025421" PersonalAcc="40702810200020001329" KPP="891450001">
+            <Name>АО "Ямалкоммунэнерго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202021856" PersonalAcc="40817810512990860878">
+            <Name>ШАЙДУРОВ ВАДИМ ГЕННАДЬЕВИЧ</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Перечисление подотчетному лицу, на имя ШАЙДУРОВ ВАДИМ ГЕННАДЬЕВИЧ Сумма 75000-00 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30050" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="395400" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="673" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="8603109926" PersonalAcc="40702810408020000782" KPP="862450001">
+            <Name>ООО "НИЖНЕВАРТОВСКАЯ ЭНЕРГОСБЫТОВАЯ КОМПАНИЯ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7733568767" PersonalAcc="40702810101400001312" KPP="771401001">
+            <Name>Общество с ограниченной ответственностью "Регистратор доменных имен РЕГ.РУ"</Name>
+            <Bank BIC="044525593" CorrespAcc="30101810200000000593"></Bank>
+        </Payee>
+        <Purpose>по сч. 51354111 от 2018-04-23. За цифровой сертификат. дог. 08059.18.   в т.ч. НДС 18% - 603.15</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="30055" EDDate="2018-04-25" EDAuthor="7106962000" SystemCode="01" Sum="86560" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25">
+        <AccDoc AccDocNo="69" AccDocDate="2018-04-25"></AccDoc>
+        <Payer INN="7203260455" PersonalAcc="40702810400020001462" KPP="720301001">
+            <Name>ООО "Н(Ч) ОП ЦБ "Охрана по Тюменской области"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203229198" PersonalAcc="40702810826020002505" KPP="720301001">
+            <Name>ООО ТК "КАН-Тэррия"</Name>
+            <Bank BIC="046577501" CorrespAcc="30101810165770000501"></Bank>
+        </Payee>
+        <Purpose>По счету № УТ-15966 от 20.04.18 за канцелярию, хоз. товары Cумма 865-60,   в т.ч. НДС(18%) - 132-04.</Purpose>
+    </ED101>
+</PacketEPD>

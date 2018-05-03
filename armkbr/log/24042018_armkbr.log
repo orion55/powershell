@@ -1,0 +1,1520 @@
+﻿[2018-04-24 15:48:07Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 15:49:21Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:12:19Z] - INFO - Copy-Item : Cannot find path 'D:\Ps1\armkbr\a24.049' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a24.049:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.001' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.001:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.002' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.002:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.003' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.003:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.004' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.004:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.005' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.005:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.006' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.006:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.007' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.007:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.010' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.010:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.048' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.048:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+
+[2018-04-24 16:12:38Z] - INFO - Copy-Item : Cannot find path 'D:\Ps1\armkbr\a24.049' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a24.049:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.001' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.001:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.002' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.002:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.003' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.003:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.004' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.004:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.005' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.005:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.006' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.006:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.007' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.007:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.010' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.010:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+Copy-Item : Cannot find path 'D:\Ps1\armkbr\a2406962.048' because it does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:159 char:8
++ $msg = Copy-Item -Path $files -Destination $tmp_path -Verbose -Force  ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\armkbr\a2406962.048:String) [Copy-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.CopyItemCommand
+ 
+
+[2018-04-24 16:13:57Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:16:05Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:17:11Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:17:19Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:17:52Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a24.049:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.001:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.002:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.003:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.004:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.005:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.006:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.007:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.010:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:18:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.048:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a24.049:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.001:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.002:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.003:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.004:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.005:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.006:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.007:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.010:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:19:01Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr\armkbr_msk.ps1:166 char:12
++     $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -For ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr\tmp\a2406962.048:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 16:22:11Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:22:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:24:28Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 16:28:39Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 16:29:57Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 16:31:03Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:33:45Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 16:33:46Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 16:49:06Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:50:33Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:50:34Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:50:34Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 16:50:34Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 16:52:55Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:41Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:42Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a24.049' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.001' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.002' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.003' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.004' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.005' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.006' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.007' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.010' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:02:56Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.048' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...      $msg = Rename-Item $file1 -NewName $newFile -Verbose -Force *>&1 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 17:03:47Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a24.049' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.001' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.002' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.003' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.004' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.005' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.006' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.007' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.010' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:03:48Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.048' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++         $msg = Rename-Item $file1 -NewName $newFile -Verbose *>&1
++                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a24.049' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.001' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.002' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.003' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.004' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.005' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.006' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.007' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.010' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:04Z] - INFO - Rename-Item : Cannot rename because item at 'a2406962.048' does not exist.
+At D:\Ps1\armkbr\armkbr_msk.ps1:158 char:10
++ ...        $msg = Rename-Item $file1.Name -NewName $newFile -Verbose *>&1
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\tmp\a24.049".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\tmp\a2406962.001".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\tmp\a2406962.002".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\tmp\a2406962.003".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\tmp\a2406962.004".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\tmp\a2406962.005".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\tmp\a2406962.006".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\tmp\a2406962.007".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\tmp\a2406962.010".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\tmp\a2406962.048".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a24.049 Destination: D:\Ps1\armkbr\tmp\20180424049.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.001 Destination: D:\Ps1\armkbr\tmp\20180424001.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.002 Destination: D:\Ps1\armkbr\tmp\20180424002.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.003 Destination: D:\Ps1\armkbr\tmp\20180424003.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.004 Destination: D:\Ps1\armkbr\tmp\20180424004.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.005 Destination: D:\Ps1\armkbr\tmp\20180424005.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.006 Destination: D:\Ps1\armkbr\tmp\20180424006.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.007 Destination: D:\Ps1\armkbr\tmp\20180424007.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.010 Destination: D:\Ps1\armkbr\tmp\20180424010.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\tmp\a2406962.048 Destination: D:\Ps1\armkbr\tmp\20180424048.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk\20180424049.xml".
+
+[2018-04-24 17:04:48Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424001.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424001.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424002.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424002.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424003.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424003.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424004.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424004.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424005.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424005.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424006.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424006.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424007.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424007.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424010.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424010.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424048.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424048.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr\tmp\20180424049.xml Destination: D:\Ps1\armkbr\test_msk_two\20180424049.xml".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a24.049 Destination: D:\Ps1\armkbr\cb_out\a24.!49".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.001 Destination: D:\Ps1\armkbr\cb_out\a2406962.!01".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.002 Destination: D:\Ps1\armkbr\cb_out\a2406962.!02".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.003 Destination: D:\Ps1\armkbr\cb_out\a2406962.!03".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.004 Destination: D:\Ps1\armkbr\cb_out\a2406962.!04".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.005 Destination: D:\Ps1\armkbr\cb_out\a2406962.!05".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.006 Destination: D:\Ps1\armkbr\cb_out\a2406962.!06".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.007 Destination: D:\Ps1\armkbr\cb_out\a2406962.!07".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.010 Destination: D:\Ps1\armkbr\cb_out\a2406962.!10".
+
+[2018-04-24 17:04:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr\cb_out\a2406962.048 Destination: D:\Ps1\armkbr\cb_out\a2406962.!48".
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="850002" EDDate="2018-04-25" EDAuthor="7106962000" PaytKind="4" Sum="14640102441" TransKind="01" Priority="5" ChargeOffDate="2018-04-25" ReceiptDate="2018-04-25" SystemCode="05">
+    <AccDoc AccDocNo="2146" AccDocDate="2018-04-25"></AccDoc>
+    <Payer INN="7203420973" PersonalAcc="40702810500020001618" KPP="720350001">
+        <Name>АО "УСТЭК"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="7203162698" PersonalAcc="40702810072000111639" KPP="997450001">
+        <Name>ПАО "Фортум"</Name>
+        <Bank BIC="047501602" CorrespAcc="30101810700000000602"></Bank>
+    </Payee>
+    <Purpose>Оплата по сч.-ф.N 1000/0090191388 от 31.03.2018 г. за тепловую энергию, теплоноситель за март 2018 г. по дог. N 15530 от 24.10.17,   В т.ч. НДС(18%) 22332359-66</Purpose>
+</ED101>
