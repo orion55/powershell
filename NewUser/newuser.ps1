@@ -11,7 +11,8 @@ $hashList =@{
     "retail" = "";
     "crm" = "";
     "way" = "";
-    "suvd" = ""
+    "suvd" = "";
+    "kk" = "";
 }
 
 function mailSend(){	

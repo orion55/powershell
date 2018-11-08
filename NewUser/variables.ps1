@@ -1,12 +1,12 @@
 ﻿[string]$curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
 
-[string]$fullName = "Иванов Иван Иванович"
+[string]$fullName = "Бессонова Елена Валерьевна"
 
 [string]$emailMAIL = "DEP-OI@apkbank.apk"
 [string]$textMAIL = "Прошу предоставить доступ ко внутренней почте пользователю <b>$fullName</b>, согласно приведенной заявке."
 
 [string]$emailQUORUM = "quorum@apkbank.ru"
-[string]$copyUser =  "Петров Пётр Петрович"
+[string]$copyUser =  "Федорова Ольга Вадимовна"
 [string]$textQUORUM = "Прошу предоставить доступ ко внутренней почте пользователю <b>$fullName</b>, согласно приведенной заявке.<br>Права можно скопировать с пользователя <b>$copyUser</b>."
 
 [string]$emailRETAIL = "retail@apkbank.ru"
@@ -14,6 +14,9 @@
 
 [string]$emailCRM = "cred-fo@apkbank.ru"
 [string]$textCRM = "Прошу предоставить доступ пользователю <b>$fullName</b>, согласно приведенной заявке."
+
+[string]$emailKK = "cred-fo@apkbank.ru"
+[string]$textKK = "Прошу предоставить доступ пользователю <b>$fullName</b> к системе 'Кредитный конвейер', согласно приведенной заявке."
 
 [string]$emailSUVD = "cred-fo@apkbank.ru"
 [string]$textSUVD = "Прошу предоставить доступ пользователю <b>$fullName</b> к СУВД, согласно приведенной заявке."
