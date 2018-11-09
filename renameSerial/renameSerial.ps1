@@ -52,82 +52,100 @@ Start-FileLog -LogLevel Information -FilePath $logName -Append
 $aviFormats = @("*.mkv","*.avi", "*.mp4") 
 
 $fileList = Get-ChildItem -Path $inDir -Directory
+$directoryCount = ($fileList | Measure-Object).count
 
-#Устраняем многоуровневость папок и удаляем невидео файлы
-$tmpDir = "$inDir\tmp"
-New-Item -ItemType directory -Path $tmpDir | out-Null
+if ($directoryCount -gt 0){
+    #Устраняем многоуровневость папок и удаляем невидео файлы
+    $tmpDir = "$inDir\tmp"
+    New-Item -ItemType directory -Path $tmpDir | out-Null
 
-foreach ($file in $fileList){
-     #если вложенность папок больше 0
-     if ((Get-ChildItem -LiteralPath $file.FullName -Directory -Recurse|Measure-Object).count -gt 0){         
-         Get-ChildItem -LiteralPath $file.FullName -File -Recurse | Move-Item -Destination $tmpDir
-         Get-ChildItem $tmpDir -Exclude $aviFormats | Remove-item
-         Get-ChildItem -LiteralPath $file.FullName -Recurse -Directory | Remove-Item
-         Get-ChildItem $tmpDir -File -Recurse | Move-Item -Destination $file.FullName
-     }
-}
-
-Remove-Item $tmpDir
-
-foreach ($file in $fileList){
-    $videoFiles = Get-ChildItem -LiteralPath $file.FullName -File | Where-Object {$_.extension -in ".avi", ".mkv", ".mp4"}
-    $videoCount = ($videoFiles | Measure-Object).count
-    if ($videoCount -eq 1){
-        Move-Item -LiteralPath $videoFiles.FullName -Destination $inDir        
-        Write-Log -EntryType Information -Message "Перемещено $videoFiles"
-        Remove-Item $file.FullName -Recurse -Force        
-        Write-Log -EntryType Warning -Message "Удалено $file"
+    foreach ($file in $fileList){
+         #если вложенность папок больше 0
+         if ((Get-ChildItem -LiteralPath $file.FullName -Directory -Recurse|Measure-Object).count -gt 0){         
+             Get-ChildItem -LiteralPath $file.FullName -File -Recurse | Move-Item -Destination $tmpDir
+             Get-ChildItem $tmpDir -Exclude $aviFormats | Remove-item
+             Get-ChildItem -LiteralPath $file.FullName -Recurse -Directory | Remove-Item
+             Get-ChildItem $tmpDir -File -Recurse | Move-Item -Destination $file.FullName
+         }
     }
-    if ($videoCount -gt 1){
-        foreach ($video in $videoFiles){
-            $numberRange = "['s', 'S'](\d{2})['e', 'E'](\d{2})"
-            if ($video.name -match $numberRange){
-                $i = $Matches[1] 
-                $j = $Matches[2]                
-                if ($i -eq "01"){
-                    $name = "$($video.DirectoryName)\$j$($video.Extension)"                    
-                } else {
-                    $name = "$($video.DirectoryName)\$i$j$($video.Extension)"
+
+    Remove-Item $tmpDir
+
+    foreach ($file in $fileList){
+        $videoFiles = Get-ChildItem -LiteralPath $file.FullName -File | Where-Object {$_.extension -in ".avi", ".mkv", ".mp4"}
+        $videoCount = ($videoFiles | Measure-Object).count
+        if ($videoCount -eq 1){
+            Move-Item -LiteralPath $videoFiles.FullName -Destination $inDir        
+            Write-Log -EntryType Information -Message "Перемещено $videoFiles"
+            Remove-Item $file.FullName -Recurse -Force        
+            Write-Log -EntryType Warning -Message "Удалено $file"
+        }
+        if ($videoCount -gt 1){
+            foreach ($video in $videoFiles){
+                $numberRange = "['s', 'S'](\d{2})['e', 'E'](\d{2})"
+                if ($video.name -match $numberRange){
+                    $i = $Matches[1] 
+                    $j = $Matches[2]                
+                    if ($i -eq "01"){
+                        $name = "$($video.DirectoryName)\$j$($video.Extension)"                    
+                    } else {
+                        $name = "$($video.DirectoryName)\$i$j$($video.Extension)"
+                    }
+                    Rename-Item -LiteralPath $video.FullName -NewName $name                        
                 }
-                Rename-Item -LiteralPath $video.FullName -NewName $name                        
-            }
-        }        
+            }        
+        }
     }
-}
 
-$illegalchars2 = [string]::join('',([System.IO.Path]::GetInvalidFileNameChars())) -replace '\\','\\'
+    $illegalchars2 = [string]::join('',([System.IO.Path]::GetInvalidFileNameChars())) -replace '\\','\\'
 
-$fileList = Get-ChildItem -Path $inDir -Directory
-foreach ($file in $fileList){
-    $newName = $($file.Name).Replace(".", " ").Replace("_", " ").Replace("[", " ").Replace("]", " ")    
-    $lang = detectLang($newName)
-    if ($lang -ne "ru"){
-        $newName = translate -lang $lang -text $newName
-        $newName = $newName -replace "[$illegalchars2]", ''
-        $name = "$inDir\$newName"
-        Write-Log -EntryType Information -Message "Переименован $($file.FullName) --> $name"
-        Rename-Item -LiteralPath $file.FullName -NewName $name
-    }    
+    $fileList = Get-ChildItem -Path $inDir -Directory
+    foreach ($file in $fileList){
+        $fileName = $file.Name
+        $season = "['.', '_']['S', 's']\d{2}['.', '_']"
+        $newName = $fileName
+
+        if ($fileName -match $season){
+            $index = $fileName.IndexOf($Matches[0])
+            $newName = $fileName.Substring(0, $index)
+        }
+
+        $newName = $newName.Replace(".", " ").Replace("_", " ").Replace("[", " ").Replace("]", " ")    
+        $lang = detectLang($newName)
+        if ($lang -ne "ru"){
+            $newName = translate -lang $lang -text $newName
+            $newName = $newName -replace "[$illegalchars2]", ''
+            $name = "$inDir\$newName"
+            Write-Log -EntryType Information -Message "Переименован $($file.FullName) --> $name"
+            Rename-Item -LiteralPath $file.FullName -NewName $name
+        }    
+    }
 }
 
 $fileList = Get-ChildItem -Path $inDir -File
 foreach ($file in $fileList){
+    $fileName = $file.BaseName
     $year = "['.', '_', '(', ' ']\d{4}['.', '_', ')', ' ']"
+    $newName = $fileName
+
     if ($file -match $year){
-        $index = $file.Name.IndexOf($Matches[0])
-        $newName = $file.Name.Substring(0, $index)
-        $newName = $newName.Replace(".", " ").Replace("_", " ")            
-        if (!($file -is [System.IO.DirectoryInfo])){            
-            $lang = detectLang($newName)
-            if ($lang -ne "ru"){
-                $newName = translate -lang $lang -text $newName
-                $newName = $newName -replace "[$illegalchars2]", ''
-            }
-            $name = "$($file.DirectoryName)\$newName$($file.Extension)"
-            Write-Log -EntryType Information -Message "Переименован $($file.FullName) --> $name"            
-            Rename-Item -LiteralPath $file.FullName -NewName $name
+        $index = $fileName.IndexOf($Matches[0])
+        if ($index -gt 0){
+            $newName = $fileName.Substring(0, $index)
         }
-    }    
+    }
+        
+    $newName = $newName.Replace(".", " ").Replace("_", " ")            
+    if (!($file -is [System.IO.DirectoryInfo])){            
+        $lang = detectLang($newName)
+        if ($lang -ne "ru"){
+            $newName = translate -lang $lang -text $newName
+            $newName = $newName -replace "[$illegalchars2]", ''
+        }
+        $name = "$($file.DirectoryName)\$newName$($file.Extension)"
+        Write-Log -EntryType Information -Message "Переименован $($file.FullName) --> $name"            
+        Rename-Item -LiteralPath $file.FullName -NewName $name
+    }
 }
 
 Stop-FileLog
