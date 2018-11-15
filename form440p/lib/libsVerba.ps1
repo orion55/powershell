@@ -3,8 +3,8 @@ function Verba_script{
 		[String]$scrpt_name,
 		[String]$mask = "*.*")
 	
-	    [string]$tmp = "$dir1\tmp"
-        [int]$amount =3
+	[string]$tmp = "$dir1\tmp"
+    [int]$amount =3
 	
 	do{
 		$ht = @()
@@ -62,9 +62,93 @@ function Verba_script_no{
 		[String]$mask = "*.*")
 	
 		
-		Write-Log -EntryType Information -Message "Начинаем преобразование..."
-		Start-Process "$verba" "/@$scrpt_name" -NoNewWindow -Wait
-		Start-Sleep -Seconds 3
+	Write-Log -EntryType Information -Message "Начинаем преобразование..."
+	Start-Process "$verba" "/@$scrpt_name" -NoNewWindow -Wait
+	Start-Sleep -Seconds 3
+}
+
+function Verba_script_sql{
+    Param( 
+		[String]$scrpt_name,
+		[String]$mask = "*.*")
+    
+    [string]$Database = "$dir1\list.SQLite"
+    if (Test-Path -Path $Database){
+        Remove-Item $Database -Force
+    }
+    
+    Invoke-SqliteQuery -DataSource $Database -Query "CREATE TABLE FiLES (
+	namefile VARCHAR (100) NOT NULL UNIQUE,
+	lengthfile INTEGER NOT NULL,
+	PRIMARY KEY(namefile)
+    );    
+    CREATE TABLE NEWFiLES (
+	namefile VARCHAR (100) NOT NULL UNIQUE,
+	lengthfile INTEGER NOT NULL,
+	PRIMARY KEY(namefile)
+    );
+    "
+
+    [int]$amount = 0
+    [string]$tmp = "$dir1\tmp"
+	
+	do{
+        $DataTable = Get-ChildItem "$work\$mask" | %{ 
+         [pscustomobject]@{
+                namefile = $_.Name
+                lengthfile = $_.Length
+            }
+        } | Out-DataTable
+
+        Invoke-SQLiteBulkCopy -DataTable $DataTable -DataSource $Database -Table FiLES -Force
+
+        Write-Log -EntryType Information -Message "Начинаем преобразование..."
+	    Start-Process "$verba" "/@$scrpt_name" -NoNewWindow -Wait
+	    Start-Sleep -Seconds 3
+
+        #проверяем действительно или все файлы подписаны\расшифрованы. Верба иногда вылетает с ошибкой.
+        Write-Log -EntryType Information -Message "Сравниваем до и после преобразования..."
+        $DataTable = Get-ChildItem "$work\$mask" | %{ 
+         [pscustomobject]@{
+                namefile = $_.Name
+                lengthfile = $_.Length
+            }
+        } | Out-DataTable
+
+        Invoke-SQLiteBulkCopy -DataTable $DataTable -DataSource $Database -Table NEWFiLES -Force
+
+        #сравниваем старую и новую длину файлов, и показываем те файлы у которых длина не изменилась (т.е. преобразование не было осуществлено)
+        $query = "select FiLES.namefile from FiLES join NEWFiLES on FiLES.namefile = NEWFiLES.namefile where FiLES.lengthfile = NEWFiLES.lengthfile"
+        $namefiles = Invoke-SqliteQuery -DataSource $Database -Query $query
+        
+        #если не все преобразованы, повторяем процесс
+		$count = ($namefiles | Measure-Object).Count
+		if ($count -ne 0){
+			
+			Write-Log -EntryType Error -Message "Часть файлов не были преобразованы!"
+						
+			if (!(Test-Path $tmp)){
+				New-Item -ItemType directory -Path $tmp | out-Null
+			}
+			$files1 = Get-ChildItem "$work\$mask" |  Select-Object Name | ? {$not_diff -notcontains $_.Name} | % {$_.Name}
+			foreach ($ff2 in $files1){
+				Move-Item -Path "$work\$ff2" -Destination $tmp
+			}
+			
+		}
+        $amount--
+    } until ($count -eq 0 -or $amount -eq 0)
+
+	if (Test-Path $tmp){
+		Move-Item -Path "$tmp\*.*" -Destination $work
+		Remove-Item -Recurse $tmp
+	}
+    
+    <#if ($amount -eq 0){
+        Write-Log -EntryType Error -Message "Ошибка при работе с Verba"
+        exit
+    }#>
+	Start-Sleep -Seconds 5
 }
 
 #копируем каталоги рекурсивно на "волшебный" диск А: - туда и обратно
