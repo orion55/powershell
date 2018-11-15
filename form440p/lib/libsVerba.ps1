@@ -72,54 +72,68 @@ function Verba_script_sql{
 		[String]$scrpt_name,
 		[String]$mask = "*.*")
     
-    [string]$Database = "$dir1\list.SQLite"
+    [bool]$testing = $false
+
+    <#[string]$Database = "$dir1\list.SQLite"    
     if (Test-Path -Path $Database){
         Remove-Item $Database -Force
-    }
+    }#>
+    $memoryConn = New-SQLiteConnection -DataSource :MEMORY: 
     
-    Invoke-SqliteQuery -DataSource $Database -Query "CREATE TABLE FiLES (
-	namefile VARCHAR (100) NOT NULL UNIQUE,
-	lengthfile INTEGER NOT NULL,
-	PRIMARY KEY(namefile)
-    );    
-    CREATE TABLE NEWFiLES (
-	namefile VARCHAR (100) NOT NULL UNIQUE,
-	lengthfile INTEGER NOT NULL,
-	PRIMARY KEY(namefile)
-    );
-    "
-
     [int]$amount = 0
     [string]$tmp = "$dir1\tmp"
 	
 	do{
+        $query = "CREATE TABLE FiLES (
+	    namefile VARCHAR (100) NOT NULL UNIQUE,
+	    lengthfile INTEGER NOT NULL,
+	    PRIMARY KEY(namefile)
+        );    
+        CREATE TABLE NEWFiLES (
+	    namefile VARCHAR (100) NOT NULL UNIQUE,
+	    lengthfile INTEGER NOT NULL,
+	    PRIMARY KEY(namefile)
+        );"    
+    
+        Invoke-SqliteQuery -Query $query -SQLiteConnection $memoryConn
+
         $DataTable = Get-ChildItem "$work\$mask" | %{ 
          [pscustomobject]@{
                 namefile = $_.Name
                 lengthfile = $_.Length
             }
         } | Out-DataTable
-
-        Invoke-SQLiteBulkCopy -DataTable $DataTable -DataSource $Database -Table FiLES -Force
+                
+        Invoke-SQLiteBulkCopy -DataTable $DataTable -Table FiLES -Force -SQLiteConnection $memoryConn
 
         Write-Log -EntryType Information -Message "Начинаем преобразование..."
 	    Start-Process "$verba" "/@$scrpt_name" -NoNewWindow -Wait
 	    Start-Sleep -Seconds 3
 
         #проверяем действительно или все файлы подписаны\расшифрованы. Верба иногда вылетает с ошибкой.
-        Write-Log -EntryType Information -Message "Сравниваем до и после преобразования..."
+        Write-Log -EntryType Information -Message "Сравниваем до и после преобразования..."        
+        
         $DataTable = Get-ChildItem "$work\$mask" | %{ 
-         [pscustomobject]@{
-                namefile = $_.Name
-                lengthfile = $_.Length
-            }
-        } | Out-DataTable
+                [pscustomobject]@{
+                    namefile = $_.Name
+                    lengthfile = $_.Length
+                }
+            } | Out-DataTable
 
-        Invoke-SQLiteBulkCopy -DataTable $DataTable -DataSource $Database -Table NEWFiLES -Force
+        Invoke-SQLiteBulkCopy -DataTable $DataTable -Table NEWFiLES -Force -SQLiteConnection $memoryConn
+
+        if ($testing){            
+            $query = "UPDATE NEWFiLES SET lengthfile='636724' WHERE namefile='BVD1_ZSV17106962_772520181012_002161_20181017_0002_000001_000005.xml';
+            UPDATE NEWFiLES SET lengthfile='635299' WHERE namefile='BVD1_ZSV17106962_772520181012_002161_20181017_0002_000001_000007.xml';
+            UPDATE NEWFiLES SET lengthfile='635588' WHERE namefile='BVD1_ZSV17106962_772520181012_002161_20181017_0002_000001_000008.xml';"            
+            Invoke-SqliteQuery -Query $query -SQLiteConnection $memoryConn
+         
+            $testing = $false
+        }
 
         #сравниваем старую и новую длину файлов, и показываем те файлы у которых длина не изменилась (т.е. преобразование не было осуществлено)
         $query = "select FiLES.namefile from FiLES join NEWFiLES on FiLES.namefile = NEWFiLES.namefile where FiLES.lengthfile = NEWFiLES.lengthfile"
-        $namefiles = Invoke-SqliteQuery -DataSource $Database -Query $query
+        $namefiles = Invoke-SqliteQuery -Query $query -SQLiteConnection $memoryConn
         
         #если не все преобразованы, повторяем процесс
 		$count = ($namefiles | Measure-Object).Count
@@ -130,11 +144,18 @@ function Verba_script_sql{
 			if (!(Test-Path $tmp)){
 				New-Item -ItemType directory -Path $tmp | out-Null
 			}
-			$files1 = Get-ChildItem "$work\$mask" |  Select-Object Name | ? {$not_diff -notcontains $_.Name} | % {$_.Name}
+            $excludeArray = @()
+            $namefiles.namefile | % {$excludeArray += $_}
+                        
+			$files1 = Get-ChildItem "$work\$mask" -Exclude $excludeArray
 			foreach ($ff2 in $files1){
-				Move-Item -Path "$work\$ff2" -Destination $tmp
+				Move-Item -Path $ff2 -Destination $tmp
 			}
-			
+
+            $query = "drop table FiLES;
+            drop table NEWFiLES;"    
+    
+            Invoke-SqliteQuery -Query $query -SQLiteConnection $memoryConn
 		}
         $amount--
     } until ($count -eq 0 -or $amount -eq 0)
@@ -144,11 +165,14 @@ function Verba_script_sql{
 		Remove-Item -Recurse $tmp
 	}
     
-    <#if ($amount -eq 0){
+    if ($amount -eq 0){
         Write-Log -EntryType Error -Message "Ошибка при работе с Verba"
         exit
-    }#>
-	Start-Sleep -Seconds 5
+    }
+    
+    $memoryConn.Close()
+	
+    Start-Sleep -Seconds 5
 }
 
 #копируем каталоги рекурсивно на "волшебный" диск А: - туда и обратно
