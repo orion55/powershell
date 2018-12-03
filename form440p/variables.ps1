@@ -25,7 +25,8 @@
 [string]$arm440_fl = "$arm440\ANSWER_FL"
 
 #настройка почты
-[string]$mail_addr = "tmn-f365@tmn.apkbank.apk"
+#[string]$mail_addr = "tmn-f365@tmn.apkbank.apk"
+[string]$mail_addr = "tmn-goe@tmn.apkbank.ru"
 [string]$mail_server = "191.168.6.50"
 [string]$mail_from = "atm_support@tmn.apkbank.apk"
 

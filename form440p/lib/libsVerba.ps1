@@ -1,61 +1,3 @@
-function Verba_script{
-	Param( 
-		[String]$scrpt_name,
-		[String]$mask = "*.*")
-	
-	[string]$tmp = "$dir1\tmp"
-    [int]$amount =3
-	
-	do{
-		$ht = @()
-		Get-ChildItem "$work\$mask" | %{ $ht += ,($_.Name, $_.Length)}
-		
-		Write-Log -EntryType Information -Message "Начинаем преобразование..."
-		Start-Process "$verba" "/@$scrpt_name" -NoNewWindow -Wait
-		Start-Sleep -Seconds 3
-		
-		#проверяем действительно или все файлы подписаны\расшифрованы. Верба иногда вылетает с ошибкой.
-		$ff = Get-ChildItem "$work\$mask"
-		Write-Log -EntryType Information -Message "Сравниваем до и после преобразования..."
-		foreach ($f1 in $ff){	
-			$ht |  % {$i = 0} { if ($_ -eq $f1.Name) {$ht[$i] += $f1.Length}; $i++} {}	
-		}
-		$not_diff = @()
-		foreach ($h1 in $ht){
-			if ($h1[1] -eq $h1[2]){
-				$not_diff += [string]$h1[0]		
-			}
-		}
-		#если не все преобразованы, повторяем процесс
-		$count = ($not_diff | Measure-Object).count
-		if ($count -ne 0){
-			
-			Write-Log -EntryType Error -Message "Часть файлов не были преобразованы!"
-						
-			if (!(Test-Path $tmp)){
-				New-Item -ItemType directory -Path $tmp | out-Null
-			}
-			$files1 = Get-ChildItem "$work\$mask" |  Select-Object Name | ? {$not_diff -notcontains $_.Name} | % {$_.Name}
-			foreach ($ff2 in $files1){
-				Move-Item -Path "$work\$ff2" -Destination $tmp
-			}
-			
-		}
-        $amount--
-	} until ($count -eq 0 -or $amount -eq 0)
-    	
-	if (Test-Path $tmp){
-		Move-Item -Path "$tmp\*.*" -Destination $work
-		Remove-Item -Recurse $tmp
-	}
-    
-    if ($amount -eq 0){
-        Write-Log -EntryType Error -Message "Ошибка при работе с Verba"
-        exit
-    }
-	Start-Sleep -Seconds 5
-}
-
 function Verba_script_no{
 	Param( 
 		[String]$scrpt_name,
@@ -67,17 +9,11 @@ function Verba_script_no{
 	Start-Sleep -Seconds 3
 }
 
-function Verba_script_sql{
+function Verba_script{
     Param( 
 		[String]$scrpt_name,
-		[String]$mask = "*.*")
+		[String]$mask = "*.*")    
     
-    [bool]$testing = $false
-
-    <#[string]$Database = "$dir1\list.SQLite"    
-    if (Test-Path -Path $Database){
-        Remove-Item $Database -Force
-    }#>
     $memoryConn = New-SQLiteConnection -DataSource :MEMORY: 
     
     [int]$amount = 0
@@ -103,9 +39,14 @@ function Verba_script_sql{
                 lengthfile = $_.Length
             }
         } | Out-DataTable
-                
+        
+        if (($DataTable | Measure-Object).count -eq 0){
+            $amount = 1
+            break
+        }        
+        
         Invoke-SQLiteBulkCopy -DataTable $DataTable -Table FiLES -Force -SQLiteConnection $memoryConn
-
+        
         Write-Log -EntryType Information -Message "Начинаем преобразование..."
 	    Start-Process "$verba" "/@$scrpt_name" -NoNewWindow -Wait
 	    Start-Sleep -Seconds 3
@@ -120,17 +61,12 @@ function Verba_script_sql{
                 }
             } | Out-DataTable
 
-        Invoke-SQLiteBulkCopy -DataTable $DataTable -Table NEWFiLES -Force -SQLiteConnection $memoryConn
-
-        if ($testing){            
-            $query = "UPDATE NEWFiLES SET lengthfile='636724' WHERE namefile='BVD1_ZSV17106962_772520181012_002161_20181017_0002_000001_000005.xml';
-            UPDATE NEWFiLES SET lengthfile='635299' WHERE namefile='BVD1_ZSV17106962_772520181012_002161_20181017_0002_000001_000007.xml';
-            UPDATE NEWFiLES SET lengthfile='635588' WHERE namefile='BVD1_ZSV17106962_772520181012_002161_20181017_0002_000001_000008.xml';"            
-            Invoke-SqliteQuery -Query $query -SQLiteConnection $memoryConn
-         
-            $testing = $false
+        if (($DataTable | Measure-Object).count -eq 0){
+            $amount = 1
+            break
         }
-
+        Invoke-SQLiteBulkCopy -DataTable $DataTable -Table NEWFiLES -Force -SQLiteConnection $memoryConn
+        
         #сравниваем старую и новую длину файлов, и показываем те файлы у которых длина не изменилась (т.е. преобразование не было осуществлено)
         $query = "select FiLES.namefile from FiLES join NEWFiLES on FiLES.namefile = NEWFiLES.namefile where FiLES.lengthfile = NEWFiLES.lengthfile"
         $namefiles = Invoke-SqliteQuery -Query $query -SQLiteConnection $memoryConn
@@ -397,10 +333,42 @@ function 440_in{
     #снимаем подпись с отчетов
 	Write-Log -EntryType Information -Message "Снимаем подпись с arj-архивов"
 	Write-Log -EntryType Information -Message "Загружаем ключевую дискету $disk_sig"
-	Copy_dirs -from $disk_sig -to 'a:'		
+	Copy_dirs -from $disk_sig -to 'a:'
 	Verba_script -scrpt_name $script_unsig -mask "*.arj"
 		
+    arj_unpack
+		
 	Set-Location $work
+    $vrbFiles = Get-ChildItem "$work\*.vrb"
+	if ($vrbFiles.count -gt 0){
+		#расшифровываем файлы
+		Write-Log -EntryType Information -Message "Расшифровываем vrb-файлы"
+		Write-Log -EntryType Information -Message "Загружаем ключевую дискету $disk_crypt"
+		Remove-Item 'a:' -Recurse -ErrorAction "SilentlyContinue"
+		Copy_dirs -from $disk_crypt -to 'a:'		
+		Verba_script -scrpt_name $script_uncrypt -mask "*.VRB"
+			
+		Write-Log -EntryType Information -Message "Переименовываем файлы в xml"
+		Get-ChildItem '*.vrb' | Rename-Item -NewName { $_.Name -replace '.vrb$','.xml' }		
+	}
+		
+	#снимаем подпись с xml-файлов
+	Write-Log -EntryType Information -Message "Снимаем подпись с xml-файлов"
+	Write-Log -EntryType Information -Message "Загружаем ключевую дискету $disk_sig"
+	Remove-Item 'a:' -Recurse -ErrorAction "SilentlyContinue"
+	Copy_dirs -from $disk_sig -to 'a:'
+	Verba_script -scrpt_name $script_unsig -mask "*.xml"
+		
+	Write-Log -EntryType Information -Message "Форматируем xml-файлы"
+	$files_xml = Get-ChildItem -Path "*.xml"			
+	foreach ($file_xml in $files_xml){
+		[xml]$xml = Get-Content $file_xml
+		$xml.Save($file_xml)
+	}
+}
+
+function arj_unpack_old{
+    Set-Location $work
 		
 	Write-Log -EntryType Information -Message "Начинаем разархивацию..."
     $cur_files =  Get-ChildItem "$work\*.*" -Exclude "*.arj"
@@ -437,136 +405,47 @@ function 440_in{
     } 	
     
     Remove-Item -Path '*.arj'
-		
-	$vrbFiles = Get-ChildItem "$work\*.vrb"
-	if ($vrbFiles.count -gt 0){
-		#расшифровываем файлы
-		Write-Log -EntryType Information -Message "Расшифровываем vrb-файлы"
-		Write-Log -EntryType Information -Message "Загружаем ключевую дискету $disk_crypt"
-		Remove-Item 'a:' -Recurse -ErrorAction "SilentlyContinue"
-		Copy_dirs -from $disk_crypt -to 'a:'		
-		Verba_script -scrpt_name $script_uncrypt -mask "*.VRB"
-			
-		Write-Log -EntryType Information -Message "Переименовываем файлы в xml"
-		Get-ChildItem '*.vrb' | Rename-Item -NewName { $_.Name -replace '.vrb$','.xml' }		
-	}
-		
-	#снимаем подпись с xml-файлов
-	Write-Log -EntryType Information -Message "Снимаем подпись с xml-файлов"
-	Write-Log -EntryType Information -Message "Загружаем ключевую дискету $disk_sig"
-	Remove-Item 'a:' -Recurse -ErrorAction "SilentlyContinue"
-	Copy_dirs -from $disk_sig -to 'a:'
-	Verba_script -scrpt_name $script_unsig -mask "*.xml"
-		
-	Write-Log -EntryType Information -Message "Форматируем xml-файлы"
-	$files_xml = Get-ChildItem -Path "*.xml"			
-	foreach ($file_xml in $files_xml){
-		[xml]$xml = Get-Content $file_xml
-		$xml.Save($file_xml)
-	}
 }
 
-Function Validate-Xml{
-    [CmdletBinding()]
-    param(
-        [Parameter(Mandatory=$True)]
-        [string]$xmlFileName,
-        
-        [Parameter(Mandatory=$True)]
-        [string]$xsdFileName
-    )
-
-    # Check if the provided file exists
-    if(!(Test-Path -Path $xmlFileName))
-    {
-        Write-Log -EntryType Error -Message "Проверка XML невозможна, поскольку не найден XML-файл в '$xmlFileName'"
-        exit 2
-    }
-
-    # Check if the provided file exists
-    if(!(Test-Path -Path $xsdFileName))
-    {
-        Write-Log -EntryType Error -Message "Проверка XML невозможна, поскольку XSD-файл не найден '$xsdFileName'"
-        exit 3
-    }
-
-    #making the schemaset
-    $schemaSet = New-Object -TypeName System.Xml.Schema.XmlSchemaSet
-    [void]$schemaSet.Add("", $xsdFileName)
-    $compiledSchema = $null
-    Foreach($schema in $schemaSet)
-    {
-	    $compiledSchema = $schema
-    }
-
-    # Get the file
-    $XmlFile = Get-Item($xmlFileName)
-
-    # Keep count of how many errors there are in the XML file
-    $script:errorCount = 0
-
-    # Perform the XSD Validation
-    $readerSettings = New-Object -TypeName System.Xml.XmlReaderSettings
-    $readerSettings.Schemas.Add($compiledSchema)
-    $readerSettings.ValidationType = [System.Xml.ValidationType]::Schema
-    $readerSettings.ValidationFlags = [System.Xml.Schema.XmlSchemaValidationFlags]::ProcessInlineSchema -bor [System.Xml.Schema.XmlSchemaValidationFlags]::ProcessSchemaLocation
-    $readerSettings.add_ValidationEventHandler(
-    {
-        # Triggered each time an error is found in the XML file
-        Write-Log -EntryType Error -Message $("Ошибка в XML: " + $_.Message)
-        $script:errorCount++
-    });
-    $reader = [System.Xml.XmlReader]::Create($XmlFile.FullName, $readerSettings)
-    while ($reader.Read()) { }
-    $reader.Close()
-
-    # Verify the results of the XSD validation
-    if($script:errorCount -gt 0)
-    {
-        # XML is NOT valid
-        return 1
-    }
-    else
-    {
-        # XML is valid
-        return 0
-    }
-}
-
-Function Validate-Catalog{
-    $m = Get-ChildItem "$work\*.xml" | measure    
-    if ($m.count -eq 0){
-        Write-Log -EntryType Error -Message "XML-файлы не найденны"
-        exit        
+function arj_unpack{		
+	Write-Log -EntryType Information -Message "Начинаем разархивацию..."
+    $tmp_arj = "$dir1\tmp_arj"
+    if (!(Test-Path $tmp_arj)){
+	    New-Item -ItemType directory -Path $tmp_arj | out-Null
     }
     
-    $xmlFiles = Get-ChildItem "$work\*.xml"
-    [bool]$flag_err = $false
+    Set-Location $tmp_arj
     
-    foreach ($xmlFile in $xmlFiles){
-        $name3Char = $xmlFile.BaseName.Substring(0, 3)
-        $name2Char = $xmlFile.BaseName.Substring(0, 2)
+    $err_files = @()
+    foreach ($arj_file in $arj_files) {        
+        Write-Log -EntryType Information -Message "Разархивация файла $arj_file"
         
-        if ($name2Char -eq "PB"){
-            $name3Char = "PBQ"
-        }
-        $xsdName = $name3Char + "_300.xsd"
-        $xsdFile = $schemaCatalog + "\" + $xsdName        
-        
-        if(!(Test-Path -Path $xsdFile)){
-            Write-Log -EntryType Error -Message "Файл XSD-схемы не найден $xsdName"
-        } else {
-            $valid = Validate-Xml -xmlFileName $xmlFile -xsdFileName $xsdFile
-            if ($valid -eq 0){
-                Write-Log -EntryType Information -Message "Валидация файла прошла успешно $xmlFile"
-            } else {
-                Write-Log -EntryType Error -Message "Ошибка валидации файла $xmlFile"
-                $flag_err = $true
-            }
-        }
-    }
+        $arg_list = "e -y $arj_file"
+        $arjProc = Start-Process -FilePath $arj32 -ArgumentList $arg_list -Wait -NoNewWindow       
 
-    return $flag_err
+        if ($arjProc -eq $null){
+            Copy-Item "$tmp_arj\*.*" -Destination $work -Force -Exclude "*.arj"
+            Remove-Item "$tmp_arj\*.*"
+        }
+        else {
+            $err_files += $arj_file.FullName;
+        }        
+    }	
+    
+    if ($err_files.count -gt 0){
+        $encoding = [System.Text.Encoding]::UTF8
+        $title = "Автоматический приём по форме 440П - прекращён!"
+        $body = "Приём прекращён. Архивы повреждены`n"
+        $body += ($err_files  | Out-String) 
+        Send-MailMessage -To $mail_addr -Body $body -Encoding $encoding -From $mail_from -Subject $title -SmtpServer $mail_server
+        Write-Log -EntryType Error -Message $body
+        exit
+    } 	
+    
+    Remove-Item $tmp_arj -Force -ErrorAction SilentlyContinue
+    Remove-Item -Path "$work\*.arj"
+
+    Set-Location $dir1
 }
 
 function documentsCheckSend{
@@ -605,7 +484,6 @@ function documentsCheckSend{
 		}
 	}
     
-#    $title = "Отправлены сообщения по 440П"
 	$count = $docFiles.count
 	$body = "Отправленно всего $count сообщений`n"
 	$body += "Из них:`n"	
@@ -635,35 +513,10 @@ function documentsCheckSend{
 		$body += "Прочие документы: " + $typeDocs.other + "`n"
 	}		
 	
-#	$encoding = [System.Text.Encoding]::UTF8
-#	Send-MailMessage -To $mail_addr -Body $body -Encoding $encoding -From $mail_from -Subject $title -SmtpServer $mail_server
-#   Write-Log -EntryType Information -Message $body
     return $body
 }
 
 Function 440_out{
-    #проверяем на соотвествие XSD - формата
-    <#if (Validate-Catalog){
-        $title = "Ошибка валидации"
-        $message = "При валидации произошла ошибка. Продлжить отправку отчетности?"
-        $yes = New-Object System.Management.Automation.Host.ChoiceDescription "Да - &0", "Да"
-        $no = New-Object System.Management.Automation.Host.ChoiceDescription "Нет - &1", "Нет"
-        $options = [System.Management.Automation.Host.ChoiceDescription[]]($yes, $no)
-        try {
-	        $choice = $host.ui.PromptForChoice($title, $message, $options, 1)
-	        switch ($choice){
-		        0  { $proceed = $true}
-		        1  { $proceed = $false}
-	        }	
-        }
-        catch [Management.Automation.Host.PromptingException] {
-	        Write-Log -EntryType Warning -Message "Выход!"
-            exit
-        }
-        if (!$proceed){
-            return
-        }
-    }#>
     #проверяем типы сообщений для отправки
     [string]$body = documentsCheckSend
 
@@ -718,15 +571,15 @@ Function 440_out{
 	Copy_dirs -from $disk_sig_send -to 'a:'		
 	Verba_script -scrpt_name $script_sig -mask "*.arj"
 
-    #Write-Log -EntryType Information -Message "Копируем файл архива $afnFileName в $arhivePath"
-    #Copy-Item "$work\$afnFileName" -Destination $arhivePath -Force
-    #Write-Log -EntryType Information -Message "Копируем файл архива $afnFileName в $outcoming_post"
-    #Copy-Item "$work\$afnFileName" -Destination $outcoming_post -Force
+    Write-Log -EntryType Information -Message "Копируем файл архива $afnFileName в $arhivePath"
+    Copy-Item "$work\$afnFileName" -Destination $arhivePath -Force
+    Write-Log -EntryType Information -Message "Копируем файл архива $afnFileName в $outcoming_post"
+    Copy-Item "$work\$afnFileName" -Destination $outcoming_post -Force
 
-    #Remove-Item "$work\$afnFileName"
+    Remove-Item "$work\$afnFileName"
 
     $title = "Отправлены сообщения по 440П"
 	$encoding = [System.Text.Encoding]::UTF8
-	#Send-MailMessage -To $mail_addr -Body $body -Encoding $encoding -From $mail_from -Subject $title -SmtpServer $mail_server
-    #Write-Log -EntryType Information -Message $body
+	Send-MailMessage -To $mail_addr -Body $body -Encoding $encoding -From $mail_from -Subject $title -SmtpServer $mail_server
+    Write-Log -EntryType Information -Message $body
 }

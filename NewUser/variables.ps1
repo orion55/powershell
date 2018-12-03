@@ -1,12 +1,12 @@
 ﻿[string]$curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
 
-[string]$fullName = "Бессонова Елена Валерьевна"
+[string]$fullName = "Лямзина Елена Александровна"
 
 [string]$emailMAIL = "DEP-OI@apkbank.apk"
 [string]$textMAIL = "Прошу предоставить доступ ко внутренней почте пользователю <b>$fullName</b>, согласно приведенной заявке."
 
 [string]$emailQUORUM = "quorum@apkbank.ru"
-[string]$copyUser =  "Федорова Ольга Вадимовна"
+[string]$copyUser =  "Гребенёв Олег Евгеньевич"
 [string]$textQUORUM = "Прошу предоставить доступ ко внутренней почте пользователю <b>$fullName</b>, согласно приведенной заявке.<br>Права можно скопировать с пользователя <b>$copyUser</b>."
 
 [string]$emailRETAIL = "retail@apkbank.ru"

@@ -56,7 +56,7 @@ ClearUI
 
 testDir(@($docPath, $miscPath))
 
-$pdfFiles = Get-ChildItem -Path $docPath "*.pdf"
+$pdfFiles = Get-ChildItem -Path $docPath "*.tif"
 $pdfCount = ($pdfFiles | Measure-Object).count
 Write-Host -ForegroundColor Green "Найдено $pdfCount файл(а) в $docPath!"
 if ($pdfCount -eq 0){
@@ -64,7 +64,7 @@ if ($pdfCount -eq 0){
 }
 
 foreach ($key in $($hashList.keys)) {
-    $curFile = Get-ChildItem -Path $docPath "*_$key.pdf"
+    $curFile = Get-ChildItem -Path $docPath "*_$key.tif"
     if (($curFile | Measure-Object).count -gt 0){
         $hashList[$key] = $curFile.FullName
     }    
