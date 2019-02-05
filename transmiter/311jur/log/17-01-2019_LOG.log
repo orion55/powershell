@@ -1,0 +1,5 @@
+﻿[2019-01-17 16:50:15Z] - INFO - Резервное копирование файлов в D:\Ps1\transmiter1\311jur\Archive\17012019
+[2019-01-17 16:50:15Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\transmiter1\Work\SBC217106962_720320190117_288000021900000021_200.XML Destination: D:\Ps1\transmiter1\311jur\Archive\17012019\SBC217106962_720320190117_288000021900000021_200.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\transmiter1\Work\SBC217106962_720320190117_288000021900000022_100.XML Destination: D:\Ps1\transmiter1\311jur\Archive\17012019\SBC217106962_720320190117_288000021900000022_100.XML".
+
+[2019-01-17 16:50:15Z] - INFO - Файл(ы) скопирован(ы) в D:\Ps1\transmiter1\311jur\Archive\17012019

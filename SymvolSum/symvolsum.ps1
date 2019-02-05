@@ -1,6 +1,6 @@
 ﻿#исходный каталог
 $curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
-[string]$symFile = "$curDir\out\ext_op2.out"
+[string]$symFile = "$curDir\out\ext_op1.out"
 [string]$tmpPath = "$curDir\tmp"
 [string]$resultPath = "$curDir\result"
 [string]$dostowin = "$curDir\util\dostowin.exe"
@@ -138,7 +138,8 @@ foreach ($curElement in $scroll)
             [int]$index = $desc.IndexOf($pattern) + $lenPattern
             [string]$subString = $desc.Substring($index, $desc.Length - $index)
             $sym = $subString.Substring(0, 3)
-            $symvol[$sym] += $curElement.sum
+            $symvol[$sym] += $curElement.sum            
+            $symvol[$($sym +'_count')] += 1
         }
     }
 }

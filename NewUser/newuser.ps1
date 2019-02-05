@@ -6,13 +6,13 @@ $docPath = "$curDir\doc"
 $miscPath = "$curDir\misc"
 
 $hashList =@{
-    "mail" = "";
-    "quorum" = "";
-    "retail" = "";
-    "crm" = "";
-    "way" = "";
-    "suvd" = "";
-    "kk" = "";
+    "MAIL" = "";
+    "QUORUM" = "";
+    "RETAIL" = "";
+    "CRM" = "";
+    "WAY" = "";
+    "SUVD" = "";
+    "KK" = "";
 }
 
 function mailSend(){	
@@ -56,7 +56,7 @@ ClearUI
 
 testDir(@($docPath, $miscPath))
 
-$pdfFiles = Get-ChildItem -Path $docPath "*.tif"
+$pdfFiles = Get-ChildItem -Path $docPath "*.pdf"
 $pdfCount = ($pdfFiles | Measure-Object).count
 Write-Host -ForegroundColor Green "Найдено $pdfCount файл(а) в $docPath!"
 if ($pdfCount -eq 0){
@@ -64,7 +64,7 @@ if ($pdfCount -eq 0){
 }
 
 foreach ($key in $($hashList.keys)) {
-    $curFile = Get-ChildItem -Path $docPath "*_$key.tif"
+    $curFile = Get-ChildItem -Path $docPath "*_$key.pdf"
     if (($curFile | Measure-Object).count -gt 0){
         $hashList[$key] = $curFile.FullName
     }    
