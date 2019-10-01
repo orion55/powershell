@@ -1,0 +1,1100 @@
+﻿[2019-07-10 15:32:08Z] - ERRR - Путь D:\Ps1\armkbr_msk\test_msk не найден!
+[2019-07-10 15:32:08Z] - INFO - Нажмите любую клавишу для продолжения
+[2019-07-10 15:32:25Z] - ERRR - Путь D:\Ps1\armkbr_msk\test_msk_two не найден!
+[2019-07-10 15:32:25Z] - INFO - Нажмите любую клавишу для продолжения
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000002.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000003.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000004.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000005.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000009.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000010.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000420001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000430001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000440001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000450001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\20190704XML.xml Destination: D:\Ps1\armkbr_msk\test_msk\20190704XML.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000450001.XML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\20190704XML.xml Destination: D:\Ps1\armkbr_msk\test_msk_two\20190704XML.xml".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000450001.XML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000001.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000002.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000003.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000004.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000005.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000009.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000010.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000420001.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000430001.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000440001.!ML".
+
+[2019-07-10 15:32:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000450001.!ML".
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000002.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000003.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000004.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000005.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000009.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000010.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000420001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000430001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000440001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:51:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000450001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000002.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000003.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000004.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000005.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000009.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000000010.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000420001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000430001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000440001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:52:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\20190704XML.xml".
+Rename-Item : Невозможно создать файл, так как он уже существует.
+
+At D:\Ps1\armkbr_msk\armkbr_msk2.ps1:108 char:16
++ ...      $msg = Rename-Item $file1.FullName -NewName $file21 -Verbose -Fo ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (D:\Ps1\armkbr_m...04000450001.XML:String) [Rename-Item], IOException
+    + FullyQualifiedErrorId : RenameItemIOError,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-07-10 15:53:34Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 15:55:08Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 15:58:23Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 15:59:48Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:02:12Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:02:52Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:05:09Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:05:34Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000002.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000003.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000004.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000005.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000009.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000010.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000420001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000430001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000440001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000450001.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000002.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000003.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000004.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000005.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000009.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000010.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000420001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000430001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000440001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000450001.20190704.XML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000001.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000002.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000003.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000004.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000005.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000009.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000010.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000420001.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000430001.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000440001.!ML".
+
+[2019-07-10 16:07:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000450001.!ML".
+
+[2019-07-10 16:12:37Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:13:46Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:18:13Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:18:13Z] - ERRR - Файл 596204000000001.XML нулевой длины!
+
+[2019-07-10 16:18:13Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:18:13Z] - ERRR - Файл 596204000000002.XML нулевой длины!
+
+[2019-07-10 16:18:13Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:18:13Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:18:13Z] - ERRR - Файл 596204000000004.XML нулевой длины!
+
+[2019-07-10 16:18:13Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:18:13Z] - ERRR - Файл 596204000000005.XML нулевой длины!
+
+[2019-07-10 16:18:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:18:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:18:14Z] - ERRR - Файл 596204000000010.XML нулевой длины!
+
+[2019-07-10 16:18:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:18:14Z] - ERRR - Файл 596204000420001.XML нулевой длины!
+
+[2019-07-10 16:18:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:18:14Z] - ERRR - Файл 596204000430001.XML нулевой длины!
+
+[2019-07-10 16:18:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:18:14Z] - ERRR - Файл 596204000440001.XML нулевой длины!
+
+[2019-07-10 16:18:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:18:14Z] - ERRR - Файл 596204000450001.XML нулевой длины!
+
+[2019-07-10 16:18:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:19:14Z] - ERRR - Файл 596204000000003.XML нулевой длины!
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:19:14Z] - ERRR - Файл 596204000000009.XML нулевой длины!
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:19:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:19:50Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:20:20Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000003.XML нулевой длины!
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:20:20Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000009.XML нулевой длины!
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:20:20Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:22:27Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:22:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:22:27Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:22:40Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000003.XML нулевой длины!
+
+[2019-07-10 16:22:47Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:22:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:22:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:22:56Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000009.XML нулевой длины!
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:23:14Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000003.XML нулевой длины!
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:23:14Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000009.XML нулевой длины!
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:23:14Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:30:25Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000003.XML нулевой длины!
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:30:25Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000009.XML нулевой длины!
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:30:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:31:05Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000003.XML нулевой длины!
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:31:05Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000009.XML нулевой длины!
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:31:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:32:23Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000003.XML нулевой длины!
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:32:23Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000009.XML нулевой длины!
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:32:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:33:53Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000003.XML нулевой длины!
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:33:53Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000009.XML нулевой длины!
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000002.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000003.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000004.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000005.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000009.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000010.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000420001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000430001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000440001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000450001.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000002.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000003.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000004.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000005.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000009.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000010.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000420001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000430001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000440001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000450001.20190704.XML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000001.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000002.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000003.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000004.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000005.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000009.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000010.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000420001.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000430001.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000440001.!ML".
+
+[2019-07-10 16:33:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000450001.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML".
+
+[2019-07-10 16:36:25Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000003.XML нулевой длины!
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML".
+
+[2019-07-10 16:36:25Z] - ERRR - Файл D:\Ps1\armkbr_msk\tmp\596204000000009.XML нулевой длины!
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.XML Destination: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000002.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000003.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000004.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000005.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000009.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000000010.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000420001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000430001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000440001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk\596204000450001.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000002.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000002.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000003.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000003.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000004.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000004.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000005.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000005.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000009.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000009.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000000010.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000000010.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000420001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000420001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000430001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000430001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000440001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000440001.20190704.XML".
+Performing the operation "Copy File" on target "Item: D:\Ps1\armkbr_msk\tmp\596204000450001.20190704.XML Destination: D:\Ps1\armkbr_msk\test_msk_two\596204000450001.20190704.XML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000001.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000002.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000002.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000003.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000003.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000004.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000004.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000005.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000005.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000009.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000009.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000000010.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000000010.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000420001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000420001.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000430001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000430001.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000440001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000440001.!ML".
+
+[2019-07-10 16:36:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\armkbr_msk\cb_out\596204000450001.XML Destination: D:\Ps1\armkbr_msk\cb_out\596204000450001.!ML".
+

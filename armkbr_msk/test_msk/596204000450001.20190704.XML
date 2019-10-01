@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="450001" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="05" PaytKind="4" Sum="934330006" TransKind="01" PaymentPrecedence="69" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+    <AccDoc AccDocNo="6006" AccDocDate="2019-07-04"></AccDoc>
+    <Payer INN="7705424509" PersonalAcc="40702810704020001595">
+        <Name>Акционерное общество "Энергосбытовая компания "Восток"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="7203162698" PersonalAcc="40702810072000111639" KPP="997450001">
+        <Name>ПАО "ФОРТУМ"</Name>
+        <Bank BIC="047501602" CorrespAcc="30101810700000000602"></Bank>
+    </Payee>
+    <Purpose>Оплата денежных средств за куплю-продажу мощности по договору № SDМ-ESVOSTOK-ТUМЕNЕGК-2019 за май 2019 года,   в т.ч. НДС 20% - 1 557 216.68</Purpose>
+</ED101>

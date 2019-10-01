@@ -1,0 +1,64 @@
+﻿[2019-06-14 09:57:35Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\414d512046524f4e54474154452020205cec73492a205367 Destination: D:\Ps1\KbrnArch\testRCV\out\414d512046524f4e54474154452020205cec73492a205367
+".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED211114001zx7.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED211114001zx7.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED245014001mdw.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED245014001mdw.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED8021140018i6.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED8021140018i6.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802114001m4h.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED802114001m4h.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED80211402uxj.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED80211402uxj.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802115018dv.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED802115018dv.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\ED8071402e.EDS Destination: D:\Ps1\KbrnArch\testRCV\out\ED8071402e.EDS".
+
+[2019-06-14 09:57:35Z] - INFO - Файл(ы) скопирован(ы) в D:\Ps1\KbrnArch\testRCV\out
+[2019-06-14 09:57:35Z] - ERRR - Ошибка перемещения файла(ов) в D:\Ps1\KbrnArch\testRCV\in\arch\14062019
+[2019-06-14 09:58:06Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\414d512046524f4e54474154452020205cec73492a205367 Destination: D:\Ps1\KbrnArch\testRCV\out\414d512046524f4e54474154452020205cec73492a205367
+".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED211114001zx7.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED211114001zx7.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED245014001mdw.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED245014001mdw.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED8021140018i6.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED8021140018i6.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802114001m4h.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED802114001m4h.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED80211402uxj.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED80211402uxj.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802115018dv.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED802115018dv.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\ED8071402e.EDS Destination: D:\Ps1\KbrnArch\testRCV\out\ED8071402e.EDS".
+
+[2019-06-14 09:58:06Z] - INFO - Файл(ы) скопирован(ы) в D:\Ps1\KbrnArch\testRCV\out
+[2019-06-14 09:58:06Z] - ERRR - Ошибка перемещения файла(ов) в D:\Ps1\KbrnArch\testRCV\in\arch\14062019
+[2019-06-14 10:00:47Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\414d512046524f4e54474154452020205cec73492a205367 Destination: D:\Ps1\KbrnArch\testRCV\out\414d512046524f4e54474154452020205cec73492a205367
+".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED211114001zx7.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED211114001zx7.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED245014001mdw.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED245014001mdw.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED8021140018i6.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED8021140018i6.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802114001m4h.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED802114001m4h.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED80211402uxj.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED80211402uxj.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802115018dv.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED802115018dv.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\ED8071402e.EDS Destination: D:\Ps1\KbrnArch\testRCV\out\ED8071402e.EDS".
+
+[2019-06-14 10:00:47Z] - INFO - Файл(ы) скопирован(ы) в D:\Ps1\KbrnArch\testRCV\out
+[2019-06-14 10:00:47Z] - INFO - Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED211114001zx7.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED211114001zx7.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED245014001mdw.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED245014001mdw.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED8021140018i6.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED8021140018i6.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802114001m4h.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED802114001m4h.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED80211402uxj.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED80211402uxj.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802115018dv.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED802115018dv.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\ED8071402e.EDS Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\ED8071402e.EDS".
+
+[2019-06-14 10:00:47Z] - INFO - Файл(ы) перемещен(ы) в D:\Ps1\KbrnArch\testRCV\in\arch\14062019
+[2019-06-14 10:08:46Z] - INFO - Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED211114001zx7.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED211114001zx7.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED245014001mdw.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED245014001mdw.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED8021140018i6.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED8021140018i6.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802114001m4h.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED802114001m4h.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED80211402uxj.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED80211402uxj.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802115018dv.ED Destination: D:\Ps1\KbrnArch\testRCV\out\7106962000000000000000ED802115018dv.ED".
+Performing the operation "Copy File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\ED8071402e.EDS Destination: D:\Ps1\KbrnArch\testRCV\out\ED8071402e.EDS".
+
+[2019-06-14 10:08:46Z] - INFO - Файл(ы) скопирован(ы) в D:\Ps1\KbrnArch\testRCV\out
+[2019-06-14 10:08:46Z] - INFO - Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\414d512046524f4e54474154452020205cec73492a205367 Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\414d512046524f4e54474154452020205ce
+c73492a205367".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED211114001zx7.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED211114001zx7.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED245014001mdw.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED245014001mdw.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED8021140018i6.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED8021140018i6.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802114001m4h.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED802114001m4h.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED80211402uxj.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED80211402uxj.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\7106962000000000000000ED802115018dv.ED Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\7106962000000000000000ED802115018dv.ED".
+Performing the operation "Move File" on target "Item: D:\Ps1\KbrnArch\testRCV\in\rcv\ED8071402e.EDS Destination: D:\Ps1\KbrnArch\testRCV\in\arch\14062019\ED8071402e.EDS".
+
+[2019-06-14 10:08:46Z] - INFO - Файл(ы) перемещен(ы) в D:\Ps1\KbrnArch\testRCV\in\arch\14062019

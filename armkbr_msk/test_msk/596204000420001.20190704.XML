@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="420001" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="05" PaytKind="4" Sum="5000000" TransKind="01" PaymentPrecedence="69" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+    <AccDoc AccDocNo="1071" AccDocDate="2019-07-04"></AccDoc>
+    <Payer INN="7204174833" PersonalAcc="40702810100020001351" KPP="720401001">
+        <Name>ООО "Городские зрелищные кассы"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="7707083893" PersonalAcc="40817810267100147269" KPP="720343001">
+        <Name>Токарева Вера Юрьевна</Name>
+        <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+    </Payee>
+    <Purpose>хоз нужды зачисление на счет 40817810267100147269 Токарева Вера Юрьевна ,НДС нет.</Purpose>
+</ED101>

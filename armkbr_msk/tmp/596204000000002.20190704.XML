@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<PacketEPD xmlns="urn:cbr-ru:ed:v2.0" EDNo="20000" EDDate="2019-07-04" EDAuthor="7106962000" EDQuantity="32" Sum="491689432" SystemCode="02">
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20001" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="2110160" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="000001" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="40911810000020060005" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204059654" PersonalAcc="40702810938320001502" KPP="720301001">
+            <Name>ОАО "ТЮМЕНСКИЙ РАСЧЕТНО-ИНФОРМАЦИОННЫЙ ЦЕНТР"</Name>
+            <Bank BIC="046577964" CorrespAcc="30101810100000000964"></Bank>
+        </Payee>
+        <Purpose>Перевод денежных средств без открытия счета по поручению физ.лиц в пользу ОАО "ТРИЦ", согласно реестра от 03.07.2019г. НДС нет (09 шт.)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20002" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="2326800" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="77" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="860406586160" PersonalAcc="40802810902020000696">
+            <Name>Трухина Александра Викторовна (ИП)</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="6685068590" PersonalAcc="40702810616540009761" KPP="667101001">
+            <Name>ООО "ФэнсиМода"</Name>
+            <Bank BIC="046577674" CorrespAcc="30101810500000000674"></Bank>
+        </Payee>
+        <Purpose>Оплата за товар (одежда) по счету N фм0000799 от 27.06.2019, НДС НЕТ</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20003" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" PaymentID="0" Sum="2196400" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="000003" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="720300298943" PersonalAcc="40802810100020000566" KPP="0">
+            <Name>ЛАЗАРЕВА СВЕТЛАНА ВЛАДИМИРОВНА (ИП)//625016 Г.ТЮМЕНЬ,УЛ.ШИРОТНАЯ Д.63 КВ.37//</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202104206" PersonalAcc="40101810965770510005" KPP="720301001">
+            <Name>УФК ПО ТЮМЕНСКОЙ ОБЛАСТИ(ИФНС РОССИИ ПО Г.ТЮМЕНИ №1)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>ЕНВД ЗА 2 КВ.2019Г.</Purpose>
+        <DepartmentalInfo DrawerStatus="09" CBC="18210502010021000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="КВ.02.2019" DocNo="0" DocDate="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20004" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="878338" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="000006" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="40911810000020060005" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204059654" PersonalAcc="40702810938320001502">
+            <Name>ОАО ТРИЦ</Name>
+            <Bank BIC="046577964" CorrespAcc="30101810100000000964"></Bank>
+        </Payee>
+        <Purpose>"//ПРИЛОЖЕНИЕ//" ПЕРЕВОД ДЕНЕЖНЫХ СРЕДСТВ БЕЗ ОТКРЫТИЯ СЧЕТА ПО ПОРУЧЕНИЮ ФИЗ.ЛИЦ В ПОЛЬЗУ ОАО "ТРИЦ",СОГЛАСНО РЕЕСТРУ ОТ 03.07.2019Г 4/ШТ/ НДС - НЕТ.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20005" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="2346720" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="233" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="7202086684" PersonalAcc="40702810200020001594" KPP="720301001">
+            <Name>ООО "ПКФ "Индиго"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202206247" PersonalAcc="40702810867020000742" KPP="783450001">
+            <Name>000"Строительный Двор"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>За материалы, по счету N 1009853695 от 03.07.2019г. Сумма 23467-20, в т.ч. НДС(20%)-3911-19.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20006" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="22200" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="295" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8602203186" PersonalAcc="40702810630020002655" KPP="860201001">
+            <Name>ООО "ПСК"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7826156685" PersonalAcc="40702810455100183526" KPP="785050001">
+            <Name>ООО "Деловые Линии" КПП 785050001</Name>
+            <Bank BIC="044030653" CorrespAcc="30101810500000000653"></Bank>
+        </Payee>
+        <Purpose>Услуга по организации доставки по счету № 19-01695010752 от 03.07.2019 г. за услуги по организации доставки (экспедированию) груза из г. Ногинск в г. Сургут, Сумма 222-00,   в т.ч. НДС (20%) 33-33</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20007" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" PaymentID="0" Sum="3930000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="105" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="7202125982" PersonalAcc="40702810407020000330" KPP="720301001">
+            <Name>ООО "Интерком-БТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203000979" PersonalAcc="40101810965770510005" KPP="720301001">
+            <Name>УФК по Тюменской области ( ИФНС России по г.Тюмени N 3)</Name>
+            <Bank BIC="047102001"></Bank>
+        </Payee>
+        <Purpose>НДС за 1-й кв. 2019 г.</Purpose>
+        <DepartmentalInfo DrawerStatus="01" CBC="18210301000011000110" OKATO="71701000" PaytReason="ТП" TaxPeriod="КВ.01.2019" DocNo="0" DocDate="25.06.2019"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20008" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="66200" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="296" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8602203186" PersonalAcc="40702810630020002655" KPP="860201001">
+            <Name>ООО "ПСК"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7826156685" PersonalAcc="40702810455100183526" KPP="785050001">
+            <Name>ООО "Деловые Линии" КПП 785050001</Name>
+            <Bank BIC="044030653" CorrespAcc="30101810500000000653"></Bank>
+        </Payee>
+        <Purpose>Услуга по организации доставки по счету № 19-01691057655 от 04.07.2019 г. за услуги по организации доставки (экспедированию) груза из г. Ногинск в г. Сургут, Сумма 662-00,   в т.ч. НДС (20%) 95-83</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20009" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="52800" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="297" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8602203186" PersonalAcc="40702810630020002655" KPP="860201001">
+            <Name>ООО "ПСК"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7826156685" PersonalAcc="40702810455100183526" KPP="785050001">
+            <Name>ООО "Деловые Линии" КПП 785050001</Name>
+            <Bank BIC="044030653" CorrespAcc="30101810500000000653"></Bank>
+        </Payee>
+        <Purpose>Услуга по организации доставки по счету № 19-00571044630 от 04.07.2019 г. за услуги по организации доставки (экспедированию) груза из г. Брянск в г. Сургут, Сумма 528-00,   в т.ч. НДС (20%) 88-00</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20010" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="313584" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="000010" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="40911810800020068728" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202198490" PersonalAcc="40702810567100008728">
+            <Name>ООО "Управляющая компания "Благо"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>//Приложение// Перевод ден.ср-в без открытия счета по поручению физ.лиц в пользу ООО "УК Благо" согласно реестра от 03.07.19 кол-во 1 шт,НДС нет</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20011" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" PaymentID="0" Sum="1611600" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="302" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603109468" PersonalAcc="40101810565770510001" KPP="860301001">
+            <Name>"УФК по Ханты-Мансийскому автономному округу-Югре(Межрайонная инспекция ФНС России 6 по Ханты-Мансийскому округу -Югре)"</Name>
+            <Bank BIC="047162000"></Bank>
+        </Payee>
+        <Purpose>НДФЛ за июль 2019г. ,   НДС не облагается.</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71875000" PaytReason="ТП" TaxPeriod="МС.07.2019" DocNo="0" DocDate="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20012" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="538014" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="000011" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="40911810600020064702" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204116422" PersonalAcc="40702810767100154702" KPP="720301001">
+            <Name>ООО "Тюменская управляющая компания по ЭЖФ"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>//Приложение//Перевод ден.ср-в без открытия счета по поручению физ.лиц в пользу ООО "ТУК" согласно реестра от 03.07.19 кол-во 5 шт,НДС нет</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20013" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="142158005" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="000012" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="5026014060" PersonalAcc="40911810000020060005" KPP="720343001">
+            <Name>Тюменский филиал АО КБ "АГРОПРОМКРЕДИТ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7204059654" PersonalAcc="40702810938320001502" KPP="720301001">
+            <Name>ОАО "ТЮМЕНСКИЙ РАСЧЕТНО-ИНФОРМАЦИОННЫЙ ЦЕНТР"</Name>
+            <Bank BIC="046577964" CorrespAcc="30101810100000000964"></Bank>
+        </Payee>
+        <Purpose>//Приложение//Переводы ден.ср-в без открытия счета по поручению физ.лиц в пользу ОАО "ТРИЦ" согласно реестра от 03.07.2019 НДС нет.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20014" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" PaymentID="0" Sum="451000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="8486" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603227790" PersonalAcc="40702810108020001612" KPP="860301001">
+            <Name>ООО "НРИЦ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603109468" PersonalAcc="40101810565770510001" KPP="860301001">
+            <Name>УФК ПО ХАНТЫ-МАНСИЙСКОМУ АВТОНОМНОМУ ОКРУГУ-ЮГРЕ (Межрайонная ИФНС России № 6 по Ханты-Мансийскому автономному округу - Югре)</Name>
+            <Bank BIC="047162000"></Bank>
+        </Payee>
+        <Purpose>Налог на доходы физических лиц за июль 2019 года</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71875000" PaytReason="ТП" TaxPeriod="МС.07.2019" DocNo="0" DocDate="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20015" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" PaymentID="0" Sum="1147400" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="8483" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603227790" PersonalAcc="40702810108020001612" KPP="860301001">
+            <Name>ООО "НРИЦ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603109468" PersonalAcc="40101810565770510001" KPP="860301001">
+            <Name>УФК ПО ХАНТЫ-МАНСИЙСКОМУ АВТОНОМНОМУ ОКРУГУ-ЮГРЕ (Межрайонная ИФНС России № 6 по Ханты-Мансийскому автономному округу - Югре)</Name>
+            <Bank BIC="047162000"></Bank>
+        </Payee>
+        <Purpose>Налог на доходы физических лиц за июль 2019 года</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71875000" PaytReason="ТП" TaxPeriod="МС.07.2019" DocNo="0" DocDate="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20016" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" PaymentID="0" Sum="399828" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="4162" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8905033649" PersonalAcc="40702810804020001398" KPP="890501001">
+            <Name>АО "Энерго - Газ - Ноябрьск"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8905002305" PersonalAcc="40701810765771500027" KPP="890501001">
+            <Name>НТИА "МИГ"</Name>
+            <Bank BIC="047182000"></Bank>
+        </Payee>
+        <Purpose>Тип средств 02.00.00 Оплата сч. № 711 от 04.07.2019. Размещение видеообъявления 5-6 июля 2019г.</Purpose>
+        <DepartmentalInfo DrawerStatus="08" CBC="90312020000000000130" OKATO="71958000" PaytReason="0" TaxPeriod="0" DocNo="0" DocDate="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20017" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="190000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="8488" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603227790" PersonalAcc="40702810108020001612" KPP="860301001">
+            <Name>ООО "НРИЦ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603155150" PersonalAcc="40702810567160003187" KPP="860301001">
+            <Name>ООО "КОПИ-МАСТЕР"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору КМ 25/04/18/018.18 от 25.04.2018 по счету 645 от 01.07.19 за заправку картриджей Сумма 1900-00 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20018" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="750000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="8487" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603227790" PersonalAcc="40702810108020001612" KPP="860301001">
+            <Name>ООО "НРИЦ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8603109130" PersonalAcc="40702810600480000969" KPP="860301001">
+            <Name>ООО ЧОП "КОЛЬЧУГА"</Name>
+            <Bank BIC="047144721" CorrespAcc="30101810400000000721"></Bank>
+        </Payee>
+        <Purpose>Оплата по договору 1236 от 09.04.2018 по счету 1236/06/01 от 21.06.19г за охрану Сумма 7500-00 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20019" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="10406000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="16" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="861700032722" PersonalAcc="40802810530020000110">
+            <Name>ИП Маноли Иван Васильевич</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8602136317" PersonalAcc="40702810067170002869" KPP="860301001">
+            <Name>ООО "Охота на рыбалку"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету № СГСЦ00113 ОТ 03 ИЮЛЯ 2019Г. за прицеп   В том числе НДС 17343.33</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20020" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="1702894" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="000013" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8620020795" PersonalAcc="40702810503020001453" KPP="862001001">
+            <Name>Общество с ограниченной ответственностью "Торговая Компания "Верона"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="860301328003" PersonalAcc="40802810267160101742">
+            <Name>ИП Закриев Ваха Турпал-Алиевич</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата продуктов питания по сч/ф № ЗВУТ от 08.06.2019 г., Договор № 0279/13 от 25.01.2013 г..Сумма 17028,94 руб.,в т.ч.НДС-2182,51 руб.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20021" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="10785576" TransKind="01" PaymentPrecedence="79" Priority="3" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="301" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="40817810467170000000" KPP="860302001">
+            <Name>ПАО "Сбербанк" Сургутское отделение № 5940</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Отпускные с заработной платы за июль 2019 г., Договор 67165351 от 20.05.08. Реестр № 26 от 04.07.19г.,   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20022" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="5000000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="1070" AccDocDate="2019-07-03"></AccDoc>
+        <Payer INN="7204174833" PersonalAcc="40702810100020001351" KPP="720401001">
+            <Name>ООО "Городские зрелищные кассы"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7816571548" PersonalAcc="40702810190080000202" KPP="781601001">
+            <Name>ООО "Конфиар"</Name>
+            <Bank BIC="044030790" CorrespAcc="30101810900000000790"></Bank>
+        </Payee>
+        <Purpose>оплата по счету № 8 от 06.05.2019г за аренду за ООО "МЕДИАЛИДЕР" по договору № 147978 от 06.05.2019г НДС нет</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20023" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="8284483" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="455" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="7203199426" PersonalAcc="40702810900020001344">
+            <Name>ООО "Турпутевка"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7701960629" PersonalAcc="40702810200000000685">
+            <Name>Общество с ограниченной отвественностью "ОВТ САНМАР"</Name>
+            <Bank BIC="044525102" CorrespAcc="30101810400000000102"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету № 189829/19 от 04 июля 2019г., заявка 2710467, за туристические услугиСумма 82844-83Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20024" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" PaymentID="0" Sum="962700" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="3392" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603004190" PersonalAcc="40702810208020000775" KPP="861943001">
+            <Name>АО "ГОРЭЛЕКТРОСЕТЬ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8619011309" PersonalAcc="40101810565770510001" KPP="861901001">
+            <Name>УФК ПО ХАНТЫ-МАНСИЙСКОМУ АВТОНОМНОМУ ОКРУГУ -ЮГРЕ (МЕЖРАЙОННАЯ ИНСПЕКЦИЯ ФНС РОССИИ 7 ПО ХАНТЫ-МАНСИЙСКОМУ АВТОНОМНОМУ ОКРУГУ - ЮГРЕ)</Name>
+            <Bank BIC="047162000"></Bank>
+        </Payee>
+        <Purpose>НДФЛ за июль 2019г. (КПП 861943001)   НДС не облагается.</Purpose>
+        <DepartmentalInfo DrawerStatus="02" CBC="18210102010011000110" OKATO="71818157" PaytReason="0" TaxPeriod="МС.07.2019" DocNo="0" DocDate="0"></DepartmentalInfo>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20025" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="135000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="305" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="8620001915" PersonalAcc="40702810767160101782" KPP="860301001">
+            <Name>АО "ПКФ" СПЕЦМОНТАЖ-2"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>По счету ЦБ-3659 от 27.06.19 за спецодежду   в т.ч. НДС 20% - 225.00</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20026" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="141220" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="304" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="70601810916002720210" KPP="667102008">
+            <Name>УРАЛЬСКИЙ БАНК ПАО СБЕРБАНК г. Екатеринбург</Name>
+            <Bank BIC="046577674" CorrespAcc="30101810500000000674"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету № 1343 от 28.06.19 за оказание услуг по зачислению денежных средств на счета физических лиц. Договор № 67165351 от 20.05.08г.   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20027" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="65000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="303" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="8603103353" PersonalAcc="40702810608020000773" KPP="860301001">
+            <Name>ООО "ИНЖЕНЕРНО-ТЕХНИЧЕСКИЙ ЦЕНТР "ЭЛЕКТРОКОМ"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7707083893" PersonalAcc="47423810667172220211" KPP="860202001">
+            <Name>ПАО Сбербанк</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Ежемесячная плата за предоставление услуг по системе "Сбербанк Бизнес Онлайн" за июнь 2019 по счету № 270-02Е-02/33757 от 01.07.19,   НДС не облагается.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20028" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="45868777" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="292" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="7206043307" PersonalAcc="40702810902020001245" KPP="720601001">
+            <Name>ООО "ТрансАвто"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7206025040" PersonalAcc="40702810400000012686" KPP="720650001">
+            <Name>ООО "СИБУР Тобольск"</Name>
+            <Bank BIC="044525823" CorrespAcc="30101810200000000823"></Bank>
+        </Payee>
+        <Purpose>Оплата по с/ф №19063000165 от 30.06.19 г. за аренду недвижимого имущества за 2 кв.2019г. по Договору №ТТЭЦ.154 от 16.06.2016г. (НИ) Cумма 458687-77,   в т.ч. НДС(20%) - 76447-96.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20029" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="45868777" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="293" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="7206043307" PersonalAcc="40702810902020001245" KPP="720601001">
+            <Name>ООО "ТрансАвто"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7206025040" PersonalAcc="40702810400000012686" KPP="720650001">
+            <Name>ООО "СИБУР Тобольск"</Name>
+            <Bank BIC="044525823" CorrespAcc="30101810200000000823"></Bank>
+        </Payee>
+        <Purpose>Оплата по с/ф №19033100543 от 31.03.19 г. за аренду недвижимого имущества за 1 кв.2019г. по Договору №ТТЭЦ.154 от 16.06.2016г. (НИ) Cумма 458687-77,   в т.ч. НДС(20%) - 76447-96.</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20030" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="798000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="7" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="7204052842" PersonalAcc="40702810900020000060">
+            <Name>ООО "Русский стиль"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7203158243" PersonalAcc="40702810867100006860">
+            <Name>ООО "Сибтел-Крипто"</Name>
+            <Bank BIC="047102651" CorrespAcc="30101810800000000651"></Bank>
+        </Payee>
+        <Purpose>Оплата по счету СК-78769 от 28.06.2019г. за право использования Программного продукта "Контур-Экстерн" и выпуск сертификата ЭП Сумма 7980-00 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20031" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="181956" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="6" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="7204052842" PersonalAcc="40702810900020000060">
+            <Name>ООО "Русский стиль"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202031519" PersonalAcc="40702810602990000569">
+            <Name>ОАО "Автотеплотехник"</Name>
+            <Bank BIC="047102613" CorrespAcc="30101810271020000613"></Bank>
+        </Payee>
+        <Purpose>Оплата по счет-фактуре 2394 от 31.05.2019г. за теплоэнергию (май 2019) Сумма 1819-56 Без налога (НДС)</Purpose>
+    </ED101>
+    <ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="20032" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="02" Sum="200000000" TransKind="01" PaymentPrecedence="79" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+        <AccDoc AccDocNo="339" AccDocDate="2019-07-04"></AccDoc>
+        <Payer INN="7202104189" PersonalAcc="40702810500020000279" KPP="720301001">
+            <Name>ООО "Белый Континент"</Name>
+            <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+        </Payer>
+        <Payee INN="7202104189" PersonalAcc="42102810001240000462" KPP="720301001">
+            <Name>ООО "Белый континент"</Name>
+            <Bank BIC="047162812" CorrespAcc="30101810465777100812"></Bank>
+        </Payee>
+        <Purpose>Перечисление денежных средств по договору банковского депозита № ГС 543-62-18 от 21.12.2018г. подтверждение №80001-43124-30082 от 04.07.2019г. Сумма 2 000 000 руб.   НДС не облагается</Purpose>
+    </ED101>
+</PacketEPD>

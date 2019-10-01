@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<ED101 xmlns="urn:cbr-ru:ed:v2.0" EDNo="430001" EDDate="2019-07-04" EDAuthor="7106962000" SystemCode="05" PaymentID="0" PaytKind="4" Sum="1617306075" TransKind="01" PaymentPrecedence="69" Priority="5" ChargeOffDate="2019-07-04" ReceiptDate="2019-07-04">
+    <AccDoc AccDocNo="2593" AccDocDate="2019-07-04"></AccDoc>
+    <Payer INN="8602225951" PersonalAcc="40702810830020000509" KPP="860201001">
+        <Name>ООО "Авторемонтное предприятие"</Name>
+        <Bank BIC="047106962" CorrespAcc="30101810500000000962"></Bank>
+    </Payer>
+    <Payee INN="7710390358" PersonalAcc="40702810500700851028" KPP="997850001">
+        <Name>ООО "Тойота Мотор"</Name>
+        <Bank BIC="044525202" CorrespAcc="30101810300000000202"></Bank>
+    </Payee>
+    <Purpose>Доплата до полной стоимости автомобилей по счету № 018657 от 19.06.2019 за автомобили Тойота согласно договора АРП-18/Е от 31.10.2018, Сумма 16173060-75, НДС(20%) 2695510-13,</Purpose>
+</ED101>
