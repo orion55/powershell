@@ -16,6 +16,11 @@ Clear-Host
 $Error.Clear()
 [System.Console]::OutputEncoding = [System.Console]::InputEncoding = [System.Text.Encoding]::UTF8
 
+if (-not (get-command Import-Excel -ErrorAction SilentlyContinue)) {
+    Write-Host "Модуль Import-Excel не установлен. Дальнейшая работа невозможна! Выполните установку отсюда https://github.com/dfinke/ImportExcel" -ForegroundColor Red
+    exit
+}
+
 createDir(@($tmpPath, $outPath))
 Remove-Item "$tmpPath\*.*" -recurse | Where { ! $_.PSIsContainer }
 testFiles(@($inFile, $dostowin))
@@ -28,8 +33,8 @@ Write-Host "Конвертируем dos -> win" -ForegroundColor Green
 $fileName = Split-Path $inFile -leaf
 ./lib/dostowin.exe "$tmpPath\$fileName" > $null
 
-#$fileContent = Get-Content "$tmpPath\$fileName"
-$fileContent = Get-Content "$tmpPath\$fileName" | Select-Object -First 31
+$fileContent = Get-Content "$tmpPath\$fileName"
+#$fileContent = Get-Content "$tmpPath\$fileName" | Select-Object -First 31
 
 [string]$regPattern = '¦[0-9, " ", "."]{8}¦[0-9, " "]{2}¦[0-9, " "]{8}¦[0-9, " "]{9}¦[0-9, " "]{20}¦[0-9, " "]{20}¦[0-9, " ", "."]{16}¦[0-9, " ", "."]{16}¦'
 
@@ -43,10 +48,10 @@ foreach ($curLine in $fileContent) {
         $list = $curLine.Split("¦")
 
         $obj = New-Object PsObject
-        $number = $list[1].Trim()
-        $obj | Add-Member -MemberType NoteProperty -Name "Дата" -Value $number
-        [string]$account = $list[6].Trim()
-        $obj | Add-Member -MemberType NoteProperty -Name "Счет" -Value $account
+        $obj | Add-Member -MemberType NoteProperty -Name "Дата" -Value $list[1].Trim()
+        $obj | Add-Member -MemberType NoteProperty -Name "КБ" -Value $list[4].Trim()
+        $obj | Add-Member -MemberType NoteProperty -Name "ВнешCчет" -Value $list[5].Trim()
+        $obj | Add-Member -MemberType NoteProperty -Name "Счет" -Value $list[6].Trim()
         [double]$sum = $list[7].Trim()
         $obj | Add-Member -MemberType NoteProperty -Name "Дебет" -Value $sum
 
@@ -68,14 +73,31 @@ $summer = $summer.GetEnumerator() | Sort-Object -Property name
 Write-Host "Экспорт в Excel" -ForegroundColor Green
 $csvTable = @()
 
-foreach ($key in $summer.Keys) {
-    $value = $summer[$key]
-    $obj = New-Object PsObject
-    $acc = $key + '`'
-    $obj | Add-Member -MemberType NoteProperty -Name "Счет" -Value $acc
-    $obj | Add-Member -MemberType NoteProperty -Name "Дебет" -Value $value
+foreach ($obj in $summer.GetEnumerator()) {
+    $acc = $obj.Name + '`'
 
-    $csvTable += $obj
+    $item = New-Object PsObject
+    $item | Add-Member -MemberType NoteProperty -Name "Счет" -Value $acc
+    $item | Add-Member -MemberType NoteProperty -Name "Дебет" -Value $obj.Value
+
+    $csvTable += $item
 }
 
-$csvResult | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Сводная" -TableName Pivot -Show
+foreach ($elem in $csvResult) {
+    $elem.Счет += '`'
+    if ($elem.ВнешCчет -ne ''){
+        $elem.ВнешCчет += '`'
+    }
+}
+
+$csvTable | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Сводная" -TableName Pivot
+$csvResult | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Детальная" -TableName Detailed
+
+$excel = Open-ExcelPackage $outFile
+$sheet1 = $excel.Workbook.Worksheets["Сводная"]
+Set-Format -Address $sheet1.Cells["B:B"] -NumberFormat '#,##0.00' -AutoFit
+Close-ExcelPackage $excel
+
+if (Test-Path $outFile){
+    Write-Host "Файл $outFile создан" -ForegroundColor Green
+}

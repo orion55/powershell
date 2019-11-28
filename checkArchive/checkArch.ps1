@@ -1,7 +1,7 @@
 ﻿#Программа для проверки отправленной банковской отчетности по форме 440p
 #(c) Гребенёв О.Е. 06.11.2019
 
-[boolean]$debug = $false
+[boolean]$debug = $true
 [string]$curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
 [string]$libDir = "$curDir\lib"
 
@@ -29,8 +29,8 @@ Write-Log -EntryType Information -Message "Начало работы скрип�
 [string]$errPath = "$440Err\$curDate"
 
 if ($debug) {
-    $curDate = '22112019'
-    $curFormatDate = '22.11.2019'
+    $curDate = '27112019'
+    $curFormatDate = '27.11.2019'
     $curArchive = "$440Arhive\$curDate"
     $ackPath = "$440Ack\$curDate"
     $errPath = "$440Err\$curDate"
@@ -39,7 +39,6 @@ if ($debug) {
 
 if (!(Test-Path -Path $curArchive)) {
     Write-Log -EntryType Error -Message "Путь $curArchive не найден!"
-    exit
 }
 
 $body = "Отчет по 440П за $curFormatDate`n"
@@ -185,6 +184,7 @@ $bodyHtml += @"
 "@
 
 #$bodyHtml | Out-File -FilePath "$curDir\index.html"
+Write-Log -EntryType Information -Message $body
 
 if (Test-Connection $mailServer -Quiet -Count 2) {
     $title = "Отчёт по 440П за $curFormatDate"
@@ -193,12 +193,12 @@ if (Test-Connection $mailServer -Quiet -Count 2) {
     }
     $encoding = [System.Text.Encoding]::UTF8
     Send-MailMessage -To $mailAddr -Body $bodyHtml -Encoding $encoding -From $mailFrom -Subject $title -SmtpServer $mailServer -BodyAsHtml
+    Write-Log -EntryType Information -Message "Письмо было успешно отправлено!"
 }
 else {
     Write-Log -EntryType Error -Message "Не удалось соединиться с почтовым сервером $mail_server"
 }
 
-Write-Log -EntryType Information -Message $body
 Write-Log -EntryType Information -Message "Конец работы скрипта"
 
 Stop-FileLog
