@@ -1,6 +1,6 @@
 ﻿#исходный каталог
 $curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
-[string]$inFile = "$curDir\in\ext_op1.out"
+[string]$inFile = "U:\evseeva\OUT\ext_op1.out"
 [string]$tmpPath = "$curDir\tmp"
 [string]$outPath = "$curDir\out"
 $curDate = Get-Date -Format "ddMMyyyy"
@@ -13,8 +13,8 @@ Set-Location $curDir
 
 #ClearUI
 Clear-Host
-$Error.Clear()
-[System.Console]::OutputEncoding = [System.Console]::InputEncoding = [System.Text.Encoding]::UTF8
+#$Error.Clear()
+#[System.Console]::OutputEncoding = [System.Console]::InputEncoding = [System.Text.Encoding]::UTF8
 
 if (-not (get-command Import-Excel -ErrorAction SilentlyContinue)) {
     Write-Host "Модуль Import-Excel не установлен. Дальнейшая работа невозможна! Выполните установку отсюда https://github.com/dfinke/ImportExcel" -ForegroundColor Red
@@ -22,7 +22,7 @@ if (-not (get-command Import-Excel -ErrorAction SilentlyContinue)) {
 }
 
 createDir(@($tmpPath, $outPath))
-Remove-Item "$tmpPath\*.*" -recurse | Where { ! $_.PSIsContainer }
+Remove-Item "$tmpPath\*.*" -recurse | Where-Object { ! $_.PSIsContainer }
 testFiles(@($inFile, $dostowin))
 
 Remove-Item $outFile -ErrorAction Ignore
@@ -93,10 +93,10 @@ foreach ($elem in $csvResult) {
 $csvTable | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Сводная" -TableName Pivot
 $csvResult | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Детальная" -TableName Detailed
 
-$excel = Open-ExcelPackage $outFile
+<#$excel = Open-ExcelPackage $outFile
 $sheet1 = $excel.Workbook.Worksheets["Сводная"]
 Set-Format -Address $sheet1.Cells["B:B"] -NumberFormat '#,##0.00' -AutoFit
-Close-ExcelPackage $excel
+Close-ExcelPackage $excel#>
 
 if (Test-Path $outFile){
     Write-Host "Файл $outFile создан" -ForegroundColor Green

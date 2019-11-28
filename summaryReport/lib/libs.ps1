@@ -17,8 +17,8 @@ function testDir($dirs1){
 	foreach ($d1 in $dirs1){
 		#проверка существования путей
 		if (!(Test-Path -Path $d1)){
-			Write-Log -EntryType Error -Message "Путь $d1 не найден!"
-			Write-Log -EntryType Information -Message "Нажмите любую клавишу для продолжения"
+			Write-Host "Путь $d1 не найден!"
+			Write-Host "Нажмите любую клавишу для продолжения"
 			Read-Host "Нажмите Enter"
 			Exit
 		}
@@ -29,8 +29,8 @@ function testFiles($files){
 	foreach ($f1 in $files){
 		#проверка существования файлов
 		if (!(Test-Path $f1)){
-			Write-Log -EntryType Error -Message "Файл $f1 не найден!"
-			Write-Log -EntryType Information -Message "Нажмите любую клавишу для продолжения"
+			Write-Host "Файл $f1 не найден!"
+			Write-Host "Нажмите любую клавишу для продолжения"
 			Read-Host "Нажмите Enter"
 			Exit
 		}
