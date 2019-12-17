@@ -1,0 +1,173 @@
+﻿[2019-12-17 13:19:39Z] - INFO - Начинаем обработку...
+[2019-12-17 13:20:00Z] - INFO - Начинаем обработку...
+[2019-12-17 13:20:47Z] - INFO - Начинаем обработку...
+[2019-12-17 13:20:57Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 13:32:54Z] - INFO - Начинаем обработку...
+[2019-12-17 13:33:13Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 13:43:29Z] - INFO - Начинаем обработку...
+[2019-12-17 13:43:33Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 13:43:34Z] - INFO - Remove-Item : Cannot find path 'D:\Ps1\NoticeCB2\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml' because it does not exist.
+At D:\Ps1\NoticeCB2\noticeCB2.ps1:30 char:9
++     $msg = Remove-Item $file -Verbose -Force *>&1
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\NoticeCB...91216_00002.xml:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+
+[2019-12-17 13:44:19Z] - INFO - Начинаем обработку...
+[2019-12-17 13:44:19Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 13:44:28Z] - INFO - Remove-Item : Cannot find path 'D:\Ps1\NoticeCB2\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml' because it does not exist.
+At D:\Ps1\NoticeCB2\noticeCB2.ps1:30 char:9
++     $msg = Remove-Item $($file.Name) -Verbose -Force *>&1
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\Ps1\NoticeCB...91216_00002.xml:String) [Remove-Item], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+
+[2019-12-17 13:50:10Z] - INFO - Начинаем обработку...
+[2019-12-17 13:50:10Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 13:50:19Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 13:51:14Z] - INFO - Начинаем обработку...
+[2019-12-17 13:53:27Z] - INFO - Начинаем обработку...
+[2019-12-17 13:53:27Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 13:53:34Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 13:53:37Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:03:08Z] - INFO - Начинаем обработку...
+[2019-12-17 14:03:08Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 14:03:25Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 14:03:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:04:12Z] - INFO - Начинаем обработку...
+[2019-12-17 14:04:12Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 14:04:13Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 14:04:13Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:06:29Z] - INFO - Начинаем обработку...
+[2019-12-17 14:06:29Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 14:06:30Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 14:06:30Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:15:35Z] - INFO - Начинаем обработку...
+[2019-12-17 14:15:35Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 14:15:36Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 14:15:36Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:27:15Z] - INFO - Начинаем обработку...
+[2019-12-17 14:27:15Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 14:27:16Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 14:27:16Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:27:45Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 14:29:24Z] - INFO - Начинаем обработку...
+[2019-12-17 14:29:24Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 14:29:25Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 14:29:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:30:07Z] - INFO - Начинаем обработку...
+[2019-12-17 14:30:07Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 14:30:08Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 14:30:08Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:30:21Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 14:49:22Z] - INFO - Начинаем обработку...
+[2019-12-17 14:49:22Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 14:49:23Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 14:49:23Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 14:49:34Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 14:49:36Z] - ERRR - ИмяФайла:  Результат: 
+[2019-12-17 14:49:36Z] - ERRR - ИмяФайла:  Результат: 
+[2019-12-17 15:31:28Z] - INFO - Начинаем обработку...
+[2019-12-17 15:31:28Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 15:31:29Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 15:31:29Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 15:31:29Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 15:31:55Z] - INFO - Начинаем обработку...
+[2019-12-17 15:31:55Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 15:31:56Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 15:31:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 15:31:56Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 15:32:31Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 15:32:46Z] - INFO - ИмяФайла: BN028031912160001.ARJ Результат: принят
+[2019-12-17 15:32:55Z] - INFO - Начинаем обработку...
+[2019-12-17 15:32:55Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 15:32:56Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 15:32:56Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 15:32:56Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 15:34:11Z] - INFO - Начинаем обработку...
+[2019-12-17 15:34:11Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 15:34:12Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 15:34:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 15:34:12Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 15:34:12Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91216_00002~.xml".
+
+[2019-12-17 15:35:37Z] - INFO - Начинаем обработку...
+[2019-12-17 15:35:39Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 15:35:40Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 15:35:40Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 15:35:40Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 15:35:40Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91216_00002~.xml".
+
+[2019-12-17 15:36:40Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 15:36:47Z] - INFO - Rename-Item : Cannot rename because item at 'UVAN028031912160001.xml' does not exist.
+At D:\Ps1\NoticeCB2\noticeCB2.ps1:88 char:9
++     $msg = Rename-Item $file -NewName $newName -Verbose -Force *>&1
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-12-17 15:37:54Z] - INFO - Начинаем обработку...
+[2019-12-17 15:37:54Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 15:37:55Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 15:37:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 15:37:55Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 15:37:55Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91216_00002~.xml".
+
+[2019-12-17 15:37:55Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 15:38:03Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001~.xml".
+
+[2019-12-17 15:38:33Z] - INFO - ИмяФайла: BN028031912160001.ARJ Результат: принят
+[2019-12-17 15:39:13Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001~.xml".
+
