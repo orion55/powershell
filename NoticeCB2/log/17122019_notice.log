@@ -171,3 +171,89 @@ At D:\Ps1\NoticeCB2\noticeCB2.ps1:88 char:9
 [2019-12-17 15:38:33Z] - INFO - ИмяФайла: BN028031912160001.ARJ Результат: принят
 [2019-12-17 15:39:13Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001~.xml".
 
+[2019-12-17 16:18:14Z] - INFO - Начинаем обработку...
+[2019-12-17 16:18:14Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 16:18:15Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 16:18:15Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 16:18:15Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 16:18:15Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91216_00002~.xml".
+
+[2019-12-17 16:18:15Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:18:25Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 16:18:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001~.xml".
+
+[2019-12-17 16:18:25Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:18:34Z] - INFO - ИмяФайла: BN028031912160001.ARJ Результат: принят
+[2019-12-17 16:18:34Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001~.xml".
+
+[2019-12-17 16:18:34Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:25:49Z] - INFO - Начинаем обработку...
+[2019-12-17 16:25:49Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 16:25:49Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001~.xml".
+
+[2019-12-17 16:25:49Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:25:59Z] - INFO - Завершение обработки...
+[2019-12-17 16:26:39Z] - INFO - Начинаем обработку...
+[2019-12-17 16:26:39Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 16:26:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001~.xml".
+
+[2019-12-17 16:26:39Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:26:48Z] - INFO - Завершение обработки...
+[2019-12-17 16:28:51Z] - INFO - Начинаем обработку...
+[2019-12-17 16:28:51Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 16:28:51Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001~.xml".
+
+[2019-12-17 16:28:51Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:29:00Z] - INFO - Завершение обработки...
+[2019-12-17 16:29:30Z] - INFO - Начинаем обработку...
+[2019-12-17 16:29:30Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 16:29:30Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001~.xml".
+
+[2019-12-17 16:29:30Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:29:40Z] - INFO - Завершение обработки...
+[2019-12-17 16:30:33Z] - INFO - Начинаем обработку...
+[2019-12-17 16:30:33Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 16:30:34Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 16:30:34Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 16:30:34Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 16:30:34Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91216_00002~.xml".
+
+[2019-12-17 16:30:34Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:30:44Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 16:30:44Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001~.xml".
+
+[2019-12-17 16:30:44Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:30:53Z] - INFO - ИмяФайла: BN028031912160001.ARJ Результат: принят
+[2019-12-17 16:30:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001~.xml".
+
+[2019-12-17 16:30:53Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:31:03Z] - INFO - Завершение обработки...
+[2019-12-17 16:33:28Z] - INFO - Начинаем обработку...
+[2019-12-17 16:33:28Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml
+[2019-12-17 16:33:29Z] - INFO - Performing the operation "Remove File" on target "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml".
+
+[2019-12-17 16:33:29Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml.test Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS0
+0_20191216_00002.xml".
+
+[2019-12-17 16:33:29Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191216_00002 Результат: Положительный результат проверки
+[2019-12-17 16:33:29Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191216_00002.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91216_00002~.xml".
+
+[2019-12-17 16:33:29Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:33:39Z] - INFO - ИмяФайла: AN028031912160001.arj Результат: принят
+[2019-12-17 16:33:39Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVAN028031912160001~.xml".
+
+[2019-12-17 16:33:39Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:33:48Z] - INFO - ИмяФайла: BN028031912160001.ARJ Результат: принят
+[2019-12-17 16:33:48Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001.xml Destination: D:\Ps1\NoticeCB2\OUT\UVBN028031912160001~.xml".
+
+[2019-12-17 16:33:48Z] - INFO - Отправка почтового сообщения
+[2019-12-17 16:33:58Z] - INFO - Завершение обработки...

@@ -1,4 +1,4 @@
-﻿#Программа проверка извещение из ЦБ (версия 2)
+﻿#Программа проверка извещение из ЦБ (версия 2) по формам 440П, 311 для физ. и юр. лиц
 #от 17.12.2019
 
 #текущий путь
@@ -92,7 +92,7 @@ function 311Handler {
 }
 
 function sendEmail {
-	Param([string]$title, [string]$body, [string]$mailAddr)
+	Param([string]$title, [string]$body, $mailAddr)
 	Write-Log -EntryType Information -Message "Отправка почтового сообщения"
 	if (Test-Connection $mailServer -Quiet -Count 2) {
 		$encoding = [System.Text.Encoding]::UTF8
@@ -102,6 +102,23 @@ function sendEmail {
 		Write-Log -EntryType Error -Message "Не удалось соединиться с почтовым сервером $mailServer"
 	}
 }
+function prepSendEmail {
+	Param($result)
+
+	$title = "Извещение о проверке файла подтверждения по форме " + $result.type
+	if ($result.flagErr) {
+		$title = 'Ошибка! ' + $title
+	}
+
+	switch ( $result.type ) {
+		'440' { $mailAddr = $440mailAddr }
+		'311-Физ' { $mailAddr = $311mailAddrFiz }
+		'311-Юр' { $mailAddr = $311mailAddrJur }
+	}
+
+	sendEmail -title $title -mailAddr $mailAddr -body $result.bodyMail
+}
+
 
 [boolean]$debug = $true
 if ($debug) {
@@ -129,13 +146,10 @@ ForEach ($file in $findFiles) {
 			$result.type = '311-Юр'
 		}
 	}
-
-	$title = "Извещение о проверке файла сообщения по форме " + $result.type
-	if ($result.flagErr){
-		$title = 'Ошибка! ' + $title
-	}
-	#sendEmail -title
+	prepSendEmail -result $result
 }
+
+Write-Log -EntryType Information -Message "Завершение обработки..."
 
 Stop-FileLog
 Stop-HostLog

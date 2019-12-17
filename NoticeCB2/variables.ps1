@@ -11,7 +11,7 @@
 #[string]$440mailAddr = "tmn-f365@tmn.apkbank.apk"
 [string]$311mailAddrFiz = "tmn-goe@tmn.apkbank.ru"
 #[string]$311mailAddrFiz = "tmn-f311@tmn.apkbank.apk"
-[string[]]$311mailAddrJur = "<tmn-goe@tmn.apkbank.ru>", "<lma@tmn.apkbank.ru>"
+$311mailAddrJur = "tmn-goe <tmn-goe@tmn.apkbank.ru>", "lma <lma@tmn.apkbank.ru>"
 #[string[]]$311mailAddrJur = "<tmn-lov@tmn.apkbank.ru>", "<tmn_oit@tmn.apkbank.apk>"
 
 [string]$mailServer = "191.168.6.50"
@@ -32,4 +32,3 @@ $curDate = Get-Date -Format "ddMMyyyy"
 [string]$vdkeys = "d:\SKAD\Floppy\foiv"
 [string]$profile = "r2880_2"
 [string]$logSpki = $curDir + "\log\" + $curDate + "_spki_tr.log"
-#[string]$recList = "$curDir\util\Reclist.conf"
