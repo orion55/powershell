@@ -1,0 +1,22 @@
+﻿[2019-12-19 09:55:54Z] - INFO - Начинаем обработку...
+[2019-12-19 09:56:08Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191218_00001.xml
+[2019-12-19 09:58:19Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191218_00001 Результат: Положительный результат проверки
+[2019-12-19 09:58:21Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191218_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91218_00001~.xml".
+
+[2019-12-19 09:58:24Z] - INFO - Отправка почтового сообщения
+[2019-12-19 09:58:50Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191218_00002.xml
+[2019-12-19 09:59:50Z] - INFO - Начинаем обработку...
+[2019-12-19 09:59:50Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191218_00001.xml
+[2019-12-19 10:00:00Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191218_00001 Результат: Положительный результат проверки
+[2019-12-19 10:00:00Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191218_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91218_00001~.xml".
+
+[2019-12-19 10:00:00Z] - INFO - Отправка почтового сообщения
+[2019-12-19 10:00:10Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191218_00002.xml
+[2019-12-19 10:11:53Z] - INFO - ИмяФайла: AFN_7102803_MIFNS00_20191218_00002 Результат: Положительный результат проверки
+[2019-12-19 10:11:53Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191218_00002.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_201
+91218_00002~.xml".
+
+[2019-12-19 10:11:53Z] - INFO - Отправка почтового сообщения
+[2019-12-19 10:12:03Z] - INFO - Завершение обработки...

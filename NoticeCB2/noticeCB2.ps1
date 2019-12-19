@@ -31,11 +31,13 @@ function 440Handler {
 	Write-Log -EntryType Information -Message "Обрабатываем файл $($file.Name)"
 	Start-Process $spki $arguments -NoNewWindow -Wait
 
-	$msg = Remove-Item $($file.FullName) -Verbose -Force *>&1
-	Write-Log -EntryType Information -Message ($msg | Out-String)
-	$msg = Get-ChildItem $tmpFile | Rename-Item -NewName { $_.Name -replace '.test$', '' } -Verbose *>&1
-	Write-Log -EntryType Information -Message ($msg | Out-String)
-
+	$testFiles = Get-ChildItem $tmpFile -ErrorAction Ignore
+	if (($testFiles | Measure-Object).count -gt 0) {
+		$msg = Remove-Item $($file.FullName) -Verbose -Force *>&1
+		Write-Log -EntryType Information -Message ($msg | Out-String)
+		$msg = Get-ChildItem $tmpFile | Rename-Item -NewName { $_.Name -replace '.test$', '' } -Verbose *>&1
+		Write-Log -EntryType Information -Message ($msg | Out-String)
+	}
 	$file = Get-ChildItem "$noticePath\$file"
 	[xml]$xmlOutput = Get-Content $file
 
@@ -119,8 +121,6 @@ function prepSendEmail {
 	sendEmail -title $title -mailAddr $mailAddr -body $result.bodyMail
 }
 
-
-[boolean]$debug = $true
 if ($debug) {
 	Remove-Item -Path "$noticePath\*.*"
 	Copy-Item -Path "$curDir\OUT1\*.*" -Destination $noticePath

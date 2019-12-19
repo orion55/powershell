@@ -1,4 +1,5 @@
 ﻿[string]$curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
+[boolean]$debug = $true
 
 #каталог с извещениями
 [string]$noticePath = "$curDir\OUT"
