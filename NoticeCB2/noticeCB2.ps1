@@ -23,6 +23,7 @@ function 440Handler {
 
 	[hashtable]$return = @{ }
 	$return.flagErr = $false
+	$return.errType = ''
 	$return.bodyMail = ''
 	$return.type = '440'
 
@@ -37,22 +38,29 @@ function 440Handler {
 		Write-Log -EntryType Information -Message ($msg | Out-String)
 		$msg = Get-ChildItem $tmpFile | Rename-Item -NewName { $_.Name -replace '.test$', '' } -Verbose *>&1
 		Write-Log -EntryType Information -Message ($msg | Out-String)
-	}
-	$file = Get-ChildItem "$noticePath\$file"
-	[xml]$xmlOutput = Get-Content $file
 
-	$xmlTag = $xmlOutput.Файл.ИЗВЦБКОНТР
-	if ($xmlTag.КодРезПроверки -ne "01") {
-		$return.flagErr = $true
-	}
-	$msg = 'ИмяФайла: ' + $xmlTag.ИмяФайла + ' Результат: ' + $xmlTag.Пояснение
-	$return.bodyMail += $msg + "`r`n"
+		$file = Get-ChildItem "$noticePath\$file"
+		[xml]$xmlOutput = Get-Content $file
 
-	if ($xmlTag.КодРезПроверки -ne "01") {
-		Write-Log -EntryType Error -Message $msg
+		$xmlTag = $xmlOutput.Файл.ИЗВЦБКОНТР
+		if ($xmlTag.КодРезПроверки -ne "01") {
+			$return.flagErr = $true
+			$return.errType = 'code'
+		}
+		$msg = 'ИмяФайла: ' + $xmlTag.ИмяФайла + ' Результат: ' + $xmlTag.Пояснение
+		$return.bodyMail += $msg + "`r`n"
+
+		if ($xmlTag.КодРезПроверки -ne "01") {
+			Write-Log -EntryType Error -Message $msg
+		}
+		else {
+			Write-Log -EntryType Information -Message $msg
+		}
 	}
 	else {
-		Write-Log -EntryType Information -Message $msg
+		$msg = "С файла $($file.BaseName) не удалось снять подпись. Осуществите визуальную проверку."
+		$return.flagErr = $true
+		$return.errType = 'file'
 	}
 
 	$newName = $file.BaseName + '~' + $file.Extension
@@ -66,6 +74,7 @@ function 311Handler {
 
 	[hashtable]$return = @{ }
 	$return.flagErr = $false
+	$return.errType = ''
 	$return.bodyMail = ''
 	$return.type = '311'
 
@@ -77,6 +86,7 @@ function 311Handler {
 
 	if ($rezArh -notlike "принят") {
 		$return.flagErr = $true
+		$return.errType = 'code'
 	}
 
 	if ($return.flagErr) {
@@ -108,8 +118,13 @@ function prepSendEmail {
 	Param($result)
 
 	$title = "Извещение о проверке файла подтверждения по форме " + $result.type
-	if ($result.flagErr) {
-		$title = 'Ошибка! ' + $title
+	if ($result.flagErr ) {
+		if ($return.errType -eq 'code') {
+			$title = 'Ошибка! ' + $title
+		}
+		if ($return.errType -eq 'code') {
+			$title = 'Ошибка! ' + $title
+		}
 	}
 
 	switch ( $result.type ) {

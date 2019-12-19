@@ -18,3 +18,53 @@
 Инициализация
 Проверка ЭП файла
 Результат: Сообщение не подписано или формат искажен   (E070001A)
+Текущее время: Thu Dec 19 13:38:51 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml.test -silent D:\Ps1\NoticeCB2\log\19122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Thu Dec 19 12:42:15 2019
+
+Текущее время: Thu Dec 19 13:42:10 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml.test -silent D:\Ps1\NoticeCB2\log\19122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Thu Dec 19 12:42:15 2019
+
+Текущее время: Thu Dec 19 13:45:21 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml.test -silent D:\Ps1\NoticeCB2\log\19122019_spki_tr.log
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Thu Dec 19 12:42:15 2019
+
+Текущее время: Thu Dec 19 13:49:29 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml.test -silent D:\Ps1\NoticeCB2\log\19122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Thu Dec 19 12:42:15 2019
+
+Текущее время: Thu Dec 19 13:50:57 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml.test -silent D:\Ps1\NoticeCB2\log\19122019_spki_tr.log
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Thu Dec 19 12:42:15 2019
+
+Текущее время: Thu Dec 19 14:15:38 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -decrypt -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml.test -silent D:\Ps1\NoticeCB2\log\19122019_spki_tr.log
+Инициализация
+Расшифрование и проверка ЭП файла
+Результат: Неверный тип сообщения в формате PKCS#7   (E0700022)
+Текущее время: Thu Dec 19 14:17:39 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -decrypt -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml.test -silent D:\Ps1\NoticeCB2\log\19122019_spki_tr.log -reclist d:\SKAD\transmiterSKAD\util\Reclist.conf 
+Инициализация
+Расшифрование и проверка ЭП файла
+Результат: Неверный тип сообщения в формате PKCS#7   (E0700022)
