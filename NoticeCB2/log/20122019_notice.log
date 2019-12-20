@@ -1,0 +1,73 @@
+﻿[2019-12-20 11:56:42Z] - INFO - Начинаем обработку...
+[2019-12-20 11:56:49Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml
+[2019-12-20 11:57:05Z] - INFO - Rename-Item : Cannot rename because item at 'IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml' does not exist.
+At D:\Ps1\NoticeCB2\noticeCB2.ps1:67 char:9
++     $msg = Rename-Item $file -NewName $newName -Verbose -Force *>&1
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-12-20 11:57:05Z] - INFO - Отправка почтового сообщения
+[2019-12-20 12:42:52Z] - INFO - Начинаем обработку...
+[2019-12-20 12:42:52Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 12:42:53Z] - INFO - Rename-Item : Cannot rename because item at 'IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml' does not exist.
+At D:\Ps1\NoticeCB2\noticeCB2.ps1:67 char:9
++     $msg = Rename-Item $file -NewName $newName -Verbose -Force *>&1
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Rename-Item], PSInvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperation,Microsoft.PowerShell.Commands.RenameItemCommand
+ 
+
+[2019-12-20 12:42:53Z] - INFO - Отправка почтового сообщения
+[2019-12-20 12:43:21Z] - INFO - Начинаем обработку...
+[2019-12-20 12:43:21Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 12:45:38Z] - INFO - Начинаем обработку...
+[2019-12-20 12:45:39Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 12:47:45Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS
+00_20191220_00001~.xml".
+
+[2019-12-20 12:54:59Z] - INFO - Отправка почтового сообщения
+[2019-12-20 12:56:24Z] - INFO - Начинаем обработку...
+[2019-12-20 12:56:24Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 12:56:25Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS
+00_20191220_00001~.xml".
+
+[2019-12-20 12:56:25Z] - INFO - Отправка почтового сообщения
+[2019-12-20 12:59:08Z] - INFO - Начинаем обработку...
+[2019-12-20 12:59:08Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 12:59:09Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS
+00_20191220_00001~.xml".
+
+[2019-12-20 12:59:09Z] - INFO - Отправка почтового сообщения
+[2019-12-20 13:01:15Z] - INFO - Начинаем обработку...
+[2019-12-20 13:01:15Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 13:01:16Z] - ERRR - С файла IZVTUB_AFN_7102803_MIFNS00_20191220_00001 не удалось снять подпись. Осуществите визуальную проверку.
+[2019-12-20 13:01:16Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS
+00_20191220_00001~.xml".
+
+[2019-12-20 13:01:16Z] - INFO - Отправка почтового сообщения
+[2019-12-20 13:06:04Z] - INFO - Начинаем обработку...
+[2019-12-20 13:06:04Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 13:06:05Z] - ERRR - С файла IZVTUB_AFN_7102803_MIFNS00_20191220_00001 не удалось снять подпись. Осуществите визуальную проверку.
+[2019-12-20 13:06:05Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS
+00_20191220_00001~.xml".
+
+[2019-12-20 13:06:05Z] - INFO - Отправка почтового сообщения
+[2019-12-20 13:10:22Z] - INFO - Завершение обработки...
+[2019-12-20 13:28:27Z] - INFO - Начинаем обработку...
+[2019-12-20 13:28:27Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 13:28:28Z] - ERRR - С файла IZVTUB_AFN_7102803_MIFNS00_20191220_00001 не удалось снять подпись. Осуществите визуальную проверку.
+[2019-12-20 13:28:28Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS
+00_20191220_00001~.xml".
+
+[2019-12-20 13:28:28Z] - INFO - Отправка почтового сообщения
+[2019-12-20 13:31:41Z] - INFO - Начинаем обработку...
+[2019-12-20 13:31:41Z] - INFO - Обрабатываем файл IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml
+[2019-12-20 13:31:42Z] - ERRR - С файла IZVTUB_AFN_7102803_MIFNS00_20191220_00001 не удалось снять подпись. Осуществите визуальную проверку.
+[2019-12-20 13:31:42Z] - INFO - Performing the operation "Rename File" on target "Item: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml Destination: D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS
+00_20191220_00001~.xml".
+
+[2019-12-20 13:31:42Z] - INFO - Отправка почтового сообщения
+[2019-12-20 13:32:44Z] - INFO - Завершение обработки...
+[2019-12-20 13:45:58Z] - INFO - Начинаем обработку...

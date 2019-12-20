@@ -1,0 +1,120 @@
+Текущее время: Fri Dec 20 11:56:49 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191219_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Thu Dec 19 12:42:15 2019
+
+Текущее время: Fri Dec 20 12:42:52 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 12:43:21 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 12:45:39 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 12:56:24 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 12:59:08 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:01:15 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:06:04 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:28:27 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:31:41 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:47:01 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:47:54 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -verify -delete -1 -profile r2880_2 -p7 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:48:18 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -verify -delete 1 -profile r2880_2 -p7 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:48:36 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -verify -delete 1 -profile r2880_2 -info -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log
+Инициализация
+Результат: Ошибка доступа к конфигурации   (E071002A)
+Текущее время: Fri Dec 20 13:49:19 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -verify -delete -1 -profile r2880_2 -registry -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Fri Dec 20 13:50:53 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe"  -verify -delete -1 -profile r2880_2 -in D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml -out D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test -silent D:\Ps1\NoticeCB2\log\20122019_spki_tr.log
+Инициализация
+Результат: Ошибка доступа к конфигурации   (E071002A)

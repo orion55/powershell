@@ -22,13 +22,14 @@ function 440Handler {
 	Param($file)
 
 	[hashtable]$return = @{ }
-	$return.flagErr = $false
+	$return.errFlag = $false
 	$return.errType = ''
+	$return.errFile = ''
 	$return.bodyMail = ''
 	$return.type = '440'
 
 	$tmpFile = $file.FullName + '.test'
-	$arguments = "-verify -delete -1 -profile $profile -registry -in $($file.FullName) -out $tmpFile -silent $logSpki"
+	$arguments = "-verify -delete -1 -profile $profile -registry -in ""$($file.FullName)"" -out ""$tmpFile"" -silent $logSpki"
 	Write-Log -EntryType Information -Message "Обрабатываем файл $($file.Name)"
 	Start-Process $spki $arguments -NoNewWindow -Wait
 
@@ -44,7 +45,7 @@ function 440Handler {
 
 		$xmlTag = $xmlOutput.Файл.ИЗВЦБКОНТР
 		if ($xmlTag.КодРезПроверки -ne "01") {
-			$return.flagErr = $true
+			$return.errFlag = $true
 			$return.errType = 'code'
 		}
 		$msg = 'ИмяФайла: ' + $xmlTag.ИмяФайла + ' Результат: ' + $xmlTag.Пояснение
@@ -59,12 +60,15 @@ function 440Handler {
 	}
 	else {
 		$msg = "С файла $($file.BaseName) не удалось снять подпись. Осуществите визуальную проверку."
-		$return.flagErr = $true
+		Write-Log -EntryType Error -Message $msg
+		$return.bodyMail += $msg + "`r`n"
+		$return.errFlag = $true
 		$return.errType = 'file'
 	}
 
 	$newName = $file.BaseName + '~' + $file.Extension
-	$msg = Rename-Item $file -NewName $newName -Verbose -Force *>&1
+	$return.errFile = $noticePath + '\' + $newName
+	$msg = Rename-Item $($file.FullName) -NewName $newName -Verbose -Force *>&1
 	Write-Log -EntryType Information -Message ($msg | Out-String)
 
 	return $return
@@ -73,8 +77,9 @@ function 311Handler {
 	Param($file)
 
 	[hashtable]$return = @{ }
-	$return.flagErr = $false
+	$return.errFlag = $false
 	$return.errType = ''
+	$return.errFile = ''
 	$return.bodyMail = ''
 	$return.type = '311'
 
@@ -85,11 +90,11 @@ function 311Handler {
 	$return.bodyMail += $msg + "`r`n"
 
 	if ($rezArh -notlike "принят") {
-		$return.flagErr = $true
+		$return.errFlag = $true
 		$return.errType = 'code'
 	}
 
-	if ($return.flagErr) {
+	if ($return.errFlag) {
 		Write-Log -EntryType Error -Message $msg
 	}
 	else {
@@ -104,27 +109,11 @@ function 311Handler {
 }
 
 function sendEmail {
-	Param([string]$title, [string]$body, $mailAddr)
-	Write-Log -EntryType Information -Message "Отправка почтового сообщения"
-	if (Test-Connection $mailServer -Quiet -Count 2) {
-		$encoding = [System.Text.Encoding]::UTF8
-		Send-MailMessage -To $mailAddr -Body $body -Encoding $encoding -From $mailFrom -Subject $title -SmtpServer $mailServer
-	}
-	else {
-		Write-Log -EntryType Error -Message "Не удалось соединиться с почтовым сервером $mailServer"
-	}
-}
-function prepSendEmail {
 	Param($result)
 
 	$title = "Извещение о проверке файла подтверждения по форме " + $result.type
-	if ($result.flagErr ) {
-		if ($return.errType -eq 'code') {
-			$title = 'Ошибка! ' + $title
-		}
-		if ($return.errType -eq 'code') {
-			$title = 'Ошибка! ' + $title
-		}
+	if ($result.errFlag -and ($result.errType -eq 'code')) {
+		$title = 'Ошибка! ' + $title
 	}
 
 	switch ( $result.type ) {
@@ -133,7 +122,19 @@ function prepSendEmail {
 		'311-Юр' { $mailAddr = $311mailAddrJur }
 	}
 
-	sendEmail -title $title -mailAddr $mailAddr -body $result.bodyMail
+	Write-Log -EntryType Information -Message "Отправка почтового сообщения"
+	if (Test-Connection $mailServer -Quiet -Count 2) {
+		$encoding = [System.Text.Encoding]::UTF8
+		if ($result.errFlag -and ($result.errType -eq 'file')) {
+			Send-MailMessage -To $mailAddr -Body $result.bodyMail -Encoding $encoding -From $mailFrom -Subject $title -SmtpServer $mailServer -Attachments $result.errFile
+		}
+		else {
+			Send-MailMessage -To $mailAddr -Body $result.bodyMail -Encoding $encoding -From $mailFrom -Subject $title -SmtpServer $mailServer
+		}
+	}
+	else {
+		Write-Log -EntryType Error -Message "Не удалось соединиться с почтовым сервером $mailServer"
+	}
 }
 
 if ($debug) {
@@ -161,7 +162,7 @@ ForEach ($file in $findFiles) {
 			$result.type = '311-Юр'
 		}
 	}
-	prepSendEmail -result $result
+	sendEmail -result $result
 }
 
 Write-Log -EntryType Information -Message "Завершение обработки..."
