@@ -30,6 +30,6 @@ $curDate = Get-Date -Format "ddMMyyyy"
 [string]$logName = $logPath + '\' + $curDate +"_notice.log"
 
 [string]$spki = "C:\Program Files\MDPREI\spki\spki1utl.exe"
-[string]$vdkeys = "d:\SKAD\Floppy\foiv"
-[string]$profile = "r2880_2"
+[string]$vdkeys = "d:\SKAD\Floppy\proc"
+[string]$profile = "OT_Processing04"
 [string]$logSpki = $curDir + "\log\" + $curDate + "_spki_tr.log"

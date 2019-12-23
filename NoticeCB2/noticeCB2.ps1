@@ -33,8 +33,7 @@ function 440Handler {
 	Write-Log -EntryType Information -Message "Обрабатываем файл $($file.Name)"
 	Start-Process $spki $arguments -NoNewWindow -Wait
 
-	$testFiles = Get-ChildItem $tmpFile -ErrorAction Ignore
-	if (($testFiles | Measure-Object).count -gt 0) {
+	if (Test-Path $tmpFile) {
 		$msg = Remove-Item $($file.FullName) -Verbose -Force *>&1
 		Write-Log -EntryType Information -Message ($msg | Out-String)
 		$msg = Get-ChildItem $tmpFile | Rename-Item -NewName { $_.Name -replace '.test$', '' } -Verbose *>&1

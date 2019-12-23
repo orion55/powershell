@@ -1,0 +1,38 @@
+Текущее время: Mon Dec 23 11:24:19 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile r2880_2 -registry -in "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml" -out "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test" -silent D:\Ps1\NoticeCB2\log\23122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Ошибка проверки ЭП   (E0700019)
+ЭП 1: Сертификат не найден   (E0700046)
+Fri Dec 20 12:27:33 2019
+
+Текущее время: Mon Dec 23 11:32:55 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile OT_Processing04 -registry -in "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml" -out "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test" -silent D:\Ps1\NoticeCB2\log\23122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: OK (00000000)
+ЭП 1: OK (00000000)
+Fri Dec 20 12:27:33 2019
+Владелец: CN=PTKPSD709,OU=OI,O=CBR,ST=71,C=RU
+Хэш: 88:0F:0F:C5:50:6A:57:62:22:ED:61:3B:A8:2B:AE:64:CC:B2:A0:B6:54:1D:A5:F2:22:11:9B:03:79:66:5B:FE
+
+Текущее время: Mon Dec 23 11:34:39 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile OT_Processing04 -registry -in "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml" -out "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test" -silent D:\Ps1\NoticeCB2\log\23122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: OK (00000000)
+ЭП 1: OK (00000000)
+Fri Dec 20 12:27:33 2019
+Владелец: CN=PTKPSD709,OU=OI,O=CBR,ST=71,C=RU
+Хэш: 88:0F:0F:C5:50:6A:57:62:22:ED:61:3B:A8:2B:AE:64:CC:B2:A0:B6:54:1D:A5:F2:22:11:9B:03:79:66:5B:FE
+
+Текущее время: Mon Dec 23 11:35:31 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile OT_Processing04 -registry -in "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml" -out "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191220_00001.xml.test" -silent D:\Ps1\NoticeCB2\log\23122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: OK (00000000)
+ЭП 1: OK (00000000)
+Fri Dec 20 12:27:33 2019
+Владелец: CN=PTKPSD709,OU=OI,O=CBR,ST=71,C=RU
+Хэш: 88:0F:0F:C5:50:6A:57:62:22:ED:61:3B:A8:2B:AE:64:CC:B2:A0:B6:54:1D:A5:F2:22:11:9B:03:79:66:5B:FE
+
