@@ -1,0 +1,15 @@
+Текущее время: Tue Dec 24 14:58:19 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile OT_Processing04 -registry -in "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191223_00001.xml" -out "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191223_00001.xml.test" -silent D:\Ps1\NoticeCB2\log\24122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Сообщение не подписано или формат искажен   (E070001A)
+Текущее время: Tue Dec 24 15:00:21 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile OT_Processing04 -registry -in "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191223_00001.xml" -out "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191223_00001.xml.test" -silent D:\Ps1\NoticeCB2\log\24122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Сообщение не подписано или формат искажен   (E070001A)
+Текущее время: Tue Dec 24 15:00:32 2019
+"C:\Program Files\MDPREI\spki\spki1utl.exe" -verify -delete -1 -profile OT_Processing04 -registry -in "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191224_00001.xml" -out "D:\Ps1\NoticeCB2\OUT\IZVTUB_AFN_7102803_MIFNS00_20191224_00001.xml.test" -silent D:\Ps1\NoticeCB2\log\24122019_spki_tr.log 
+Инициализация
+Проверка ЭП файла
+Результат: Сообщение не подписано или формат искажен   (E070001A)

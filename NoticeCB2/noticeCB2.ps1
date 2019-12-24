@@ -38,32 +38,35 @@ function 440Handler {
 		Write-Log -EntryType Information -Message ($msg | Out-String)
 		$msg = Get-ChildItem $tmpFile | Rename-Item -NewName { $_.Name -replace '.test$', '' } -Verbose *>&1
 		Write-Log -EntryType Information -Message ($msg | Out-String)
+	}
+ 	else {
+		$msg = "С файла $($file.BaseName) не удалось снять подпись"
+		Write-Log -EntryType Error -Message $msg
+	}
+	$file = Get-ChildItem "$noticePath\$file"
+	[xml]$xmlOutput = Get-Content $file
 
-		$file = Get-ChildItem "$noticePath\$file"
-		[xml]$xmlOutput = Get-Content $file
+	$xmlTag = $xmlOutput.Файл.ИЗВЦБКОНТР
+	if ($xmlTag.КодРезПроверки -ne "01") {
+		$return.errFlag = $true
+		$return.errType = 'code'
+	}
+	$msg = 'ИмяФайла: ' + $xmlTag.ИмяФайла + ' Результат: ' + $xmlTag.Пояснение
+	$return.bodyMail += $msg + "`r`n"
 
-		$xmlTag = $xmlOutput.Файл.ИЗВЦБКОНТР
-		if ($xmlTag.КодРезПроверки -ne "01") {
-			$return.errFlag = $true
-			$return.errType = 'code'
-		}
-		$msg = 'ИмяФайла: ' + $xmlTag.ИмяФайла + ' Результат: ' + $xmlTag.Пояснение
-		$return.bodyMail += $msg + "`r`n"
-
-		if ($xmlTag.КодРезПроверки -ne "01") {
-			Write-Log -EntryType Error -Message $msg
-		}
-		else {
-			Write-Log -EntryType Information -Message $msg
-		}
+	if ($xmlTag.КодРезПроверки -ne "01") {
+		Write-Log -EntryType Error -Message $msg
 	}
 	else {
+		Write-Log -EntryType Information -Message $msg
+	}
+	<#else {
 		$msg = "С файла $($file.BaseName) не удалось снять подпись. Осуществите визуальную проверку."
 		Write-Log -EntryType Error -Message $msg
 		$return.bodyMail += $msg + "`r`n"
 		$return.errFlag = $true
 		$return.errType = 'file'
-	}
+	}#>
 
 	$newName = $file.BaseName + '~' + $file.Extension
 	$return.errFile = $noticePath + '\' + $newName
