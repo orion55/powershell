@@ -7,6 +7,7 @@ Set-Location $curDir
 
 . $curDir/variables.ps1
 . $lib/libs.ps1
+. $lib/libTSP.ps1
 
 Clear-Host
 
@@ -19,3 +20,6 @@ createDir(@($tmpPath, $outPath))
 Remove-Item "$tmpPath\*.*" -recurse | Where-Object { ! $_.PSIsContainer }
 testFiles(@($dostowin))
 
+$xlsFile = getFileXLS -folder $inPath
+$csvFile = xls_to_csv -xlsUrl $xlsFile -tmp $tmpPath
+convert_csv_utf8 -csvFile $csvFile -tmp $tmpPath
