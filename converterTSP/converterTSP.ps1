@@ -10,6 +10,12 @@ Set-Location $curDir
 
 Clear-Host
 
+if (-not (get-command Import-Excel -ErrorAction SilentlyContinue)) {
+    Write-Host "Модуль Import-Excel не установлен. Дальнейшая работа невозможна! Выполните установку отсюда https://github.com/dfinke/ImportExcel" -ForegroundColor Red
+    exit
+}
+
 createDir(@($tmpPath, $outPath))
 Remove-Item "$tmpPath\*.*" -recurse | Where-Object { ! $_.PSIsContainer }
 testFiles(@($dostowin))
+

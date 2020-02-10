@@ -1,4 +1,6 @@
-﻿$data1 = ConvertFrom-Csv -InputObject @"
+﻿[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseDeclaredVarsMoreThanAssignments','',Justification='False Positives')]
+param()
+$data1 = ConvertFrom-Csv -InputObject @"
 ID,Product,Quantity,Price,Total
 12001,Nails,37,3.99,147.63
 12002,Hammer,5,12.10,60.5
@@ -24,7 +26,8 @@ ID,Product,Quantity,Price,Total
 
 Describe "Join Worksheet part 1" {
     BeforeAll {
-        $path = "$Env:TEMP\test.xlsx"
+        . "$PSScriptRoot\Samples\Samples.ps1"
+        $path = "TestDrive:\test.xlsx"
         Remove-Item -Path $path -ErrorAction SilentlyContinue
         $data1 | Export-Excel -Path $path -WorkSheetname Oxford
         $data2 | Export-Excel -Path $path -WorkSheetname Abingdon
@@ -50,6 +53,7 @@ Describe "Join Worksheet part 1" {
             $excel.Workbook.Worksheets["SummaryPivot"].Hidden           | Should     be 'Visible'
         }
         it "Activated the correct worksheet                                                        " {
+            Set-ItResult -Pending -Because "Bug in EPPLus 4.5"
             $excel.Workbook.worksheets["SummaryPivot"].View.TabSelected | Should     be $true
             $excel.Workbook.worksheets["Total"].View.TabSelected        | Should     be $false
         }
@@ -89,14 +93,14 @@ Describe "Join Worksheet part 1" {
         }
     }
 }
-    $path = "$env:TEMP\Test.xlsx"
+    $path = "TestDrive:\Test.xlsx"
     Remove-item -Path $path -ErrorAction SilentlyContinue
-IF ($PSVersionTable.PSVersion.Major -gt 5) {Write-warning -message "Part 2 Does not run on V6"; return}
+#switched to CIM objects so test runs on V6
 Describe "Join Worksheet part 2" {
-     Get-WmiObject -Class win32_logicaldisk |
+    Get-CimInstance -ClassName win32_logicaldisk |
         Select-Object -Property DeviceId,VolumeName, Size,Freespace |
             Export-Excel -Path $path -WorkSheetname Volumes -NumberFormat "0,000"
-    Get-NetAdapter  |
+    Get-CimInstance -Namespace root/StandardCimv2 -class MSFT_NetAdapter   |
         Select-Object -Property Name,InterfaceDescription,MacAddress,LinkSpeed |
             Export-Excel -Path $path -WorkSheetname NetAdapters
 
@@ -122,6 +126,6 @@ Describe "Join Worksheet part 2" {
             $ws.Cells["A$NextRow"].Value                                | Should     be $excel.Workbook.Worksheets[2].Cells["A2"].value
             $ws.Cells["B$NextRow"].Value                                | Should     be $excel.Workbook.Worksheets[2].Cells["B2"].value
         }
-    } 
-} 
+    }
+}
 

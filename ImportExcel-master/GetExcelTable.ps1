@@ -1,5 +1,5 @@
-Function Get-ExcelTableName {
-    Param (
+function Get-ExcelTableName {
+    param(
         $Path,
         $WorksheetName
     )
@@ -28,8 +28,8 @@ Function Get-ExcelTableName {
     $Excel = $null
 }
 
-Function Get-ExcelTable {
-    Param (
+function Get-ExcelTable {
+    param(
         $Path,
         $TableName,
         $WorksheetName
@@ -96,7 +96,7 @@ function ConvertFrom-ExcelColumnName {
     $sum
 }
 
-ipmo .\ImportExcel.psd1 -Force
+Import-Module .\ImportExcel.psd1 -Force
 
 #Get-ExcelTableName .\testTable.xlsx | Get-ExcelTable .\testTable.xlsx
 Get-ExcelTable .\testTable.xlsx Table3
