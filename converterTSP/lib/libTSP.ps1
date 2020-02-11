@@ -15,7 +15,7 @@
     return  $xlsFiles | Sort-Object "File Date" -Descending | Select-Object -First 1
 }
 
-Function xls_to_csv {
+Function xlsToCsv {
     Param ($xlsUrl, $tmp)
 
     Remove-Item "$tmp\*.csv" -force
@@ -30,7 +30,6 @@ Function xls_to_csv {
         $wb.SaveAs($csv, $xlCSV)
         $xl.displayalerts = $False
         $wb.Close()
-        Write-Host -ForegroundColor White $csv
     }
     Finally {
         $xl.Quit()
@@ -39,7 +38,7 @@ Function xls_to_csv {
     return $csv
 }
 
-function convert_csv_utf8 {
+function convertCsvUtf8 {
     Param ($csvFile, $tmp)
 
     Get-Content $csvFile | Out-File -FilePath "$csvFile.001" -Encoding UTF8
