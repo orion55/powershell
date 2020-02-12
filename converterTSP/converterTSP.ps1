@@ -39,6 +39,7 @@ $data = Import-Csv -Path $csvFile -Delimiter ';' -Header "OFFICE", "TARGET_NUMBE
 
 if ($debug) {
     [int]$maxLine = 100
+    Remove-Item "$outPath\*.xlsx" -Force
 }
 else {
     [int]$maxLine = $data.count
@@ -60,14 +61,12 @@ for ($i = 0; $i -lt $maxLine; $i++) {
     $details = $data[$i].TRANS_DETAILS
     if ($org.ContainsKey($details)) {
         $obj = $data[$i]
+        $obj.СЧЕТ_ВОЗВРАТА = $obj.СЧЕТ_ВОЗВРАТА + '`'
         $result[$details] += @($obj)
 
-        $obj.TRANS_AMOUNT = $obj.TRANS_AMOUNT.Replace(',', '.')
-        $obj.FEE_TSP = $obj.FEE_TSP.Replace(',', '.')
-
         $stat[$details].Count += 1
-        $stat[$details].Sum += $obj.TRANS_AMOUNT
-        $stat[$details].Commission += $obj.FEE_TSP
+        $stat[$details].Sum += $obj.TRANS_AMOUNT.Replace(',', '.')
+        $stat[$details].Commission += $obj.FEE_TSP.Replace(',', '.')
     }
     Write-Progress -Activity $data[$i].СЧЕТ_ВОЗВРАТА -PercentComplete ($i / $maxLine * 100) -Status $details
 }
@@ -75,8 +74,24 @@ foreach ($key in $org.keys) {
     $stat[$key].Compensation = $stat[$key].Sum - $stat[$key].Commission
 }
 
+$item = New-Object PsObject
+$item | Add-Member -MemberType NoteProperty -Name "Количество" -Value 0
+$item | Add-Member -MemberType NoteProperty -Name "Сумма платежей" -Value 0
+$item | Add-Member -MemberType NoteProperty -Name "Комиссия" -Value 0
+$item | Add-Member -MemberType NoteProperty -Name "Сумма возмещения" -Value 0
+
 foreach ($key in $org.keys) {
     [string]$outFile = "$curDir\out\" + $org[$key] + " " + $name + ".xlsx"
-    $result[$key] | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Сводная" -TableName Pivot
+    $result[$key] | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Общая" -TableName Pivot -TableStyle Medium2
+
+    $item.Количество = $stat[$key].Count
+    $item.'Сумма платежей' = $stat[$key].Sum
+    $item.Комиссия = $stat[$key].Commission
+    $item.'Сумма возмещения' = $stat[$key].Compensation
+    $item  | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Итого" -TableName Pivot2 -TableStyle Medium2 -Append -Numberformat '#,##0.00'
+
+    formatExcel -file $outFile
+
+    Write-Host "Файл $outFile создан" -ForegroundColor Cyan
 }
 

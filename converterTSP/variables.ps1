@@ -1,5 +1,5 @@
 ﻿$curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
-$debug = $true
+$debug = $false
 
 [string]$inPath = "$curDir\in"
 [string]$tmpPath = "$curDir\tmp"

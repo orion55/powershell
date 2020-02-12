@@ -46,3 +46,16 @@ function convertCsvUtf8 {
     Remove-Item "$tmp\*.csv" -force
     Get-ChildItem "$tmp\*.001" | Rename-Item -NewName { $_.name -replace '\.001', '' }
 }
+
+function formatExcel {
+    Param($file)
+    $excel = Open-ExcelPackage $file
+
+    $sheet1 = $excel.Workbook.Worksheets["Общая"]
+
+    Set-ExcelRange -Address $sheet1.Cells["D:D"] -WrapText -HorizontalAlignment Right
+    Set-ExcelRange -Address $sheet1.Cells["D:D"] -NumberFormat "@" -WrapText -HorizontalAlignment Right
+    Set-ExcelRange -Address $sheet1.Cells["G:J"] -NumberFormat "#,##0.00" -WrapText -HorizontalAlignment Right
+
+    Close-ExcelPackage $excel
+}
