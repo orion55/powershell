@@ -59,14 +59,24 @@ foreach ($key in $org.keys) {
 for ($i = 0; $i -lt $maxLine; $i++) {
     $details = $data[$i].TRANS_DETAILS
     if ($org.ContainsKey($details)) {
-        $obj = $data[$i] | Select-Object TRANS_DETAILS, TRANS_AMOUNT, FEE_TSP
-        $obj.TRANS_AMOUNT = $obj.TRANS_AMOUNT.Replace(',', '.')
+        $obj = $data[$i]
         $result[$details] += @($obj)
 
+        $obj.TRANS_AMOUNT = $obj.TRANS_AMOUNT.Replace(',', '.')
+        $obj.FEE_TSP = $obj.FEE_TSP.Replace(',', '.')
+
         $stat[$details].Count += 1
-        $stat[$details].Sum += [int]$obj.TRANS_AMOUNT
-        $obj.TRANS_AMOUNT
-        $stat[$details].Commission += [int]$obj.FEE_TSP
+        $stat[$details].Sum += $obj.TRANS_AMOUNT
+        $stat[$details].Commission += $obj.FEE_TSP
     }
     Write-Progress -Activity $data[$i].СЧЕТ_ВОЗВРАТА -PercentComplete ($i / $maxLine * 100) -Status $details
 }
+foreach ($key in $org.keys) {
+    $stat[$key].Compensation = $stat[$key].Sum - $stat[$key].Commission
+}
+
+foreach ($key in $org.keys) {
+    [string]$outFile = "$curDir\out\" + $org[$key] + " " + $name + ".xlsx"
+    $result[$key] | Export-Excel -Path $outFile -AutoSize -WorkSheetname "Сводная" -TableName Pivot
+}
+
