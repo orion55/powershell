@@ -1,6 +1,6 @@
 ﻿[string]$curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
 
-[string]$fullName = "Поварницина Оксана Анатольевна"
+[string]$fullName = "Терновой Дмитрий Владимирович"
 
 [string]$emailMAIL = "DEP-OI@apkbank.apk"
 [string]$textMAIL = "Прошу предоставить доступ ко внутренней почте пользователю <b>$fullName</b>, согласно приведенной заявке."
