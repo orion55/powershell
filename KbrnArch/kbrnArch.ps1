@@ -8,10 +8,12 @@
 #$outDir = "$curDir\testCLI\out"
 
 #[0] -> rcv; [1] -> info; [2] -> err
+#$inDir = @("Y:\KBRN\CLI")
+#$archDir = "Y:\KBRN\CLI\arch"
+#$outDir = "D:\cli"
 $inDir = @("$curDir\testRCV\in\rcv", "$curDir\testRCV\in\info", "$curDir\testRCV\in\err")
 $archDir = "$curDir\testRCV\in\arch"
 $outDir = "$curDir\testRCV\out"
-
 
 Set-Location $curDir
 
@@ -49,7 +51,7 @@ if ($count -eq 0){
     exit
 } else {
     try {
-        $msg = Get-ChildItem $($inDir[0]+'\*') -Include *.ed, *.eds, *.xml, *.0* | Copy-Item -Destination $outDir -ErrorAction Stop -Verbose -Force *>&1
+        $msg = Get-ChildItem $($inDir[0]+'\*') -Include *.ed, *.eds, *.0*, *.1*, *.xml | Copy-Item -Destination $outDir -ErrorAction Stop -Verbose -Force *>&1
         Write-Log -EntryType Information -Message ($msg | Out-String)  
         Write-Log -EntryType Information -Message "Файл(ы) скопирован(ы) в $outDir"
     }

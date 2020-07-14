@@ -2,16 +2,64 @@
 
 $inDir = "$curDir\test\in"
 $outDir = "$curDir\test\out"
+$archiveDir = "$curDir\test\archive"
 
+function moveFiles {
+    param (
+        $inXml,
+        [string]$outDir
+    )
+    $msg = $inXml | Move-Item -Destination $outDir -ErrorAction Stop -Verbose -Force *>&1
+    Write-Log -EntryType Information -Message ($msg | Out-String)
+    Write-Log -EntryType Information -Message "Файл(ы) перемещен(ы) в $outDir"
+}
+
+function decodeText {
+    param (
+        $text
+    )
+    $encFrom = [System.Text.Encoding]::GetEncoding('windows-1251')
+    $encTo = [System.Text.Encoding]::GetEncoding('utf-8')
+
+    $bytes = [System.Convert]::FromBase64String($text)
+    $bytes = [System.Text.Encoding]::Convert($encFrom, $encTo, $bytes)
+    return $encTo.GetString($bytes)
+}
+function copyToArchive {
+    param (
+        [string]$inDir,
+        [string]$archiveDir
+    )
+
+    $inFiles = Get-ChildItem $($inDir + '\*') -File -Include *.ed, *.eds, *.0*, *.1*, *.xml
+    foreach ($file in $inFiles) {
+        [xml]$xmlData = Get-Content $file
+        $text = $xmlData.SigEnvelope.Object
+        [xml]$xmlRecord = decodeText -text $text
+        #$xmlRecord.save("d:\$($file.Name).xml")
+        if ($null -ne $xmlRecord.PacketEPD) {
+            $date = $xmlRecord.PacketEPD.EDDate
+            $arrDate = $date.split("-")
+
+            $newPath = $archiveDir + "\" + $arrDate[0] + "\" + $arrDate[1] + "\" + $arrDate[2]
+            New-Item -path $newPath -type directory > $null
+
+            $msg = $file | Copy-Item -Destination $newPath -ErrorAction Stop -Verbose -Force *>&1
+            Write-Log -EntryType Information -Message ($msg | Out-String)
+        }
+    }
+}
 
 Set-Location $curDir
 
 . $curDir/libs/lib.ps1
 . $curDir/libs/PSMultiLog.ps1
 
-ClearUI
+#ClearUI
+Clear-Host
 
 testDir(@($inDir, $outDir))
+createDir(@($archiveDir))
 
 $logDir = "$curDir\log"
 createDir($logDir)
@@ -24,18 +72,18 @@ Start-FileLog -LogLevel Information -FilePath $logName -Append
 
 $inXml = Get-ChildItem -Path $inDir "*" -File
 $count = ($inXml | Measure-Object).count
-if ($count -eq 0){
+if ($count -eq 0) {
     Write-Log -EntryType Error -Message "Не найдены файлы в $inDir"
     Stop-FileLog
     Stop-HostLog
     exit
-} else {
+}
+else {
     try {
-        $msg = $inXml | Move-Item -Destination $outDir -ErrorAction Stop -Verbose -Force *>&1    
-        Write-Log -EntryType Information -Message ($msg | Out-String)  
-        Write-Log -EntryType Information -Message "Файл(ы) перемещен(ы) в $outDir"
+        #moveFiles -inXml $inXml -outDir $outDir
+        copyToArchive -inDir $inDir -archiveDir $archiveDir
     }
-    catch {    
+    catch {
         Write-Log -EntryType Error -Message "Ошибка перемещения файла(ов) в $outDir"
         exit
     }

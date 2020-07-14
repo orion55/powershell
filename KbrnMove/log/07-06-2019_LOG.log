@@ -1,9 +1,0 @@
-﻿[2019-06-07 14:15:21Z] - ERRR - Не найдены файлы в D:\Ps1\KbrnMove\test\in
-[2019-06-07 14:15:51Z] - INFO - Performing the operation "Move File" on target "Item: D:\Ps1\KbrnMove\test\in\7106962000-20190606-500001.xml Destination: D:\Ps1\KbrnMove\test\out\7106962000-20190606-500001.xml".
-
-[2019-06-07 14:15:51Z] - INFO - Файл(ы) перемещен(ы) в D:\Ps1\KbrnMove\test\out
-[2019-06-07 14:16:36Z] - INFO - Performing the operation "Move File" on target "Item: D:\Ps1\KbrnMove\test\in\414d512046524f4e54474154452020205cec7349257ebe66 Destination: D:\Ps1\KbrnMove\test\out\414d512046524f4e54474154452020205cec7349257ebe66".
-Performing the operation "Move File" on target "Item: D:\Ps1\KbrnMove\test\in\7106962000-20190606-500001.xml Destination: D:\Ps1\KbrnMove\test\out\7106962000-20190606-500001.xml".
-Performing the operation "Move File" on target "Item: D:\Ps1\KbrnMove\test\in\71069620000000000PacketESID00800e8a.ED Destination: D:\Ps1\KbrnMove\test\out\71069620000000000PacketESID00800e8a.ED".
-
-[2019-06-07 14:16:36Z] - INFO - Файл(ы) перемещен(ы) в D:\Ps1\KbrnMove\test\out
