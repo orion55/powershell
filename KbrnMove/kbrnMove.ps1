@@ -1,4 +1,6 @@
-﻿[string]$curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
+﻿#Программа копирования с флешки в EDSmart и создание архива с разбивкой по датам v2
+#(с) Гребенёв О.Е. 15.07.2020
+[string]$curDir = Split-Path -Path $myInvocation.MyCommand.Path -Parent
 
 $inDir = "$curDir\test\in"
 $outDir = "$curDir\test\out"
@@ -35,14 +37,21 @@ function copyToArchive {
     foreach ($file in $inFiles) {
         [xml]$xmlData = Get-Content $file
         $text = $xmlData.SigEnvelope.Object
+
         [xml]$xmlRecord = decodeText -text $text
+
         #$xmlRecord.save("d:\$($file.Name).xml")
-        if ($null -ne $xmlRecord.PacketEPD) {
-            $date = $xmlRecord.PacketEPD.EDDate
+        if ($null -ne $xmlRecord.ChildNodes[1]) {
+            if ($null -ne $xmlRecord.ChildNodes[1].EDDate) {
+                $date = $xmlRecord.ChildNodes[1].EDDate
+            }
+            else {
+                $date = Get-Date -Format "yyyy-MM-dd"
+            }
             $arrDate = $date.split("-")
 
             $newPath = $archiveDir + "\" + $arrDate[0] + "\" + $arrDate[1] + "\" + $arrDate[2]
-            New-Item -path $newPath -type directory > $null
+            New-Item -path $newPath -type directory -ErrorAction Ignore > $null
 
             $msg = $file | Copy-Item -Destination $newPath -ErrorAction Stop -Verbose -Force *>&1
             Write-Log -EntryType Information -Message ($msg | Out-String)
@@ -80,8 +89,8 @@ if ($count -eq 0) {
 }
 else {
     try {
-        #moveFiles -inXml $inXml -outDir $outDir
         copyToArchive -inDir $inDir -archiveDir $archiveDir
+        moveFiles -inXml $inXml -outDir $outDir
     }
     catch {
         Write-Log -EntryType Error -Message "Ошибка перемещения файла(ов) в $outDir"
